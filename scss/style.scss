@@ -4,9 +4,67 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
 }
 
+$cor-principal: ;
+$cor-secundaria: ;
+$trasparente: ;
+$cor-clara: ;
+$preto: #444;
+$branco: #fff;
+$borda: .1rem solid $cor-principal;
+$box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+    
+}
+
+@mixin tituloTexto($tituloSize) {
+    font-size: $tituloSize;
+    color: $preto;
+}
+
+@mixin subTexto($subSize) {
+    font-size: $subSize;
+    line-height: 2;
+    color: $preto;
+}
 
 html{
-    background: bisque;
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: $verde;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
