@@ -1,13 +1,11 @@
-
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
 }
 
 $cor-principal: #2929e1;
@@ -16,15 +14,13 @@ $trasparente: #2525ff46;
 $cor-clara: rgb(179, 217, 255);
 $preto: #444;
 $branco: #fff;
-$borda: .1rem solid $cor-principal;
-$box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-
+$borda: 0.1rem solid $cor-principal;
+$box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 
 @mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
     gap: 2rem;
-    
 }
 
 @mixin tituloTexto($tituloSize) {
@@ -38,39 +34,74 @@ $box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     color: $preto;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
+    height: 1500px;
 
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
         width: 1rem;
     }
 
-    &::-webkit-scrollbar-track{
+    &::-webkit-scrollbar-track {
         background: transparent;
     }
 
-    &::-webkit-scrollbar-thumb{
+    &::-webkit-scrollbar-thumb {
         background: $cor-principal;
     }
 }
 
-section{
-    padding: 5rem 10%;
+section {
+    padding: 5rem 9%;
 }
 
+.header {
+    background: rgb(225, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: $box-shadow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateY(-10rem);
+
+    &.active {
+        transform: translateY(0rem);
+    }
+
+    .icons{
+
+        a, div {
+            font-size: 2.5rem;
+            margin-left: 1.5rem;
+            color: #280483;
+            cursor: pointer;
+    
+            &:hover {
+                background: $cor-principal;
+            }
+        }
+    }
+
+    .navbar {
+        a {
+            margin: 0 1rem;
+            font-size: 2rem;
+            color: #280483;
+
+            &:hover{
+                color: $cor-secundaria;
+            }
+        }
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
+    
+}
