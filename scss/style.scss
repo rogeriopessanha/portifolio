@@ -10,10 +10,10 @@
     transition: all .2s linear;
 }
 
-$cor-principal: ;
-$cor-secundaria: ;
-$trasparente: ;
-$cor-clara: ;
+$cor-principal: #2929e1;
+$cor-secundaria: #2da4f3;
+$trasparente: #2525ff46;
+$cor-clara: rgb(179, 217, 255);
 $preto: #444;
 $branco: #fff;
 $borda: .1rem solid $cor-principal;
@@ -41,6 +41,8 @@ $box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
 
     &::-webkit-scrollbar{
         width: 1rem;
@@ -51,8 +53,12 @@ html{
     }
 
     &::-webkit-scrollbar-thumb{
-        background: $verde;
+        background: $cor-principal;
     }
+}
+
+section{
+    padding: 5rem 10%;
 }
 
 
