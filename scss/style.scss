@@ -70,23 +70,44 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-    transform: translateY(-10rem);
+    transform: translateY(-14rem);
 
     &.active {
         transform: translateY(0rem);
     }
 
-    .icons{
-
-        a, div {
+    .icons {
+        a {
             font-size: 2.5rem;
             margin-left: 1.5rem;
             color: #280483;
             cursor: pointer;
-    
+
             &:hover {
                 background: $cor-principal;
             }
+        }
+
+        div {
+            font-size: 2.5rem;
+            margin-left: 1.5rem;
+            color: #280483;
+            cursor: pointer;
+
+            &:hover {
+                background: $cor-principal;
+            }
+        }
+    }
+
+    .logo {
+        font-size: 2rem;
+        color: $cor-principal;
+        font-weight: 600;
+
+        i {
+            font-size: 2.2rem;
+            color: $cor-secundaria;
         }
     }
 
@@ -96,12 +117,90 @@ section {
             font-size: 2rem;
             color: #280483;
 
-            &:hover{
+            &:hover {
                 color: $cor-secundaria;
             }
         }
     }
+}
 
+.inicio {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(70deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 5%), url(#) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: background 10s alternate infinite;
+    padding-top: 25rem;
 
-    
+    .content {
+        position: relative;
+
+        h1 {
+            font-size: 6rem;
+            color: #4800ff;
+            margin-left: 5rem;
+            padding-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 5rem;
+            color: #4800ff;
+            margin-left: 5rem;
+            padding-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 3rem;
+            color: #333;
+            margin-left: 5rem;
+            padding-bottom: 3rem;
+        }
+
+        .redes {
+            position: absolute;
+            bottom: -35%;
+            width: 100%;
+            margin-left: 3rem;
+
+            a {
+                height: 4rem;
+                width: 4rem;
+                line-height: 4rem;
+                text-align: center;
+                margin-right: 1.5rem;
+                background: #280483;
+                color: #fff;
+                border-radius: 5rem;
+                font-size: 2rem;
+                transition: 0.4s;
+
+                &:hover {
+                    text-decoration: none;
+                    background: #eee;
+                    color: #4800ff;
+                }
+            }
+        }
+
+        button {
+            outline: none;
+            border: none;
+            border-radius: 5rem;
+            background: #280483;
+            color: #fff;
+            cursor: pointer;
+            height: 5.5rem;
+            width: 14rem;
+            font-size: 2rem;
+            margin-left: 6rem;
+
+            &:hover {
+                background: #eee;
+                color: #4800ff;
+                font-weight: 600;
+            }
+        }
+    }
 }
