@@ -130,51 +130,51 @@ section {
 }
 
 .inicio {
-    padding: 5rem;
+    // padding: 5rem;
 
-    background: rgb(14, 181, 130);
-    background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
+    // background: rgb(14, 181, 130);
+    // background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
 
-    .slide {
-        display: flex;
-        align-items: center;
-        height: 65rem;
-        background-size: contain !important;
-        background-position: right !important;
+    // .slide {
+    //     display: flex;
+    //     align-items: center;
+    //     height: 65rem;
+    //     background-size: contain !important;
+    //     background-position: right !important;
 
-        .content {
-            width: 50rem;
+    //     .content {
+    //         width: 50rem;
 
-            h3 {
-                @include tituloTexto(5rem);
-                color: $preto;
-                font-weight: 900;
-            }
+    //         h3 {
+    //             @include tituloTexto(5rem);
+    //             color: $preto;
+    //             font-weight: 900;
+    //         }
 
-            p {
-                @include subTexto(1.6rem);
-                color: $preto;
-                padding: 1rem 0;
-                font-weight: 600;
-            }
+    //         p {
+    //             @include subTexto(1.6rem);
+    //             color: $preto;
+    //             padding: 1rem 0;
+    //             font-weight: 600;
+    //         }
 
-            a {
-                &:hover {
-                    background: $preto;
-                }
-            }
-        }
-    }
+    //         a {
+    //             &:hover {
+    //                 background: $preto;
+    //             }
+    //         }
+    //     }
+    // }
 
-    // min-height: 100vh;
-    // width: 100vw;
-    // background: linear-gradient(90deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 43%),
-    //     url(../img/foto1.jpg) no-repeat;
-    // background-size: cover;
-    // background-position: center;
-    // background-attachment: fixed;
-    // animation: background 10s alternate infinite;
-    // padding-top: 15rem;
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 43%),
+        url(../img/foto1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: background 10s alternate infinite;
+    padding-top: 15rem;
 
     .content {
         position: relative;

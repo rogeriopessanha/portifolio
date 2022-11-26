@@ -92,36 +92,14 @@ section {
 }
 
 .inicio {
-  padding: 5rem;
-  background: rgb(14, 181, 130);
-  background: linear-gradient(90deg, rgb(14, 181, 130) 0%, rgb(174, 231, 218) 100%);
-}
-.inicio .slide {
-  display: flex;
-  align-items: center;
-  height: 65rem;
-  background-size: contain !important;
-  background-position: right !important;
-}
-.inicio .slide .content {
-  width: 50rem;
-}
-.inicio .slide .content h3 {
-  font-size: 5rem;
-  color: #444;
-  color: #444;
-  font-weight: 900;
-}
-.inicio .slide .content p {
-  font-size: 1.6rem;
-  line-height: 2;
-  color: #444;
-  color: #444;
-  padding: 1rem 0;
-  font-weight: 600;
-}
-.inicio .slide .content a:hover {
-  background: #444;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 43%), url(../img/foto1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: background 10s alternate infinite;
+  padding-top: 15rem;
 }
 .inicio .content {
   position: relative;
