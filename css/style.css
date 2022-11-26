@@ -97,7 +97,7 @@ section {
 .inicio {
   min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(70deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 5%), url(#) no-repeat;
+  background: linear-gradient(70deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -109,19 +109,19 @@ section {
 }
 .inicio .content h1 {
   font-size: 6rem;
-  color: #4800ff;
+  color: #00ff66;
   margin-left: 5rem;
   padding-bottom: 1rem;
 }
 .inicio .content h2 {
   font-size: 5rem;
-  color: #4800ff;
+  color: #ff006f;
   margin-left: 5rem;
   padding-bottom: 1rem;
 }
 .inicio .content h3 {
   font-size: 3rem;
-  color: #333;
+  color: rgb(238, 12, 12);
   margin-left: 5rem;
   padding-bottom: 3rem;
 }
@@ -129,7 +129,7 @@ section {
   position: absolute;
   bottom: -35%;
   width: 100%;
-  margin-left: 3rem;
+  margin-left: 8rem;
 }
 .inicio .content .redes a {
   height: 4rem;
