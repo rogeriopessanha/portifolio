@@ -92,14 +92,36 @@ section {
 }
 
 .inicio {
-  min-height: 100vh;
-  width: 100vw;
-  background: linear-gradient(70deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  animation: background 10s alternate infinite;
-  padding-top: 25rem;
+  padding: 5rem;
+  background: rgb(14, 181, 130);
+  background: linear-gradient(90deg, rgb(14, 181, 130) 0%, rgb(174, 231, 218) 100%);
+}
+.inicio .slide {
+  display: flex;
+  align-items: center;
+  height: 65rem;
+  background-size: contain !important;
+  background-position: right !important;
+}
+.inicio .slide .content {
+  width: 50rem;
+}
+.inicio .slide .content h3 {
+  font-size: 5rem;
+  color: #444;
+  color: #444;
+  font-weight: 900;
+}
+.inicio .slide .content p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #444;
+  color: #444;
+  padding: 1rem 0;
+  font-weight: 600;
+}
+.inicio .slide .content a:hover {
+  background: #444;
 }
 .inicio .content {
   position: relative;
@@ -107,26 +129,26 @@ section {
 .inicio .content h1 {
   font-size: 6rem;
   color: #00ff66;
-  margin-left: 5rem;
+  margin-left: 1rem;
   padding-bottom: 1rem;
 }
 .inicio .content h2 {
   font-size: 5rem;
   color: #ff006f;
-  margin-left: 5rem;
+  margin-left: 1rem;
   padding-bottom: 1rem;
 }
 .inicio .content h3 {
   font-size: 3rem;
   color: rgb(238, 12, 12);
-  margin-left: 5rem;
+  margin-left: 1rem;
   padding-bottom: 3rem;
 }
 .inicio .content .redes {
   position: absolute;
   bottom: -35%;
   width: 100%;
-  margin-left: 8rem;
+  margin-left: 4rem;
 }
 .inicio .content .redes a {
   height: 4rem;
@@ -155,7 +177,7 @@ section {
   height: 5.5rem;
   width: 14rem;
   font-size: 2rem;
-  margin-left: 6rem;
+  margin-left: 2rem;
 }
 .inicio .content button:hover {
   background: #eee;
@@ -190,7 +212,7 @@ section {
     display: block;
     margin: 1rem 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
 

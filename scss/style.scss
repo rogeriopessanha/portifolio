@@ -60,7 +60,9 @@ section {
 
 .header {
     position: fixed;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     background: $branco;
     box-shadow: $box-shadow;
     padding: 2rem 9%;
@@ -73,7 +75,6 @@ section {
     &.active {
         transform: translateY(0rem);
     }
-
 
     .logo {
         margin-right: auto;
@@ -128,17 +129,52 @@ section {
     }
 }
 
-
 .inicio {
-    min-height: 100vh;
-    width: 100vw;
-    background: linear-gradient(70deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 5%),
-        url(../img/foto1.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    animation: background 10s alternate infinite;
-    padding-top: 25rem;
+    padding: 5rem;
+
+    background: rgb(14, 181, 130);
+    background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
+
+    .slide {
+        display: flex;
+        align-items: center;
+        height: 65rem;
+        background-size: contain !important;
+        background-position: right !important;
+
+        .content {
+            width: 50rem;
+
+            h3 {
+                @include tituloTexto(5rem);
+                color: $preto;
+                font-weight: 900;
+            }
+
+            p {
+                @include subTexto(1.6rem);
+                color: $preto;
+                padding: 1rem 0;
+                font-weight: 600;
+            }
+
+            a {
+                &:hover {
+                    background: $preto;
+                }
+            }
+        }
+    }
+
+    // min-height: 100vh;
+    // width: 100vw;
+    // background: linear-gradient(90deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 43%),
+    //     url(../img/foto1.jpg) no-repeat;
+    // background-size: cover;
+    // background-position: center;
+    // background-attachment: fixed;
+    // animation: background 10s alternate infinite;
+    // padding-top: 15rem;
 
     .content {
         position: relative;
@@ -146,21 +182,21 @@ section {
         h1 {
             font-size: 6rem;
             color: #00ff66;
-            margin-left: 5rem;
+            margin-left: 1rem;
             padding-bottom: 1rem;
         }
 
         h2 {
             font-size: 5rem;
             color: #ff006f;
-            margin-left: 5rem;
+            margin-left: 1rem;
             padding-bottom: 1rem;
         }
 
         h3 {
             font-size: 3rem;
             color: rgb(238, 12, 12);
-            margin-left: 5rem;
+            margin-left: 1rem;
             padding-bottom: 3rem;
         }
 
@@ -168,7 +204,7 @@ section {
             position: absolute;
             bottom: -35%;
             width: 100%;
-            margin-left: 8rem;
+            margin-left: 4rem;
 
             a {
                 height: 4rem;
@@ -200,7 +236,7 @@ section {
             height: 5.5rem;
             width: 14rem;
             font-size: 2rem;
-            margin-left: 6rem;
+            margin-left: 2rem;
 
             &:hover {
                 background: #eee;
@@ -215,16 +251,15 @@ section {
 }
 
 @media (max-width: 768px) {
-
     .header {
-
         #menu-btn {
             display: inline-block;
         }
 
         .navbar {
             position: fixed;
-            top: 0; right: -100%;
+            top: 0;
+            right: -100%;
             width: 20rem;
             background: $branco;
             height: 100vh;
@@ -246,7 +281,7 @@ section {
                 display: block;
                 margin: 1rem 0;
                 text-align: center;
-                font-size: 1rem;
+                font-size: 2.5rem;
             }
         }
     }
