@@ -70,7 +70,7 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-    transform: translateY(-14rem);
+    transform: translateY(-10rem);
 
     &.active {
         transform: translateY(0rem);
@@ -89,6 +89,7 @@ section {
         }
 
         div {
+            display: none;
             font-size: 2.5rem;
             margin-left: 1.5rem;
             color: #280483;
@@ -97,21 +98,19 @@ section {
             &:hover {
                 background: $cor-principal;
             }
+
         }
     }
 
-    .logo {
-        font-size: 2rem;
+    .port {
+        font-size: 2.5rem;
         color: $cor-principal;
         font-weight: 600;
-
-        i {
-            font-size: 2.2rem;
-            color: $cor-secundaria;
-        }
     }
 
     .navbar {
+        position: relative;
+
         a {
             margin: 0 1rem;
             font-size: 2rem;
@@ -121,6 +120,21 @@ section {
                 color: $cor-secundaria;
             }
         }
+
+        #close-navbar {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-size: 4rem;
+            cursor: pointer;
+            color: $preto;
+            display: none;
+
+            &:hover {
+                transform: rotate(90deg);
+            }
+        }
+
     }
 }
 
@@ -203,4 +217,49 @@ section {
             }
         }
     }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+    .header {
+        #menu-btn {
+            display: inline-block;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: -105%;
+            width: 30rem;
+            background: $branco;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            z-index: 1200;
+
+            #close-navbar {
+                display: block;
+            }
+
+            &.active {
+                box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+                right: 0;
+            }
+
+            a {
+                display: block;
+                margin: 1rem 0;
+                text-align: center;
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+
 }

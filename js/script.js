@@ -1,20 +1,30 @@
 
-let loginForm = document.querySelector('.header .login-form');
+// let loginForm = document.querySelector('.header');
 
-document.querySelector('#login-btn').onclick = () =>{
-    loginForm.classList.toggle('active');
+// document.querySelector('#login-btn').onclick = () =>{
+//     navBar.classList.remove('active');
+// }
+
+// let navBar = document.querySelector('.header .navbar');
+
+// document.querySelector('#menu-btn').onclick = () =>{
+//     navBar.classList.toggle('active');
+// }
+
+let navBar = document.querySelector('.header .navbar')
+
+document.querySelector('#menu-btn').onclick = () =>{
+    navBar.classList.add('active');
+}
+
+document.querySelector('#close-navbar').onclick = () =>{
     navBar.classList.remove('active');
 }
 
-let navBar = document.querySelector('.header .navbar');
 
-document.querySelector('#menu-btn').onclick = () =>{
-    navBar.classList.toggle('active');
-    loginForm.classList.remove('active');
-}
+
 
 window.onscroll = () =>{
-    loginForm.classList.remove('active');
     navBar.classList.remove('active');
 
     if(window.scrollY > 0){
