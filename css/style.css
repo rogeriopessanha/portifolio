@@ -30,56 +30,33 @@ section {
 }
 
 .header {
-  background: rgb(225, 50, 50);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 9%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1000;
   transform: translateY(-10rem);
 }
 .header.active {
   transform: translateY(0rem);
 }
-.header .icons a {
+.header .logo {
+  margin-right: auto;
   font-size: 2.5rem;
-  margin-left: 1.5rem;
-  color: #280483;
-  cursor: pointer;
+  color: #444;
+  font-weight: bolder;
 }
-.header .icons a:hover {
-  background: #2929e1;
-}
-.header .icons div {
-  display: none;
-  font-size: 2.5rem;
-  margin-left: 1.5rem;
-  color: #280483;
-  cursor: pointer;
-}
-.header .icons div:hover {
-  background: #2929e1;
-}
-.header .port {
-  font-size: 2.5rem;
+.header .logo i {
   color: #2929e1;
-  font-weight: 600;
 }
 .header .navbar {
   position: relative;
-}
-.header .navbar a {
-  margin: 0 1rem;
-  font-size: 2rem;
-  color: #280483;
-}
-.header .navbar a:hover {
-  color: #2da4f3;
 }
 .header .navbar #close-navbar {
   position: absolute;
@@ -92,6 +69,26 @@ section {
 }
 .header .navbar #close-navbar:hover {
   transform: rotate(90deg);
+}
+.header .navbar a {
+  margin-right: 2rem;
+  font-size: 2rem;
+  color: #444;
+}
+.header .navbar a:hover {
+  color: #2929e1;
+}
+.header .icons div {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #444;
+  margin-left: 2rem;
+}
+.header .icons div:hover {
+  color: #2929e1;
+}
+.header #menu-btn {
+  display: none;
 }
 
 .inicio {
@@ -173,14 +170,14 @@ section {
   .header .navbar {
     position: fixed;
     top: 0;
-    right: -105%;
-    width: 30rem;
+    right: -100%;
+    width: 20rem;
     background: #fff;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    z-index: 1200;
+    z-index: 1000;
   }
   .header .navbar #close-navbar {
     display: block;
@@ -193,7 +190,7 @@ section {
     display: block;
     margin: 1rem 0;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1rem;
   }
 }
 

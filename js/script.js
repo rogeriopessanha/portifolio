@@ -1,15 +1,5 @@
 
-// let loginForm = document.querySelector('.header');
 
-// document.querySelector('#login-btn').onclick = () =>{
-//     navBar.classList.remove('active');
-// }
-
-// let navBar = document.querySelector('.header .navbar');
-
-// document.querySelector('#menu-btn').onclick = () =>{
-//     navBar.classList.toggle('active');
-// }
 
 let navBar = document.querySelector('.header .navbar')
 
