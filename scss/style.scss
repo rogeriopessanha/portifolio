@@ -130,6 +130,35 @@ section {
 }
 
 .inicio {
+
+
+    .redes {
+        position: relative;
+        bottom: 1%;
+        width: 100%;
+        margin-left: 1rem;
+
+        a {
+            height: 4rem;
+            width: 4rem;
+            line-height: 4rem;
+            text-align: center;
+            margin-right: 1.5rem;
+            background: #280483;
+            color: #fff;
+            border-radius: 5rem;
+            font-size: 2rem;
+            transition: 0.4s;
+
+            &:hover {
+                text-decoration: none;
+                background: #eee;
+                color: #4800ff;
+            }
+        }
+    }
+
+
     // padding: 5rem;
 
     // background: rgb(14, 181, 130);
@@ -198,32 +227,6 @@ section {
             color: rgb(238, 12, 12);
             margin-left: 1rem;
             padding-bottom: 3rem;
-        }
-
-        .redes {
-            position: absolute;
-            bottom: -35%;
-            width: 100%;
-            margin-left: 4rem;
-
-            a {
-                height: 4rem;
-                width: 4rem;
-                line-height: 4rem;
-                text-align: center;
-                margin-right: 1.5rem;
-                background: #280483;
-                color: #fff;
-                border-radius: 5rem;
-                font-size: 2rem;
-                transition: 0.4s;
-
-                &:hover {
-                    text-decoration: none;
-                    background: #eee;
-                    color: #4800ff;
-                }
-            }
         }
 
         button {
