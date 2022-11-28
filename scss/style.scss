@@ -130,121 +130,39 @@ section {
 }
 
 .inicio {
+    
+    padding: 5rem;
 
+    background: rgb(14, 181, 130);
+    background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
 
-    .redes {
-        position: relative;
-        bottom: 1%;
-        width: 100%;
-        margin-left: 1rem;
+    .slide {
+        display: flex;
+        align-items: center;
+        height: 65rem;
+        background-size: contain !important;
+        background-position: right !important;
 
-        a {
-            height: 4rem;
-            width: 4rem;
-            line-height: 4rem;
-            text-align: center;
-            margin-right: 1.5rem;
-            background: #280483;
-            color: #fff;
-            border-radius: 5rem;
-            font-size: 2rem;
-            transition: 0.4s;
+        .content {
+            width: 50rem;
 
-            &:hover {
-                text-decoration: none;
-                background: #eee;
-                color: #4800ff;
+            h3 {
+                @include tituloTexto(5rem);
+                color: $preto;
+                font-weight: 900;
             }
-        }
-    }
 
-
-    // padding: 5rem;
-
-    // background: rgb(14, 181, 130);
-    // background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
-
-    // .slide {
-    //     display: flex;
-    //     align-items: center;
-    //     height: 65rem;
-    //     background-size: contain !important;
-    //     background-position: right !important;
-
-    //     .content {
-    //         width: 50rem;
-
-    //         h3 {
-    //             @include tituloTexto(5rem);
-    //             color: $preto;
-    //             font-weight: 900;
-    //         }
-
-    //         p {
-    //             @include subTexto(1.6rem);
-    //             color: $preto;
-    //             padding: 1rem 0;
-    //             font-weight: 600;
-    //         }
-
-    //         a {
-    //             &:hover {
-    //                 background: $preto;
-    //             }
-    //         }
-    //     }
-    // }
-
-    min-height: 100vh;
-    width: 100vw;
-    background: linear-gradient(90deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 43%),
-        url(../img/foto1.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    animation: background 10s alternate infinite;
-    padding-top: 15rem;
-
-    .content {
-        position: relative;
-
-        h1 {
-            font-size: 6rem;
-            color: #00ff66;
-            margin-left: 1rem;
-            padding-bottom: 1rem;
-        }
-
-        h2 {
-            font-size: 5rem;
-            color: #ff006f;
-            margin-left: 1rem;
-            padding-bottom: 1rem;
-        }
-
-        h3 {
-            font-size: 3rem;
-            color: rgb(238, 12, 12);
-            margin-left: 1rem;
-            padding-bottom: 3rem;
-        }
-
-        button {
-            outline: none;
-            border: none;
-            border-radius: 5rem;
-            background: #280483;
-            color: #fff;
-            cursor: pointer;
-            height: 5.5rem;
-            width: 14rem;
-            font-size: 2rem;
-            margin-left: 2rem;
-
-            &:hover {
-                background: #eee;
-                color: #4800ff;
+            p {
+                @include subTexto(1.6rem);
+                color: $preto;
+                padding: 1rem 0;
                 font-weight: 600;
+            }
+
+            a {
+                &:hover {
+                    background: $preto;
+                }
             }
         }
     }

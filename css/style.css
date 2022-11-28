@@ -92,75 +92,36 @@ section {
 }
 
 .inicio {
-  min-height: 100vh;
-  width: 100vw;
-  background: linear-gradient(90deg, rgb(134, 198, 250) 42%, rgba(196, 196, 196, 0) 43%), url(../img/foto1.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  animation: background 10s alternate infinite;
-  padding-top: 15rem;
+  padding: 5rem;
+  background: rgb(14, 181, 130);
+  background: linear-gradient(90deg, rgb(14, 181, 130) 0%, rgb(174, 231, 218) 100%);
 }
-.inicio .redes {
-  position: relative;
-  bottom: 1%;
-  width: 100%;
-  margin-left: 1rem;
+.inicio .slide {
+  display: flex;
+  align-items: center;
+  height: 65rem;
+  background-size: contain !important;
+  background-position: right !important;
 }
-.inicio .redes a {
-  height: 4rem;
-  width: 4rem;
-  line-height: 4rem;
-  text-align: center;
-  margin-right: 1.5rem;
-  background: #280483;
-  color: #fff;
-  border-radius: 5rem;
-  font-size: 2rem;
-  transition: 0.4s;
+.inicio .slide .content {
+  width: 50rem;
 }
-.inicio .redes a:hover {
-  text-decoration: none;
-  background: #eee;
-  color: #4800ff;
-}
-.inicio .content {
-  position: relative;
-}
-.inicio .content h1 {
-  font-size: 6rem;
-  color: #00ff66;
-  margin-left: 1rem;
-  padding-bottom: 1rem;
-}
-.inicio .content h2 {
+.inicio .slide .content h3 {
   font-size: 5rem;
-  color: #ff006f;
-  margin-left: 1rem;
-  padding-bottom: 1rem;
+  color: #444;
+  color: #444;
+  font-weight: 900;
 }
-.inicio .content h3 {
-  font-size: 3rem;
-  color: rgb(238, 12, 12);
-  margin-left: 1rem;
-  padding-bottom: 3rem;
-}
-.inicio .content button {
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  background: #280483;
-  color: #fff;
-  cursor: pointer;
-  height: 5.5rem;
-  width: 14rem;
-  font-size: 2rem;
-  margin-left: 2rem;
-}
-.inicio .content button:hover {
-  background: #eee;
-  color: #4800ff;
+.inicio .slide .content p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #444;
+  color: #444;
+  padding: 1rem 0;
   font-weight: 600;
+}
+.inicio .slide .content a:hover {
+  background: #444;
 }
 
 @media (max-width: 768px) {
