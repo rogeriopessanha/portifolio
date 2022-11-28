@@ -130,41 +130,52 @@ section {
 }
 
 .inicio {
-    
-    padding: 5rem;
 
-    background: rgb(14, 181, 130);
-    background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    background: rgb(112, 112, 215);
 
-    .slide {
+
+    // background: rgb(14, 181, 130);
+    // background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
+
+
+    .left {
+        width: 15rem;
+        background: red;
+
+        h3 {
+            @include tituloTexto(5rem);
+            color: $preto;
+            font-weight: 900;
+        }
+
+        p {
+            @include subTexto(1.6rem);
+            color: $preto;
+            padding: 1rem 0;
+            font-weight: 600;
+        }
+
+        a {
+            &:hover {
+                background: $preto;
+            }
+        }
+    }
+
+    .imagem {
         display: flex;
         align-items: center;
-        height: 65rem;
+        height: 25rem;
         background-size: contain !important;
         background-position: right !important;
 
-        .content {
-            width: 50rem;
+    
+    }
 
-            h3 {
-                @include tituloTexto(5rem);
-                color: $preto;
-                font-weight: 900;
-            }
+    .redes{
 
-            p {
-                @include subTexto(1.6rem);
-                color: $preto;
-                padding: 1rem 0;
-                font-weight: 600;
-            }
-
-            a {
-                &:hover {
-                    background: $preto;
-                }
-            }
-        }
     }
 }
 

@@ -92,27 +92,21 @@ section {
 }
 
 .inicio {
-  padding: 5rem;
-  background: rgb(14, 181, 130);
-  background: linear-gradient(90deg, rgb(14, 181, 130) 0%, rgb(174, 231, 218) 100%);
-}
-.inicio .slide {
   display: flex;
-  align-items: center;
-  height: 65rem;
-  background-size: contain !important;
-  background-position: right !important;
+  flex-direction: column;
+  background: rgb(112, 112, 215);
 }
-.inicio .slide .content {
-  width: 50rem;
+.inicio .left {
+  width: 15rem;
+  background: red;
 }
-.inicio .slide .content h3 {
+.inicio .left h3 {
   font-size: 5rem;
   color: #444;
   color: #444;
   font-weight: 900;
 }
-.inicio .slide .content p {
+.inicio .left p {
   font-size: 1.6rem;
   line-height: 2;
   color: #444;
@@ -120,10 +114,16 @@ section {
   padding: 1rem 0;
   font-weight: 600;
 }
-.inicio .slide .content a:hover {
+.inicio .left a:hover {
   background: #444;
 }
-
+.inicio .imagem {
+  display: flex;
+  align-items: center;
+  height: 25rem;
+  background-size: contain !important;
+  background-position: right !important;
+}
 @media (max-width: 768px) {
   .header #menu-btn {
     display: inline-block;
