@@ -129,55 +129,108 @@ section {
     }
 }
 
+
+
+
+
+
+
+/* COMEÇO SECTION INICIO  */
 .inicio {
-
-    display: flex;
-    flex-direction: column;
-    background: rgb(112, 112, 215);
-
-
-    // background: rgb(14, 181, 130);
-    // background: linear-gradient(90deg, rgba(14, 181, 130, 1) 0%, rgba(174, 231, 218, 1) 100%);
-
-
-    .left {
-        width: 15rem;
-        background: rgb(0, 98, 255);
-
-        h3 {
-            @include tituloTexto(5rem);
-            color: $preto;
-            font-weight: 900;
-        }
-
-        p {
-            @include subTexto(1.6rem);
-            color: $preto;
-            padding: 1rem 0;
-            font-weight: 600;
-        }
-
-        a {
-            &:hover {
-                background: $preto;
-            }
-        }
-    }
-
-    .imagem {
-        display: flex;
-        align-items: center;
-        height: 25rem;
-        background-size: contain !important;
-        background-position: right !important;
-
-    
-    }
-
-    .redes{
-
-    }
+    min-height: 100vh;
+    width: 100vw;
+    background:linear-gradient(105deg, #fff 52%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: background 10s alternate infinite;
+    padding-top: 5rem;
 }
+
+.inicio .content{
+    position: relative;
+}
+
+.inicio .content h1{
+    font-size: 3rem;
+    color: #4800ff;
+    padding-bottom: 1rem;
+}
+.inicio .content h2{
+    font-size: 2rem;
+    color: #4800ff;
+    padding-bottom: 1rem;
+}
+.inicio .content h3{
+    font-size: 1.5rem;
+    color: #333;
+    padding-bottom: 3rem;
+}
+
+.inicio .content button{
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: #280483;
+    color: #fff;
+    cursor: pointer;
+    height: 5.5rem;
+    width: 14rem;
+    font-size: 2rem;
+    margin-left: 6rem;
+
+}
+
+.inicio .content button:hover{
+    background: #eee;
+    color: #4800ff;
+    font-weight: 600;
+}
+
+.inicio .content .redes{
+    position: absolute;
+    bottom: -35%;
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.inicio .content .redes a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-right: 1.5rem;
+    background: #280483;
+    color: #fff;
+    border-radius: 5rem;
+    font-size: 2rem;
+    transition: .4s;
+}
+
+.inicio .content .redes a:hover{
+    text-decoration: none;
+    background: #eee;
+    color: #4800ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 991px) {
 }
