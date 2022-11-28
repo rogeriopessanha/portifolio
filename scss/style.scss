@@ -142,7 +142,7 @@ section {
 
     .left {
         width: 15rem;
-        background: red;
+        background: rgb(0, 98, 255);
 
         h3 {
             @include tituloTexto(5rem);
