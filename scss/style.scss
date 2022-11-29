@@ -58,6 +58,12 @@ section {
     padding: 5rem 4%;
 }
 
+.titulo{
+    text-align: center;
+    margin-bottom: 3rem;
+    @include tituloTexto(3.5rem);
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -193,6 +199,51 @@ section {
     color: #4800ff;
 }
 
+
+
+
+
+// COMEÇO DA SECTION MATERIAS 
+.skills{
+    .box-container{
+        @include grid(16rem);
+
+        .box{
+            padding: 3rem 2rem;
+            text-align: center;
+            border: $borda;
+            background: #eee;
+            cursor: pointer;
+
+            &:hover{
+                background: $cor-principal;
+
+                h3{
+                    color: $branco;
+                }
+
+                p{
+                    color: $branco;
+                }
+            }
+
+            img{
+                height: 7rem;
+                margin-bottom: .5rem;
+            }
+
+            h3{
+                @include tituloTexto(1.8rem);
+                padding: .5rem 0;
+            }
+
+            p{
+                @include subTexto(1.5rem);
+            }
+        }
+    }
+}
+// FINAL DA SECTION MATERIAS 
 
 
 

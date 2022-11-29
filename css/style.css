@@ -30,6 +30,13 @@ section {
   padding: 5rem 4%;
 }
 
+.titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  color: #444;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -149,6 +156,42 @@ section {
   text-decoration: none;
   background: #eee;
   color: #4800ff;
+}
+
+.skills .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+.skills .box-container .box {
+  padding: 3rem 2rem;
+  text-align: center;
+  border: 0.1rem solid #2929e1;
+  background: #eee;
+  cursor: pointer;
+}
+.skills .box-container .box:hover {
+  background: #2929e1;
+}
+.skills .box-container .box:hover h3 {
+  color: #fff;
+}
+.skills .box-container .box:hover p {
+  color: #fff;
+}
+.skills .box-container .box img {
+  height: 7rem;
+  margin-bottom: 0.5rem;
+}
+.skills .box-container .box h3 {
+  font-size: 1.8rem;
+  color: #444;
+  padding: 0.5rem 0;
+}
+.skills .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
 }
 
 @media (max-width: 768px) {
