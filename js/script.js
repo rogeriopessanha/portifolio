@@ -3,32 +3,32 @@
 
 let navBar = document.querySelector('.header .navbar')
 
-document.querySelector('#menu-btn').onclick = () =>{
+document.querySelector('#menu-btn').onclick = () => {
     navBar.classList.add('active');
 }
 
-document.querySelector('#close-navbar').onclick = () =>{
+document.querySelector('#close-navbar').onclick = () => {
     navBar.classList.remove('active');
 }
 
 
 
 
-window.onscroll = () =>{
+window.onscroll = () => {
     navBar.classList.remove('active');
 
-    if(window.scrollY > 0){
+    if (window.scrollY > 0) {
         document.querySelector('.header').classList.add('active');
-    }else{
+    } else {
         document.querySelector('.header').classList.remove('active');
     }
 }
 
-window.onload = () =>{
-   
-    if(window.scrollY > 0){
+window.onload = () => {
+
+    if (window.scrollY > 0) {
         document.querySelector('.header').classList.add('active');
-    }else{
+    } else {
         document.querySelector('.header').classList.remove('active');
     }
 }
@@ -36,27 +36,69 @@ window.onload = () =>{
 
 
 
-var swiper = new Swiper(".projetos", {
-    loop:true,
-    grabCursor:true,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 6500,
-      disableOnInteraction: false,
-  },
-  navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-  },
-    breakpoints: {
-        0: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        991: {
-          slidesPerView: 3,
-        },
-      },
+// var swiper = new Swiper(".projetos-slider", {
+//     loop:true,
+//     grabCursor:true,
+//     spaceBetween: 20,
+//     autoplay: {
+//       delay: 6500,
+//       disableOnInteraction: false,
+//   },
+//   navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//   },
+//     breakpoints: {
+//         0: {
+//           slidesPerView: 1,
+//         },
+//         768: {
+//           slidesPerView: 2,
+//         },
+//         991: {
+//           slidesPerView: 3,
+//         },
+//       },
+//   });
+
+
+
+
+
+// var swiper = new Swiper(".projetos-slider", {
+//     effect: "cube",
+//     grabCursor: true,
+//     cubeEffect: {
+//         shadow: true,
+//         slideShadows: true,
+//         shadowOffset: 10,
+//         shadowScale: 0.54,
+//     },
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+// });
+
+
+
+
+
+
+
+var swiper = new Swiper(".projetos-slider", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
   });

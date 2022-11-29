@@ -231,124 +231,93 @@ section {
 }
 // FINAL DA SECTION HABILIDADES
 
-
-
-
-
 // COMEÇO DA SECTION PROJETOS
-.projetos{
+.projetos {
     
-    .slide{
+    .slide {
         text-align: center;
 
-        &:hover{
-
-            .image{
-
-                img{
-                    background: rgba(0, 0, 0, .8);
+        &:hover {
+            .image {
+                img {
+                    background: rgba(0, 0, 0, 0.8);
                 }
 
-                .redes-social{
+                .redes-social {
                     bottom: 0;
                 }
             }
         }
 
-        .image{
+        .image {
             position: relative;
             overflow: hidden;
 
-            img{
-                background: $verde-claro;
-                width: 100%;
+            img {
+                background: $cor-secundaria;
+                width: 20%;
             }
 
-            .redes-social{
+            .redes-social {
                 position: absolute;
-                bottom: -10; left: 0; right: 0;
-                background: rgba(0, 0, 0, .8);
+                bottom: -10;
+                left: 0;
+                right: 0;
+                background: rgba(0, 0, 0, 0.8);
                 padding: 2rem;
 
-                a{
+                a {
                     font-size: 3rem;
                     margin: 0 1rem;
                     color: $branco;
 
-                    &:hover{
-                        color: $verde;
+                    &:hover {
+                        color: $cor-principal;
                     }
                 }
             }
         }
 
-        .content{
+        .content {
             display: flex;
             padding-top: 1rem;
             align-items: center;
             justify-content: space-around;
 
-            h3{
+            h3 {
                 @include tituloTexto(2rem);
             }
 
-            span{
-                @include graphTexto(1.5rem);
+            span {
+                @include subTexto(1.5rem);
             }
         }
     }
 
-        // .swiper-button-next,
-        // .swiper-button-prev {
-        //     border: $borda;
-        //     border-radius: 10%;
-        //     height: 5rem;
-        //     width: 5rem;
-        //     color: $verde;
-        //     background: rgba(255, 255, 255, 0.203);
-        // }
+    // .swiper-button-next,
+    // .swiper-button-prev {
+    //     border: $borda;
+    //     border-radius: 10%;
+    //     height: 5rem;
+    //     width: 5rem;
+    //     color: $verde;
+    //     background: rgba(255, 255, 255, 0.203);
+    // }
 
-        // .swiper-button-next::after,
-        // .swiper-button-prev::after {
-        //     font-size: 3.5rem;
-        // }
+    // .swiper-button-next::after,
+    // .swiper-button-prev::after {
+    //     font-size: 3.5rem;
+    // }
 
-        // .swiper-button-next:hover,
-        // .swiper-button-prev:hover {
-        //     background: $verde;
-        //     color: $branco;
-        // }
+    // .swiper-button-next:hover,
+    // .swiper-button-prev:hover {
+    //     background: $verde;
+    //     color: $branco;
+    // }
 }
 // FINAL DA SECTION PROJETOS
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 991px) {
-
     .inicio {
         .content {
             h1 {
@@ -376,11 +345,7 @@ section {
     }
 }
 
-
-
-
 @media (max-width: 768px) {
-
     .header {
         #menu-btn {
             display: inline-block;
@@ -443,12 +408,7 @@ section {
     }
 }
 
-
-
-
-
 @media (max-width: 500px) {
-
     .inicio {
         min-height: 100vh;
         width: 100vw;
@@ -490,7 +450,6 @@ section {
     }
 
     .skills {
-
         .box-container {
             @include grid(15rem);
 
