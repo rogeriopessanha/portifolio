@@ -210,11 +210,12 @@ section {
         @include grid(16rem);
 
         .box{
-            padding: 3rem 2rem;
+            padding: 3rem ;
             text-align: center;
             border: $borda;
             background: #eee;
             // cursor: pointer;
+            margin: .5rem;
 
             &:hover{
                 background: $cor-principal;
@@ -229,7 +230,7 @@ section {
             }
 
             img{
-                height: 5rem;
+                height: 10rem;
                 margin-bottom: .5rem;
             }
 

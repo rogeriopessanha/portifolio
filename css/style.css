@@ -164,10 +164,11 @@ section {
   gap: 2rem;
 }
 .skills .box-container .box {
-  padding: 3rem 2rem;
+  padding: 3rem;
   text-align: center;
   border: 0.1rem solid #2929e1;
   background: #eee;
+  margin: 0.5rem;
 }
 .skills .box-container .box:hover {
   background: #2929e1;
@@ -179,7 +180,7 @@ section {
   color: #fff;
 }
 .skills .box-container .box img {
-  height: 5rem;
+  height: 10rem;
   margin-bottom: 0.5rem;
 }
 .skills .box-container .box h3 {
