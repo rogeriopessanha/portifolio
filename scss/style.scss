@@ -58,7 +58,7 @@ section {
     padding: 5rem 4%;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     margin-bottom: 3rem;
     @include tituloTexto(3.5rem);
@@ -135,131 +135,146 @@ section {
     }
 }
 
-
-
-
-
-
-
 /* COMEÇO SECTION INICIO  */
 .inicio {
     min-height: 100vh;
     width: 100vw;
-    background:linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+    background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     animation: background 10s alternate infinite;
     padding-top: 10rem;
-}
 
-.inicio .content{
-    position: relative;
-}
+    .content {
+        position: relative;
 
-.inicio .content h1{
-    font-size: 5rem;
-    color: #4800ff;
-    padding-bottom: 1rem;
-}
-.inicio .content h2{
-    font-size: 4.2rem;
-    color: #4800ff;
-    padding-bottom: 1rem;
-}
-.inicio .content h3{
-    font-size: 3.8rem;
-    color: #333;
-    padding-bottom: 3rem;
-}
+        h1 {
+            font-size: 5rem;
+            color: #4800ff;
+            padding-bottom: 1rem;
+        }
 
-.inicio .content .redes{
-    position: absolute;
-    bottom: -35%;
-    width: 100%;
-    
-}
+        h2 {
+            font-size: 4.2rem;
+            color: #4800ff;
+            padding-bottom: 1rem;
+        }
 
-.inicio .content .redes a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    text-align: center;
-    margin-right: 1.5rem;
-    background: #280483;
-    color: #fff;
-    border-radius: 5rem;
-    font-size: 3rem;
-    transition: .4s;
-}
+        h3 {
+            font-size: 3.8rem;
+            color: #333;
+            padding-bottom: 3rem;
+        }
 
-.inicio .content .redes a:hover{
-    text-decoration: none;
-    background: #eee;
-    color: #4800ff;
-}
+        .redes {
+            position: absolute;
+            bottom: -35%;
+            width: 100%;
 
+            a {
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                text-align: center;
+                margin-right: 1.5rem;
+                background: #280483;
+                color: #fff;
+                border-radius: 5rem;
+                font-size: 3rem;
+                transition: 0.4s;
 
-
-
-
-// COMEÇO DA SECTION MATERIAS 
-.skills{
-
-    .box-container{
-        @include grid(16rem);
-
-        .box{
-            padding: 3rem ;
-            text-align: center;
-            border: $borda;
-            background: #eee;
-            // cursor: pointer;
-            margin: .5rem;
-
-            &:hover{
-                background: $cor-principal;
-
-                h3{
-                    color: $branco;
+                &:hover {
+                    text-decoration: none;
+                    background: #eee;
+                    color: #4800ff;
                 }
-
-                p{
-                    color: $branco;
-                }
-            }
-
-            img{
-                height: 10rem;
-                margin-bottom: .5rem;
-            }
-
-            h3{
-                @include tituloTexto(1.8rem);
-                padding: .5rem 0;
             }
         }
     }
 }
-// FINAL DA SECTION MATERIAS 
 
+// .inicio .content{
+//     position: relative;
+// }
 
+// .inicio .content h1 {
+//     font-size: 5rem;
+//     color: #4800ff;
+//     padding-bottom: 1rem;
+// }
+// .inicio .content h2 {
+//     font-size: 4.2rem;
+//     color: #4800ff;
+//     padding-bottom: 1rem;
+// }
+// .inicio .content h3 {
+//     font-size: 3.8rem;
+//     color: #333;
+//     padding-bottom: 3rem;
+// }
 
+// .inicio .content .redes {
+//     position: absolute;
+//     bottom: -35%;
+//     width: 100%;
+// }
 
+// .inicio .content .redes a {
+//     height: 5rem;
+//     width: 5rem;
+//     line-height: 5rem;
+//     text-align: center;
+//     margin-right: 1.5rem;
+//     background: #280483;
+//     color: #fff;
+//     border-radius: 5rem;
+//     font-size: 3rem;
+//     transition: 0.4s;
+// }
 
+// .inicio .content .redes a:hover {
+//     text-decoration: none;
+//     background: #eee;
+//     color: #4800ff;
+// }
 
+// COMEÇO DA SECTION MATERIAS
+.skills {
+    .box-container {
+        @include grid(20rem);
 
+        .box {
+            padding: 3rem 2rem;
+            text-align: center;
+            border: $borda;
+            background: #eee;
 
+            &:hover {
+                background: $cor-principal;
 
+                h3 {
+                    color: $branco;
+                }
 
+                p {
+                    color: $branco;
+                }
+            }
 
+            img {
+                height: 10rem;
+                margin-bottom: 0.5rem;
+            }
 
-
-
-
-
-
-
+            h3 {
+                @include tituloTexto(1.8rem);
+                padding: 0.5rem 0;
+            }
+        }
+    }
+}
+// FINAL DA SECTION MATERIAS
 
 @media (max-width: 991px) {
 }
@@ -302,30 +317,25 @@ section {
 }
 
 @media (max-width: 500px) {
-
-
-    .skills{
-        .box-container{
+    .skills {
+        .box-container {
             @include grid(15rem);
-    
-            .box{
-                
-    
-                img{
+
+            .box {
+                img {
                     height: 6rem;
-                    margin-bottom: .5rem;
+                    margin-bottom: 0.5rem;
                 }
-    
-                h3{
+
+                h3 {
                     @include tituloTexto(1.8rem);
-                    padding: .5rem 0;
+                    padding: 0.5rem 0;
                 }
-    
-                p{
+
+                p {
                     @include subTexto(1.5rem);
                 }
             }
         }
     }
-
 }
