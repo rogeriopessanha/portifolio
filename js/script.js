@@ -32,3 +32,31 @@ window.onload = () =>{
         document.querySelector('.header').classList.remove('active');
     }
 }
+
+
+
+
+var swiper = new Swiper(".projetos", {
+    loop:true,
+    grabCursor:true,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+  },
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
+    breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        991: {
+          slidesPerView: 3,
+        },
+      },
+  });
