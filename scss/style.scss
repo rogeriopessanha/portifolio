@@ -326,24 +326,24 @@ section {
     .inicio {
         min-height: 100vh;
         width: 100vw;
-        background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+        background: linear-gradient(125deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
         animation: background 10s alternate infinite;
-        padding-top: 4rem;
+        padding-top: 7rem;
 
         .content {
             h1 {
-                font-size: 2.2rem;
+                font-size: 2.4rem;
             }
 
             h2 {
-                font-size: 1.6rem;
+                font-size: 1.8rem;
             }
 
             h3 {
-                font-size: 1.4rem;
+                font-size: 1.6rem;
             }
 
             .redes {
