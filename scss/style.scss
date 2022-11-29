@@ -182,7 +182,7 @@ section {
                 color: #fff;
                 border-radius: 5rem;
                 font-size: 3rem;
-                transition: 0.4s;
+                transition: 0.6s;
 
                 &:hover {
                     text-decoration: none;
@@ -194,52 +194,7 @@ section {
     }
 }
 
-// .inicio .content{
-//     position: relative;
-// }
-
-// .inicio .content h1 {
-//     font-size: 5rem;
-//     color: #4800ff;
-//     padding-bottom: 1rem;
-// }
-// .inicio .content h2 {
-//     font-size: 4.2rem;
-//     color: #4800ff;
-//     padding-bottom: 1rem;
-// }
-// .inicio .content h3 {
-//     font-size: 3.8rem;
-//     color: #333;
-//     padding-bottom: 3rem;
-// }
-
-// .inicio .content .redes {
-//     position: absolute;
-//     bottom: -35%;
-//     width: 100%;
-// }
-
-// .inicio .content .redes a {
-//     height: 5rem;
-//     width: 5rem;
-//     line-height: 5rem;
-//     text-align: center;
-//     margin-right: 1.5rem;
-//     background: #280483;
-//     color: #fff;
-//     border-radius: 5rem;
-//     font-size: 3rem;
-//     transition: 0.4s;
-// }
-
-// .inicio .content .redes a:hover {
-//     text-decoration: none;
-//     background: #eee;
-//     color: #4800ff;
-// }
-
-// COMEÇO DA SECTION MATERIAS
+// COMEÇO DA SECTION HABILIDADES
 .skills {
     .box-container {
         @include grid(20rem);
@@ -274,9 +229,34 @@ section {
         }
     }
 }
-// FINAL DA SECTION MATERIAS
+// FINAL DA SECTION HABILIDADES
 
 @media (max-width: 991px) {
+    .inicio {
+        .content {
+            h1 {
+                font-size: 4rem;
+            }
+
+            h2 {
+                font-size: 3.4rem;
+            }
+
+            h3 {
+                font-size: 2.8rem;
+            }
+
+            .redes {
+                a {
+                    height: 5rem;
+                    width: 5rem;
+                    line-height: 5rem;
+                    font-size: 3rem;
+                    transition: 0.6s;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -314,9 +294,75 @@ section {
             }
         }
     }
+
+    .inicio {
+        .content {
+            h1 {
+                font-size: 4rem;
+            }
+
+            h2 {
+                font-size: 3.2rem;
+            }
+
+            h3 {
+                font-size: 2.5rem;
+            }
+
+            .redes {
+                a {
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    line-height: 4.5rem;
+                    font-size: 2.8rem;
+                    transition: 0.6s;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 500px) {
+    .inicio {
+        min-height: 100vh;
+        width: 100vw;
+        background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        animation: background 10s alternate infinite;
+        padding-top: 4rem;
+
+        .content {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            h3 {
+                font-size: 1.4rem;
+            }
+
+            .redes {
+                position: absolute;
+                bottom: -15%;
+                width: 100%;
+
+                a {
+                    height: 2.8rem;
+                    width: 2.8rem;
+                    line-height: 2.8rem;
+                    margin-right: 0.8rem;
+                    font-size: 1.6rem;
+                    transition: 0.6s;
+                }
+            }
+        }
+    }
+
     .skills {
         .box-container {
             @include grid(15rem);
