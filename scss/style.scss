@@ -209,12 +209,11 @@ section {
         @include grid(16rem);
 
         .box{
-            padding: 2rem;
-            width: 20rem;
+            padding: 3rem 2rem;
             text-align: center;
             border: $borda;
             background: #eee;
-            cursor: pointer;
+            // cursor: pointer;
 
             &:hover{
                 background: $cor-principal;
@@ -302,5 +301,29 @@ section {
 
 @media (max-width: 500px) {
 
+
+    .skills{
+        .box-container{
+            @include grid(15rem);
     
+            .box{
+                
+    
+                img{
+                    height: 6rem;
+                    margin-bottom: .5rem;
+                }
+    
+                h3{
+                    @include tituloTexto(1.8rem);
+                    padding: .5rem 0;
+                }
+    
+                p{
+                    @include subTexto(1.5rem);
+                }
+            }
+        }
+    }
+
 }

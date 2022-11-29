@@ -164,12 +164,10 @@ section {
   gap: 2rem;
 }
 .skills .box-container .box {
-  padding: 2rem;
-  width: 20rem;
+  padding: 3rem 2rem;
   text-align: center;
   border: 0.1rem solid #2929e1;
   background: #eee;
-  cursor: pointer;
 }
 .skills .box-container .box:hover {
   background: #2929e1;
@@ -218,6 +216,27 @@ section {
     margin: 1rem 0;
     text-align: center;
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .skills .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+  }
+  .skills .box-container .box img {
+    height: 6rem;
+    margin-bottom: 0.5rem;
+  }
+  .skills .box-container .box h3 {
+    font-size: 1.8rem;
+    color: #444;
+    padding: 0.5rem 0;
+  }
+  .skills .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #444;
   }
 }
 
