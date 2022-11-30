@@ -240,7 +240,7 @@ section {
         &:hover {
             .image {
                 img {
-                    background: rgba(0, 0, 0, 0.8);
+                    // background: rgba(0, 0, 0, 0.8);
                 }
 
                 .redes-social {
@@ -257,7 +257,7 @@ section {
             margin: auto;
 
             img {
-                background: $cor-secundaria;
+                // background: $cor-secundaria;
                 width: 100%;
             }
 
@@ -463,7 +463,7 @@ section {
             &:hover {
                 .image {
                     img {
-                        background: rgba(0, 0, 0, 0.8);
+                        // background: rgba(0, 0, 0, 0.8);
                     }
     
                     .redes-social {
@@ -475,12 +475,12 @@ section {
             .image {
                 position: relative;
                 overflow: hidden;
-                height: 50rem;
-                width: 50rem;
+                height: 26rem;
+                width: 26rem;
                 margin: auto;
     
                 img {
-                    background: $cor-secundaria;
+                    // background: #fff;
                     width: 100%;
                 }
     
@@ -494,7 +494,7 @@ section {
                     cursor: pointer;
     
                     a {
-                        font-size: 3rem;
+                        font-size: 2.4rem;
                         margin: 0 1rem;
                         color: $branco;
     
@@ -504,22 +504,8 @@ section {
                     }
                 }
             }
-    
-            .content {
-                display: flex;
-                padding-top: 1rem;
-                align-items: center;
-                justify-content: center;
-    
-                h3 {
-                    @include tituloTexto(2rem);
-                }
-            }
         }
-    
-        
     }
-
 
 
 

@@ -184,9 +184,6 @@ section {
 .projetos .slide {
   text-align: center;
 }
-.projetos .slide:hover .image img {
-  background: rgba(0, 0, 0, 0.8);
-}
 .projetos .slide:hover .image .redes-social {
   bottom: 0;
 }
@@ -198,7 +195,6 @@ section {
   margin: auto;
 }
 .projetos .slide .image img {
-  background: #2da4f3;
   width: 100%;
 }
 .projetos .slide .image .redes-social {
@@ -348,21 +344,17 @@ section {
   .projetos .slide {
     text-align: center;
   }
-  .projetos .slide:hover .image img {
-    background: rgba(0, 0, 0, 0.8);
-  }
   .projetos .slide:hover .image .redes-social {
     bottom: 0;
   }
   .projetos .slide .image {
     position: relative;
     overflow: hidden;
-    height: 50rem;
-    width: 50rem;
+    height: 26rem;
+    width: 26rem;
     margin: auto;
   }
   .projetos .slide .image img {
-    background: #2da4f3;
     width: 100%;
   }
   .projetos .slide .image .redes-social {
@@ -375,22 +367,12 @@ section {
     cursor: pointer;
   }
   .projetos .slide .image .redes-social a {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin: 0 1rem;
     color: #fff;
   }
   .projetos .slide .image .redes-social a:hover {
     color: #2929e1;
-  }
-  .projetos .slide .content {
-    display: flex;
-    padding-top: 1rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .projetos .slide .content h3 {
-    font-size: 2rem;
-    color: #444;
   }
 }
 
