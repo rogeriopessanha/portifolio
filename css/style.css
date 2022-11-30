@@ -221,6 +221,11 @@ section {
   padding: 2rem;
   cursor: pointer;
 }
+.projetos .slide .image .redes-social h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+}
 .projetos .slide .image .redes-social a {
   font-size: 3rem;
   margin: 0 1rem;
@@ -240,6 +245,21 @@ section {
   color: #444;
 }
 
+.contato .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.contato .row .image {
+  flex: 1 1 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contato .row .image img {
+  width: 50%;
+}
 .contato .row form {
   flex: 1 1 40rem;
   border: 0.1rem solid #2929e1;
