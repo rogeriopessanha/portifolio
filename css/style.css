@@ -240,18 +240,6 @@ section {
   color: #444;
 }
 
-.contato .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.contato .row .image {
-  flex: 1 1 40rem;
-}
-.contato .row .image img {
-  width: 80%;
-}
 .contato .row form {
   flex: 1 1 40rem;
   border: 0.1rem solid #2929e1;
