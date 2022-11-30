@@ -251,7 +251,7 @@ section {
   justify-content: center;
 }
 .contato .mensagem form {
-  width: 50%;
+  width: 30%;
   border: 0.1rem solid #2929e1;
   padding: 1rem;
 }
@@ -355,6 +355,29 @@ section {
     font-size: 2.8rem;
     transition: 0.6s;
   }
+  .contato .titulo {
+    font-size: 3rem;
+  }
+  .contato .mensagem form {
+    width: 80%;
+    border: 0.1rem solid #2929e1;
+    padding: 1rem;
+  }
+  .contato .mensagem form h3 {
+    font-size: 2.2rem;
+    color: #444;
+    padding-bottom: 1rem;
+  }
+  .contato .mensagem form .box {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border: 0.1rem solid #2929e1;
+    font-size: 1.8rem;
+    margin: 0.7rem 0;
+  }
+  .contato .mensagem form .btn {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 500px) {
   .inicio {
@@ -389,6 +412,9 @@ section {
     font-size: 1.6rem;
     transition: 0.6s;
   }
+  .skills .titulo {
+    font-size: 2.8rem;
+  }
   .skills .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -407,6 +433,9 @@ section {
     font-size: 1.5rem;
     line-height: 2;
     color: #444;
+  }
+  .projetos .titulo {
+    font-size: 2.8rem;
   }
   .projetos .slide {
     text-align: center;
@@ -440,6 +469,29 @@ section {
   }
   .projetos .slide .image .redes-social a:hover {
     color: #2929e1;
+  }
+  .contato .titulo {
+    font-size: 2.8rem;
+  }
+  .contato .mensagem form {
+    width: 100%;
+    border: 0.1rem solid #2929e1;
+    padding: 1rem;
+  }
+  .contato .mensagem form h3 {
+    font-size: 2rem;
+    color: #444;
+    padding-bottom: 1rem;
+  }
+  .contato .mensagem form .box {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border: 0.1rem solid #2929e1;
+    font-size: 1.3rem;
+    margin: 0.7rem 0;
+  }
+  .contato .mensagem form .btn {
+    font-size: 1.2rem;
   }
   .footer {
     padding: 2rem;

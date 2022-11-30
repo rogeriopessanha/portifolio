@@ -359,57 +359,13 @@ section {
 // COMEÇO SECTION CONTATO
 .contato{
 
-
-
-    
-
-
-
-    // margin-top: 2rem;
-    // padding: 3rem;
-
-    // .icons-container{
-
-    //     margin-bottom: 3rem;
-    //     @include grid(25rem);
-
-    //     .icons{
-    //         text-align: center;
-    //         padding: 3rem 2rem;
-    //         border: $borda;
-    //         background: $cor-secundaria;
-
-    //         i{
-    //             height: 5rem;
-    //             width: 5rem;
-    //             line-height: 5rem;
-    //             font-size: 2rem;
-    //             border-radius: 50%;
-    //             margin-bottom: .5rem;
-    //             color: $branco;
-    //             background: $cor-principal;
-    //         }
-
-    //         h3{
-    //             @include tituloTexto(2rem);
-    //             padding: .5rem 0;
-    //         }
-
-    //         p{
-    //             @include subTexto(1.6rem);
-    //         }
-    //     }
-    // }
-
     .mensagem{
         display: flex;
         align-items: center;
         justify-content: center;
 
         form{
-            // flex: 1 1 40rem;
-            width: 50%;
-
+            width: 30%;
             border: $borda;
             padding: 1rem;
 
@@ -554,6 +510,41 @@ section {
             }
         }
     }
+
+
+    .contato{
+
+        .titulo{
+            font-size: 3rem;
+        }
+
+        .mensagem{
+    
+            form{
+                width: 80%;
+                border: $borda;
+                padding: 1rem;
+    
+    
+                h3{
+                    @include tituloTexto(2.2rem);
+                    padding-bottom: 1rem;
+                }
+    
+                .box{
+                    width: 100%;
+                    padding: 1.2rem 1.4rem;
+                    border: $borda;
+                    font-size: 1.8rem;
+                    margin: .7rem 0;
+                }
+
+                .btn{
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 500px) {
@@ -598,6 +589,11 @@ section {
     }
 
     .skills {
+
+        .titulo{
+            font-size: 2.8rem;
+        }
+
         .box-container {
             @include grid(15rem);
 
@@ -620,6 +616,11 @@ section {
     }
 
     .projetos {
+
+        .titulo{
+            font-size: 2.8rem;
+        }
+
         .slide {
             text-align: center;
 
@@ -670,6 +671,42 @@ section {
         }
     }
 
+
+    .contato{
+
+        .titulo{
+            font-size: 2.8rem;
+        }
+
+        .mensagem{
+    
+            form{
+                width: 100%;
+                border: $borda;
+                padding: 1rem;
+    
+    
+                h3{
+                    @include tituloTexto(2rem);
+                    padding-bottom: 1rem;
+                }
+    
+                .box{
+                    width: 100%;
+                    padding: 1.2rem 1.4rem;
+                    border: $borda;
+                    font-size: 1.3rem;
+                    margin: .7rem 0;
+                }
+
+                .btn{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+
     .footer{
         padding: 2rem;
     
@@ -682,4 +719,7 @@ section {
             }
         }
     }
+
+
+
 }
