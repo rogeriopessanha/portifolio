@@ -65,40 +65,62 @@ window.onload = () => {
 
 
 
+var swiper = new Swiper(".projetos-slider", {
+    effect: "cube",
+    autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
+    cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 1,
+        shadowScale: 0.64,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+
+
+
+
+
+
 // var swiper = new Swiper(".projetos-slider", {
-//     effect: "cube",
+//     effect: "coverflow",
 //     grabCursor: true,
-//     cubeEffect: {
-//         shadow: true,
-//         slideShadows: true,
-//         shadowOffset: 10,
-//         shadowScale: 0.54,
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     coverflowEffect: {
+//       rotate: 50,
+//       stretch: 0,
+//       depth: 100,
+//       modifier: 1,
+//       slideShadows: true,
 //     },
 //     navigation: {
 //         nextEl: ".swiper-button-next",
 //         prevEl: ".swiper-button-prev",
 //     },
-// });
+//   });
 
 
 
 
 
+// var swiper = new Swiper(".projetos-slider", {
+//     effect: "flip",
+//     grabCursor: true,
+//     pagination: {
+//       el: ".swiper-pagination",
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//   });
 
 
-var swiper = new Swiper(".projetos-slider", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
