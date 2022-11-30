@@ -143,7 +143,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    animation: background 10s alternate infinite;
+    animation: background 20s alternate infinite;
     padding-top: 10rem;
 
     .content {
@@ -192,6 +192,41 @@ section {
             }
         }
     }
+
+    // @keyframes background {
+    //     0%,
+    //     100% {
+    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto3.jpg) no-repeat;
+    //         background-size: cover;
+    //         background-position: center;
+    //         background-attachment: fixed;
+    //         padding-top: 10rem;
+    //     }
+
+    //     25% {
+    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto4.webp) no-repeat;
+    //         background-size: cover;
+    //         background-position: center;
+    //         background-attachment: fixed;
+    //         padding-top: 10rem;
+    //     }
+
+    //     50% {
+    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto5.jpg) no-repeat;
+    //         background-size: cover;
+    //         background-position: center;
+    //         background-attachment: fixed;
+    //         padding-top: 10rem;
+    //     }
+
+    //     75% {
+    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto5.jpg) no-repeat;
+    //         background-size: cover;
+    //         background-position: center;
+    //         background-attachment: fixed;
+    //         padding-top: 10rem;
+    //     }
+    // }
 }
 
 // COMEÇO DA SECTION HABILIDADES
@@ -233,7 +268,6 @@ section {
 
 // COMEÇO DA SECTION PROJETOS
 .projetos {
-
     .slide {
         text-align: center;
 
@@ -295,9 +329,6 @@ section {
     }
 }
 // FINAL DA SECTION PROJETOS
-
-
-
 
 @media (max-width: 991px) {
     .inicio {
@@ -453,37 +484,34 @@ section {
         }
     }
 
-
-
     .projetos {
-
         .slide {
             text-align: center;
-    
+
             &:hover {
                 .image {
                     img {
                         // background: rgba(0, 0, 0, 0.8);
                     }
-    
+
                     .redes-social {
                         bottom: 0;
                     }
                 }
             }
-    
+
             .image {
                 position: relative;
                 overflow: hidden;
                 height: 26rem;
                 width: 26rem;
                 margin: auto;
-    
+
                 img {
                     // background: #fff;
                     width: 100%;
                 }
-    
+
                 .redes-social {
                     position: absolute;
                     bottom: -10;
@@ -492,12 +520,12 @@ section {
                     background: rgba(0, 0, 0, 0.932);
                     padding: 2rem;
                     cursor: pointer;
-    
+
                     a {
                         font-size: 2.4rem;
                         margin: 0 1rem;
                         color: $branco;
-    
+
                         &:hover {
                             color: $cor-principal;
                         }
@@ -506,7 +534,4 @@ section {
             }
         }
     }
-
-
-
 }
