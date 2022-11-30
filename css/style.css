@@ -225,6 +225,18 @@ section {
   color: #444;
 }
 
+.footer {
+  background: #c5bcdd;
+}
+.footer .credito {
+  text-align: center;
+  font-size: 2rem;
+  color: #444;
+}
+.footer .credito span {
+  color: #2929e1;
+}
+
 @media (max-width: 991px) {
   .inicio .content h1 {
     font-size: 4rem;

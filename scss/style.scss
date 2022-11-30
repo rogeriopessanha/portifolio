@@ -330,6 +330,24 @@ section {
 }
 // FINAL DA SECTION PROJETOS
 
+
+
+.footer{
+    background: #c5bcdd;
+
+    .credito{
+        text-align: center;
+        // margin-top: 1rem;
+        // padding-top: 1rem;
+        @include tituloTexto(2rem);
+        // border-top: $borda;
+
+        span{
+            color: $cor-principal;
+        }
+    }
+}
+
 @media (max-width: 991px) {
     .inicio {
         .content {
