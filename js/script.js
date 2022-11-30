@@ -114,7 +114,7 @@ window.onload = () => {
 var swiper = new Swiper(".projetos-slider", {
     loop:true,
     effect: "flip",
-    grabCursor: true,
+    // grabCursor: true,
     pagination: {
       el: ".swiper-pagination",
     },

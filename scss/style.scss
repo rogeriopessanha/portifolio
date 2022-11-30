@@ -334,13 +334,12 @@ section {
 
 .footer{
     background: #c5bcdd;
+    padding: 2rem;
 
     .credito{
+
         text-align: center;
-        // margin-top: 1rem;
-        // padding-top: 1rem;
         @include tituloTexto(2rem);
-        // border-top: $borda;
 
         span{
             color: $cor-principal;
@@ -549,6 +548,19 @@ section {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .footer{
+        padding: 2rem;
+    
+        .credito{
+            text-align: center;
+            @include tituloTexto(1.4rem);
+    
+            span{
+                color: $cor-principal;
             }
         }
     }
