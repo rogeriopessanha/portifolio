@@ -353,84 +353,62 @@ section {
 // COMEÇO SECTION CONTATO
 .contato{
 
-    .icons-container{
-        margin-bottom: 3rem;
-        @include grid(25rem);
 
-        .icons{
-            text-align: center;
-            padding: 3rem 2rem;
-            border: $borda;
-            background: $cor-secundaria;
+    // margin-top: 2rem;
+    // padding: 3rem;
 
-            i{
-                height: 5rem;
-                width: 5rem;
-                line-height: 5rem;
-                font-size: 2rem;
-                border-radius: 50%;
-                margin-bottom: .5rem;
-                color: $branco;
-                background: $cor-principal;
-            }
+    // .icons-container{
 
-            h3{
-                @include tituloTexto(2rem);
-                padding: .5rem 0;
-            }
+    //     margin-bottom: 3rem;
+    //     @include grid(25rem);
 
-            p{
-                @include subTexto(1.6rem);
-            }
-        }
-    }
+    //     .icons{
+    //         text-align: center;
+    //         padding: 3rem 2rem;
+    //         border: $borda;
+    //         background: $cor-secundaria;
+
+    //         i{
+    //             height: 5rem;
+    //             width: 5rem;
+    //             line-height: 5rem;
+    //             font-size: 2rem;
+    //             border-radius: 50%;
+    //             margin-bottom: .5rem;
+    //             color: $branco;
+    //             background: $cor-principal;
+    //         }
+
+    //         h3{
+    //             @include tituloTexto(2rem);
+    //             padding: .5rem 0;
+    //         }
+
+    //         p{
+    //             @include subTexto(1.6rem);
+    //         }
+    //     }
+    // }
 
     .row{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
 
-        .icons{
-            text-align: center;
-            padding: 3rem 2rem;
-            border: $borda;
-            background: $cor-secundaria;
-
-            i{
-                height: 5rem;
-                width: 5rem;
-                line-height: 5rem;
-                font-size: 2rem;
-                border-radius: 50%;
-                margin-bottom: .5rem;
-                color: $branco;
-                background: $cor-principal;
-            }
-
-            h3{
-                @include tituloTexto(2rem);
-                padding: .5rem 0;
-            }
-
-            p{
-                @include subTexto(1.6rem);
-            }
-        }
-
+        
         .image{
             flex: 1 1 40rem;
-            transform: rotateY(180deg);
 
             img{
-                width: 100%;
+                width: 80%;
             }
         }
 
         form{
             flex: 1 1 40rem;
             border: $borda;
-            padding: 2rem;
+            padding: 1rem;
 
             h3{
                 @include tituloTexto(2.5rem);
@@ -444,6 +422,7 @@ section {
                 font-size: 1.6rem;
                 margin: .7rem 0;
 
+
                 &:focus{
                     background: $cor-principal;
                     color: $branco;
@@ -455,7 +434,7 @@ section {
             }
 
             textarea{
-                height: 15rem;
+                height: 10rem;
                 resize: none;
             }
         }

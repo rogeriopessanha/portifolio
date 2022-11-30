@@ -240,81 +240,22 @@ section {
   color: #444;
 }
 
-.contato .icons-container {
-  margin-bottom: 3rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 2rem;
-}
-.contato .icons-container .icons {
-  text-align: center;
-  padding: 3rem 2rem;
-  border: 0.1rem solid #2929e1;
-  background: #2da4f3;
-}
-.contato .icons-container .icons i {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
-  color: #fff;
-  background: #2929e1;
-}
-.contato .icons-container .icons h3 {
-  font-size: 2rem;
-  color: #444;
-  padding: 0.5rem 0;
-}
-.contato .icons-container .icons p {
-  font-size: 1.6rem;
-  line-height: 2;
-  color: #444;
-}
 .contato .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
-}
-.contato .row .icons {
-  text-align: center;
-  padding: 3rem 2rem;
-  border: 0.1rem solid #2929e1;
-  background: #2da4f3;
-}
-.contato .row .icons i {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
-  color: #fff;
-  background: #2929e1;
-}
-.contato .row .icons h3 {
-  font-size: 2rem;
-  color: #444;
-  padding: 0.5rem 0;
-}
-.contato .row .icons p {
-  font-size: 1.6rem;
-  line-height: 2;
-  color: #444;
+  gap: 1rem;
 }
 .contato .row .image {
   flex: 1 1 40rem;
-  transform: rotateY(180deg);
 }
 .contato .row .image img {
-  width: 100%;
+  width: 80%;
 }
 .contato .row form {
   flex: 1 1 40rem;
   border: 0.1rem solid #2929e1;
-  padding: 2rem;
+  padding: 1rem;
 }
 .contato .row form h3 {
   font-size: 2.5rem;
@@ -336,7 +277,7 @@ section {
   color: #2da4f3;
 }
 .contato .row form textarea {
-  height: 15rem;
+  height: 10rem;
   resize: none;
 }
 
