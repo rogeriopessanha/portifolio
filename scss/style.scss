@@ -64,6 +64,24 @@ section {
     @include tituloTexto(3.5rem);
 }
 
+// BOTÃO
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    border: $borda;
+    background: $cor-principal;
+    color: $branco;
+    cursor: pointer;
+
+    &:hover{
+        background: $cor-secundaria;
+        color: $branco;
+    }
+
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -332,7 +350,118 @@ section {
 
 
 
+// COMEÇO SECTION CONTATO
+.contato{
 
+    .icons-container{
+        margin-bottom: 3rem;
+        @include grid(25rem);
+
+        .icons{
+            text-align: center;
+            padding: 3rem 2rem;
+            border: $borda;
+            background: $cor-secundaria;
+
+            i{
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                font-size: 2rem;
+                border-radius: 50%;
+                margin-bottom: .5rem;
+                color: $branco;
+                background: $cor-principal;
+            }
+
+            h3{
+                @include tituloTexto(2rem);
+                padding: .5rem 0;
+            }
+
+            p{
+                @include subTexto(1.6rem);
+            }
+        }
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .icons{
+            text-align: center;
+            padding: 3rem 2rem;
+            border: $borda;
+            background: $cor-secundaria;
+
+            i{
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                font-size: 2rem;
+                border-radius: 50%;
+                margin-bottom: .5rem;
+                color: $branco;
+                background: $cor-principal;
+            }
+
+            h3{
+                @include tituloTexto(2rem);
+                padding: .5rem 0;
+            }
+
+            p{
+                @include subTexto(1.6rem);
+            }
+        }
+
+        .image{
+            flex: 1 1 40rem;
+            transform: rotateY(180deg);
+
+            img{
+                width: 100%;
+            }
+        }
+
+        form{
+            flex: 1 1 40rem;
+            border: $borda;
+            padding: 2rem;
+
+            h3{
+                @include tituloTexto(2.5rem);
+                padding-bottom: 1rem;
+            }
+
+            .box{
+                width: 100%;
+                padding: 1.2rem 1.4rem;
+                border: $borda;
+                font-size: 1.6rem;
+                margin: .7rem 0;
+
+                &:focus{
+                    background: $cor-principal;
+                    color: $branco;
+
+                    &::placeholder{
+                        color: $cor-secundaria;
+                    }
+                }
+            }
+
+            textarea{
+                height: 15rem;
+                resize: none;
+            }
+        }
+    }
+}
+// FINAL SECTION CONTATO
 
 
 
