@@ -245,46 +245,36 @@ section {
   color: #444;
 }
 
-.contato .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.contato .row .image {
-  flex: 1 1 40rem;
+.contato .mensagem {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contato .row .image img {
+.contato .mensagem form {
   width: 50%;
-}
-.contato .row form {
-  flex: 1 1 40rem;
   border: 0.1rem solid #2929e1;
   padding: 1rem;
 }
-.contato .row form h3 {
+.contato .mensagem form h3 {
   font-size: 2.5rem;
   color: #444;
   padding-bottom: 1rem;
 }
-.contato .row form .box {
+.contato .mensagem form .box {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border: 0.1rem solid #2929e1;
   font-size: 1.6rem;
   margin: 0.7rem 0;
 }
-.contato .row form .box:focus {
+.contato .mensagem form .box:focus {
   background: #2929e1;
   color: #fff;
 }
-.contato .row form .box:focus::placeholder {
+.contato .mensagem form .box:focus::placeholder {
   color: #2da4f3;
 }
-.contato .row form textarea {
+.contato .mensagem form textarea {
   height: 10rem;
   resize: none;
 }

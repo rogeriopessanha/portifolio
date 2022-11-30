@@ -401,28 +401,18 @@ section {
     //     }
     // }
 
-    .row{
+    .mensagem{
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 1rem;
-
-        
-        .image{
-            flex: 1 1 40rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            img{
-                width: 50%;
-            }
-        }
+        justify-content: center;
 
         form{
-            flex: 1 1 40rem;
+            // flex: 1 1 40rem;
+            width: 50%;
+
             border: $borda;
             padding: 1rem;
+
 
             h3{
                 @include tituloTexto(2.5rem);
@@ -435,6 +425,7 @@ section {
                 border: $borda;
                 font-size: 1.6rem;
                 margin: .7rem 0;
+
 
 
                 &:focus{
