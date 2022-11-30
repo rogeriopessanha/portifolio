@@ -345,6 +345,53 @@ section {
     line-height: 2;
     color: #444;
   }
+  .projetos .slide {
+    text-align: center;
+  }
+  .projetos .slide:hover .image img {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .projetos .slide:hover .image .redes-social {
+    bottom: 0;
+  }
+  .projetos .slide .image {
+    position: relative;
+    overflow: hidden;
+    height: 50rem;
+    width: 50rem;
+    margin: auto;
+  }
+  .projetos .slide .image img {
+    background: #2da4f3;
+    width: 100%;
+  }
+  .projetos .slide .image .redes-social {
+    position: absolute;
+    bottom: -10;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.932);
+    padding: 2rem;
+    cursor: pointer;
+  }
+  .projetos .slide .image .redes-social a {
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: #fff;
+  }
+  .projetos .slide .image .redes-social a:hover {
+    color: #2929e1;
+  }
+  .projetos .slide .content {
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .projetos .slide .content h3 {
+    font-size: 2rem;
+    color: #444;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

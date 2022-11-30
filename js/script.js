@@ -65,23 +65,23 @@ window.onload = () => {
 
 
 
-var swiper = new Swiper(".projetos-slider", {
-    effect: "cube",
-    autoplay: {
-        delay: 6500,
-        disableOnInteraction: false,
-    },
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 1,
-        shadowScale: 0.64,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
+// var swiper = new Swiper(".projetos-slider", {
+//     effect: "cube",
+//     autoplay: {
+//         delay: 6500,
+//         disableOnInteraction: false,
+//     },
+//     cubeEffect: {
+//         shadow: true,
+//         slideShadows: true,
+//         shadowOffset: 1,
+//         shadowScale: 0.64,
+//     },
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+// });
 
 
 
@@ -111,16 +111,21 @@ var swiper = new Swiper(".projetos-slider", {
 
 
 
-// var swiper = new Swiper(".projetos-slider", {
-//     effect: "flip",
-//     grabCursor: true,
-//     pagination: {
-//       el: ".swiper-pagination",
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//     },
-//   });
+var swiper = new Swiper(".projetos-slider", {
+    loop:true,
+    effect: "flip",
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
 

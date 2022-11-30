@@ -293,29 +293,11 @@ section {
             }
         }
     }
-
-    // .swiper-button-next,
-    // .swiper-button-prev {
-    //     border: $borda;
-    //     border-radius: 10%;
-    //     height: 5rem;
-    //     width: 5rem;
-    //     color: $verde;
-    //     background: rgba(255, 255, 255, 0.203);
-    // }
-
-    // .swiper-button-next::after,
-    // .swiper-button-prev::after {
-    //     font-size: 3.5rem;
-    // }
-
-    // .swiper-button-next:hover,
-    // .swiper-button-prev:hover {
-    //     background: $verde;
-    //     color: $branco;
-    // }
 }
 // FINAL DA SECTION PROJETOS
+
+
+
 
 @media (max-width: 991px) {
     .inicio {
@@ -470,4 +452,75 @@ section {
             }
         }
     }
+
+
+
+    .projetos {
+
+        .slide {
+            text-align: center;
+    
+            &:hover {
+                .image {
+                    img {
+                        background: rgba(0, 0, 0, 0.8);
+                    }
+    
+                    .redes-social {
+                        bottom: 0;
+                    }
+                }
+            }
+    
+            .image {
+                position: relative;
+                overflow: hidden;
+                height: 50rem;
+                width: 50rem;
+                margin: auto;
+    
+                img {
+                    background: $cor-secundaria;
+                    width: 100%;
+                }
+    
+                .redes-social {
+                    position: absolute;
+                    bottom: -10;
+                    left: 0;
+                    right: 0;
+                    background: rgba(0, 0, 0, 0.932);
+                    padding: 2rem;
+                    cursor: pointer;
+    
+                    a {
+                        font-size: 3rem;
+                        margin: 0 1rem;
+                        color: $branco;
+    
+                        &:hover {
+                            color: $cor-principal;
+                        }
+                    }
+                }
+            }
+    
+            .content {
+                display: flex;
+                padding-top: 1rem;
+                align-items: center;
+                justify-content: center;
+    
+                h3 {
+                    @include tituloTexto(2rem);
+                }
+            }
+        }
+    
+        
+    }
+
+
+
+
 }
