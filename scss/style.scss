@@ -20,7 +20,7 @@ $box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 @mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-    gap: 2rem;
+    gap: 3rem;
 }
 
 @mixin tituloTexto($tituloSize) {
@@ -39,7 +39,7 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
-    height: 1500px;
+
 
     &::-webkit-scrollbar {
         width: 1rem;
@@ -251,10 +251,10 @@ section {
 // COMEÇO DA SECTION HABILIDADES
 .skills {
     .box-container {
-        @include grid(15rem);
+        @include grid(20rem);
 
         .box {
-            padding: 3rem 2rem;
+            padding: 1rem;
             text-align: center;
             border: $borda;
             background: #eee;
@@ -272,12 +272,12 @@ section {
             }
 
             img {
-                height: 5rem;
+                height: 10rem;
                 margin-bottom: 0.5rem;
             }
 
             h3 {
-                @include tituloTexto(1.4rem);
+                @include tituloTexto(2rem);
                 padding: 0.5rem 0;
             }
         }
