@@ -36,39 +36,39 @@ window.onload = () => {
 
 
 
+var swiper = new Swiper(".projetos-slider", {
+    loop:true,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+  },
+//   
+    breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        991: {
+          slidesPerView: 3,
+        },
+        1440: {
+            slidesPerView: 4,
+          },
+      },
+  });
+
+
+
+
+
 // var swiper = new Swiper(".projetos-slider", {
 //     loop:true,
-//     grabCursor:true,
-//     spaceBetween: 20,
-//     autoplay: {
-//       delay: 6500,
-//       disableOnInteraction: false,
-//   },
-//   navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//   },
-//     breakpoints: {
-//         0: {
-//           slidesPerView: 1,
-//         },
-//         768: {
-//           slidesPerView: 2,
-//         },
-//         991: {
-//           slidesPerView: 3,
-//         },
-//       },
-//   });
-
-
-
-
-
-// var swiper = new Swiper(".projetos-slider", {
 //     effect: "cube",
 //     autoplay: {
-//         delay: 6500,
+//         delay: 2500,
 //         disableOnInteraction: false,
 //     },
 //     cubeEffect: {
@@ -111,21 +111,21 @@ window.onload = () => {
 
 
 
-var swiper = new Swiper(".projetos-slider", {
-    loop:true,
-    effect: "flip",
-    // grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    autoplay: {
-        delay: 6500,
-        disableOnInteraction: false,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+// var swiper = new Swiper(".projetos-slider", {
+//     loop:true,
+//     effect: "flip",
+//     // grabCursor: true,
+//     pagination: {
+//       el: ".swiper-pagination",
+//     },
+//     autoplay: {
+//         delay: 6500,
+//         disableOnInteraction: false,
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//   });
 
 

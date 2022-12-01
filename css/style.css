@@ -198,20 +198,20 @@ section {
 .projetos .slide {
   text-align: center;
 }
-.projetos .slide:hover .image .redes-social {
+.projetos .slide:hover .image .links-projeto {
   bottom: 0;
 }
 .projetos .slide .image {
   position: relative;
   overflow: hidden;
-  height: 50rem;
-  width: 50rem;
+  height: 30rem;
+  width: 30rem;
   margin: auto;
 }
 .projetos .slide .image img {
   width: 100%;
 }
-.projetos .slide .image .redes-social {
+.projetos .slide .image .links-projeto {
   position: absolute;
   bottom: -10;
   left: 0;
@@ -220,17 +220,17 @@ section {
   padding: 2rem;
   cursor: pointer;
 }
-.projetos .slide .image .redes-social h1 {
+.projetos .slide .image .links-projeto h1 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem;
 }
-.projetos .slide .image .redes-social a {
+.projetos .slide .image .links-projeto a {
   font-size: 3rem;
   margin: 0 1rem;
   color: #fff;
 }
-.projetos .slide .image .redes-social a:hover {
+.projetos .slide .image .links-projeto a:hover {
   color: #2929e1;
 }
 .projetos .slide .content {
@@ -439,7 +439,7 @@ section {
   .projetos .slide {
     text-align: center;
   }
-  .projetos .slide:hover .image .redes-social {
+  .projetos .slide:hover .image .links-projeto {
     bottom: 0;
   }
   .projetos .slide .image {
@@ -452,7 +452,7 @@ section {
   .projetos .slide .image img {
     width: 100%;
   }
-  .projetos .slide .image .redes-social {
+  .projetos .slide .image .links-projeto {
     position: absolute;
     bottom: -10;
     left: 0;
@@ -461,12 +461,12 @@ section {
     padding: 2rem;
     cursor: pointer;
   }
-  .projetos .slide .image .redes-social a {
+  .projetos .slide .image .links-projeto a {
     font-size: 2.4rem;
     margin: 0 1rem;
     color: #fff;
   }
-  .projetos .slide .image .redes-social a:hover {
+  .projetos .slide .image .links-projeto a:hover {
     color: #2929e1;
   }
   .contato .titulo {
