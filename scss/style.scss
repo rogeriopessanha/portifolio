@@ -287,31 +287,41 @@ section {
 
 // COMEÇO DA SECTION PROJETOS
 .projetos {
+
+    background-color: #2da4f3;
+
     .slide {
-        text-align: center;
+        // text-align: center;
 
-        &:hover {
-            .image {
-                img {
-                    // background: rgba(0, 0, 0, 0.8);
-                }
+        // &:hover {
+        //     .image {
+        //         img {
+        //             // background: rgba(0, 0, 0, 0.8);
+        //         }
 
-                .links-projeto {
-                    bottom: 0;
-                }
-            }
-        }
+        //         .links-projeto {
+        //             bottom: 0;
+        //         }
+        //     }
+        // }
 
         .image {
-            position: relative;
-            overflow: hidden;
-            height: 30rem;
-            width: 30rem;
-            margin: auto;
+            text-align: center;
+            padding: 3rem 2rem;
+            background: #fff;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            outline: 0.1rem solid #ccc;
+            outline-offset: -1.5rem;
+            cursor: pointer;
+
+            &:hover {
+                outline: 0.1rem solid #222;
+                outline-offset: 0;
+                transform: scale(0.9);
+            }
 
             img {
-                // background: $cor-secundaria;
-                width: 100%;
+                height: 30rem;
             }
 
             .links-projeto {

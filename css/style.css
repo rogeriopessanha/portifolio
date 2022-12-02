@@ -195,21 +195,25 @@ section {
   padding: 0.5rem 0;
 }
 
-.projetos .slide {
-  text-align: center;
-}
-.projetos .slide:hover .image .links-projeto {
-  bottom: 0;
+.projetos {
+  background-color: #2da4f3;
 }
 .projetos .slide .image {
-  position: relative;
-  overflow: hidden;
-  height: 30rem;
-  width: 30rem;
-  margin: auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  outline: 0.1rem solid #ccc;
+  outline-offset: -1.5rem;
+  cursor: pointer;
+}
+.projetos .slide .image:hover {
+  outline: 0.1rem solid #222;
+  outline-offset: 0;
+  transform: scale(0.9);
 }
 .projetos .slide .image img {
-  width: 100%;
+  height: 30rem;
 }
 .projetos .slide .image .links-projeto {
   position: absolute;

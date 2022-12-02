@@ -38,7 +38,7 @@ window.onload = () => {
 
 var swiper = new Swiper(".projetos-slider", {
     loop:true,
-    spaceBetween: 10,
+    spaceBetween: 20,
     autoplay: {
       delay: 6500,
       disableOnInteraction: false,
