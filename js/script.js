@@ -11,9 +11,6 @@ document.querySelector('#close-navbar').onclick = () => {
     navBar.classList.remove('active');
 }
 
-
-
-
 window.onscroll = () => {
     navBar.classList.remove('active');
 

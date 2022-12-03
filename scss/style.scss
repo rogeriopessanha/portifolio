@@ -175,7 +175,7 @@ section {
 
         h2 {
             font-size: 4.2rem;
-            color: #4800ff;
+            color: #333;
             padding-bottom: 1rem;
         }
 
@@ -288,9 +288,9 @@ section {
 // COMEÇO DA SECTION PROJETOS
 .projetos {
 
-    background-color: #2da4f3;
+    background-color: #baddf5;
 
-    .slide {
+    
         // text-align: center;
 
         // &:hover {
@@ -361,7 +361,7 @@ section {
                 @include tituloTexto(2rem);
             }
         }
-    }
+    
 }
 // FINAL DA SECTION PROJETOS
 
@@ -431,6 +431,42 @@ section {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 991px) {
     .inicio {
