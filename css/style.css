@@ -278,6 +278,9 @@ section {
   font-size: 1.8rem;
   color: #777;
 }
+.projetos .modal .modal-body i {
+  font-size: 4rem;
+}
 .projetos .modal .modal-footer h3 {
   font-size: 1.8rem;
   padding: 2rem;
