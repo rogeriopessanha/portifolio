@@ -1,6 +1,5 @@
 
 
-
 let navBar = document.querySelector('.header .navbar')
 
 document.querySelector('#menu-btn').onclick = () => {
@@ -29,6 +28,44 @@ window.onload = () => {
         document.querySelector('.header').classList.remove('active');
     }
 }
+
+
+
+
+const modalFoto = document.querySelectorAll('.image-modal')
+
+modalFoto.forEach(function(foto){
+
+    foto.onclick = function(){
+
+        const modal = foto.getAttribute('data-modal')
+
+        document.getElementById(modal).style.display = 'flex'
+    }
+})
+
+const fotoFechar = document.querySelectorAll('.modal-fechar')
+
+fotoFechar.forEach(function(foto){
+    foto.onclick = function(){
+        const modal = (foto.closest('.modal').style.display = 'none')
+    }
+})
+
+
+window.onclick = function(e){
+    if (e.target.className === 'modal') {
+        e.target.style.display = 'none'
+    }
+}
+
+
+
+
+
+
+
+
 
 
 

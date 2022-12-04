@@ -246,42 +246,41 @@ section {
   justify-content: center;
 }
 .projetos .modal .modal-conteudo {
-  padding: 2rem;
-  margin: 2rem;
+  padding: 3rem;
   text-align: center;
   background: #fff;
   position: relative;
-  width: 26rem;
+  width: 40rem;
 }
-.projetos .modal .modal-conteudo .modal-header .modal-fechar {
+.projetos .modal .modal-conteudo .modal-fechar {
   position: absolute;
   top: 0.8rem;
   right: 0.8rem;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #444;
   cursor: pointer;
 }
-.projetos .modal .modal-conteudo .modal-header .modal-fechar:hover {
+.projetos .modal .modal-conteudo .modal-fechar:hover {
   transform: rotate(90deg);
 }
 .projetos .modal .modal-conteudo .modal-header img {
-  height: 10rem;
+  height: 25rem;
 }
 .projetos .modal .modal-body h3 {
   font-weight: 500;
   padding: 10px 0;
-  font-size: 26px;
+  font-size: 2.2rem;
   color: red;
 }
 .projetos .modal .modal-body p {
   line-height: 1.2rem;
   padding: 1rem 0;
-  font-size: 1rem;
+  font-size: 1.8rem;
   color: #777;
 }
 .projetos .modal .modal-footer h3 {
-  font-size: 2rem;
-  padding-top: 1.5rem;
+  font-size: 1.8rem;
+  padding: 2rem;
 }
 .projetos .modal .modal-footer .botao {
   display: flex;
@@ -293,8 +292,8 @@ section {
 .projetos .modal .modal-footer .botao a {
   width: 10rem;
   padding: 0.5rem;
-  font-size: 1rem;
-  color: #444;
+  font-size: 2rem;
+  color: rgb(68, 68, 68);
   border: 0.1rem solid #444;
 }
 .projetos .modal .modal-footer .botao .link-site {

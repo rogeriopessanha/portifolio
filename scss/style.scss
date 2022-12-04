@@ -342,29 +342,29 @@ section {
         justify-content: center;
 
         .modal-conteudo {
-            padding: 2rem;
-            margin: 2rem;
+            padding: 3rem;
             text-align: center;
             background: #fff;
             position: relative;
-            width: 26rem;
+            width: 40rem;
+
+            .modal-fechar {
+                position: absolute;
+                top: 0.8rem;
+                right: 0.8rem;
+                font-size: 3rem;
+                color: #444;
+                cursor: pointer;
+
+                &:hover {
+                    transform: rotate(90deg);
+                }
+            }
 
             .modal-header {
-                .modal-fechar {
-                    position: absolute;
-                    top: 0.8rem;
-                    right: 0.8rem;
-                    font-size: 2rem;
-                    color: #444;
-                    cursor: pointer;
-
-                    &:hover {
-                        transform: rotate(90deg);
-                    }
-                }
-
+                
                 img {
-                    height: 10rem;
+                    height: 25rem;
                 }
             }
         }
@@ -373,22 +373,22 @@ section {
             h3 {
                 font-weight: 500;
                 padding: 10px 0;
-                font-size: 26px;
+                font-size: 2.2rem;
                 color: red;
             }
 
             p {
                 line-height: 1.2rem;
                 padding: 1rem 0;
-                font-size: 1rem;
+                font-size: 1.8rem;
                 color: #777;
             }
         }
 
         .modal-footer {
             h3 {
-                font-size: 2rem;
-                padding-top: 1.5rem;
+                font-size: 1.8rem;
+                padding: 2rem;
             }
 
             .botao {
@@ -401,8 +401,8 @@ section {
                 a {
                     width: 10rem;
                     padding: 0.5rem;
-                    font-size: 1rem;
-                    color: #444;
+                    font-size: 2rem;
+                    color: rgb(68, 68, 68);
                     border: 0.1rem solid #444;
                 }
                 .link-site {
