@@ -284,71 +284,75 @@ section {
 
 // COMEÇO DA SECTION PROJETOS
 .projetos {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
 
-    .titulo {
-        font-size: 3rem;
-        color: #444;
-        margin-bottom: 3rem;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    .modal-principal{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-        gap: 2rem;
-    }
-
-    .image-modal {
-        text-align: center;
+    
+    .container-modal {
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 3rem 2rem;
-        background: #fff;
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-        outline: 0.1rem solid #ccc;
-        outline-offset: -1.5rem;
-        cursor: pointer;
 
-        &:hover {
-            outline: 0.1rem solid #222;
-            outline-offset: 0;
-            transform: scale(0.9);
+        .titulo {
+            font-size: 3rem;
+            color: #444;
+            margin-bottom: 3rem;
+            text-transform: uppercase;
+            text-align: center;
         }
 
-        img {
-            height: 10rem;
-            cursor: pointer;
-        }
+        .modal-principal {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+            gap: 2rem;
 
-        h3{
-            font-size: 2rem;
-        }
-
-        .links-projeto {
-            position: absolute;
-            bottom: -10;
-            left: 0;
-            right: 0;
-            background: rgba(0, 0, 0, 0.932);
-            padding: 2rem;
-            cursor: pointer;
-
-            h1 {
-                color: $branco;
-                font-size: 2rem;
-                padding: 1rem;
-            }
-
-            a {
-                font-size: 3rem;
-                margin: 0 1rem;
-                color: $branco;
+            .image-modal {
+                text-align: center;
+                padding: 3rem 2rem;
+                background: #fff;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+                outline: 0.1rem solid #ccc;
+                outline-offset: -1.5rem;
+                cursor: pointer;
 
                 &:hover {
-                    color: $cor-principal;
+                    outline: 0.1rem solid #222;
+                    outline-offset: 0;
+                    transform: scale(0.9);
                 }
+
+                img {
+                    height: 20rem;
+                    cursor: pointer;
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .links-projeto {
+        position: absolute;
+        bottom: -10;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.932);
+        padding: 2rem;
+        cursor: pointer;
+
+        h1 {
+            color: $branco;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+
+        a {
+            font-size: 3rem;
+            margin: 0 1rem;
+            color: $branco;
+
+            &:hover {
+                color: $cor-principal;
             }
         }
     }
