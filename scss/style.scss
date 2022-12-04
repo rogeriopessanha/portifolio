@@ -285,7 +285,7 @@ section {
 // COMEÇO DA SECTION PROJETOS
 .projetos {
 
-    
+
     .container-modal {
         max-width: 1200px;
         margin: 0 auto;
@@ -301,7 +301,7 @@ section {
 
         .modal-principal {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
             gap: 2rem;
 
             .image-modal {
@@ -320,7 +320,7 @@ section {
                 }
 
                 img {
-                    height: 20rem;
+                    height: 25rem;
                     cursor: pointer;
                 }
 
@@ -331,43 +331,48 @@ section {
         }
     }
 
-    .links-projeto {
-        position: absolute;
-        bottom: -10;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.932);
-        padding: 2rem;
-        cursor: pointer;
 
-        h1 {
-            color: $branco;
-            font-size: 2rem;
-            padding: 1rem;
-        }
 
-        a {
-            font-size: 3rem;
-            margin: 0 1rem;
-            color: $branco;
 
-            &:hover {
-                color: $cor-principal;
-            }
-        }
-    }
+    
 
-    .content {
-        display: flex;
-        padding-top: 1rem;
-        align-items: center;
-        justify-content: center;
+//     .links-projeto {
+//         position: absolute;
+//         bottom: -10;
+//         left: 0;
+//         right: 0;
+//         background: rgba(0, 0, 0, 0.932);
+//         padding: 2rem;
+//         cursor: pointer;
 
-        h3 {
-            @include tituloTexto(2rem);
-        }
-    }
-}
+//         h1 {
+//             color: $branco;
+//             font-size: 2rem;
+//             padding: 1rem;
+//         }
+
+//         a {
+//             font-size: 3rem;
+//             margin: 0 1rem;
+//             color: $branco;
+
+//             &:hover {
+//                 color: $cor-principal;
+//             }
+//         }
+//     }
+
+//     .content {
+//         display: flex;
+//         padding-top: 1rem;
+//         align-items: center;
+//         justify-content: center;
+
+//         h3 {
+//             @include tituloTexto(2rem);
+//         }
+//     }
+// }
 // FINAL DA SECTION PROJETOS
 
 // COMEÇO SECTION CONTATO
