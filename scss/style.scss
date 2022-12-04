@@ -284,8 +284,6 @@ section {
 
 // COMEÇO DA SECTION PROJETOS
 .projetos {
-
-
     .container-modal {
         max-width: 1200px;
         margin: 0 auto;
@@ -326,53 +324,142 @@ section {
 
                 h3 {
                     font-size: 2rem;
+                    padding-top: 1.5rem;
                 }
             }
         }
     }
 
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        width: 100%;
+        background: rgba(42, 6, 249, 0.171);
+        display: none;
+        align-items: center;
+        justify-content: center;
 
+        .modal-conteudo {
+            padding: 2rem;
+            margin: 2rem;
+            text-align: center;
+            background: #fff;
+            position: relative;
+            width: 26rem;
 
+            .modal-header {
+                .modal-fechar {
+                    position: absolute;
+                    top: 0.8rem;
+                    right: 0.8rem;
+                    font-size: 2rem;
+                    color: #444;
+                    cursor: pointer;
 
-    
+                    &:hover {
+                        transform: rotate(90deg);
+                    }
+                }
 
-//     .links-projeto {
-//         position: absolute;
-//         bottom: -10;
-//         left: 0;
-//         right: 0;
-//         background: rgba(0, 0, 0, 0.932);
-//         padding: 2rem;
-//         cursor: pointer;
+                img {
+                    height: 10rem;
+                }
+            }
+        }
 
-//         h1 {
-//             color: $branco;
-//             font-size: 2rem;
-//             padding: 1rem;
-//         }
+        .modal-body {
+            h3 {
+                font-weight: 500;
+                padding: 10px 0;
+                font-size: 26px;
+                color: red;
+            }
 
-//         a {
-//             font-size: 3rem;
-//             margin: 0 1rem;
-//             color: $branco;
+            p {
+                line-height: 1.2rem;
+                padding: 1rem 0;
+                font-size: 1rem;
+                color: #777;
+            }
+        }
 
-//             &:hover {
-//                 color: $cor-principal;
-//             }
-//         }
-//     }
+        .modal-footer {
+            h3 {
+                font-size: 2rem;
+                padding-top: 1.5rem;
+            }
 
-//     .content {
-//         display: flex;
-//         padding-top: 1rem;
-//         align-items: center;
-//         justify-content: center;
+            .botao {
+                display: flex;
+                gap: 1.5rem;
+                flex-wrap: wrap;
+                margin-top: 1rem;
+                justify-content: center;
 
-//         h3 {
-//             @include tituloTexto(2rem);
-//         }
-//     }
-// }
+                a {
+                    width: 10rem;
+                    padding: 0.5rem;
+                    font-size: 1rem;
+                    color: #444;
+                    border: 0.1rem solid #444;
+                }
+                .link-site {
+                    background: #444;
+                    color: #fff;
+                    &:hover {
+                        background: #111;
+                    }
+                }
+
+                .link-github {
+                    &:hover {
+                        background: #444;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    // .links-projeto {
+    //     position: absolute;
+    //     bottom: -10;
+    //     left: 0;
+    //     right: 0;
+    //     background: rgba(0, 0, 0, 0.932);
+    //     padding: 2rem;
+    //     cursor: pointer;
+
+    //     h1 {
+    //         color: $branco;
+    //         font-size: 2rem;
+    //         padding: 1rem;
+    //     }
+
+    //     a {
+    //         font-size: 3rem;
+    //         margin: 0 1rem;
+    //         color: $branco;
+
+    //         &:hover {
+    //             color: $cor-principal;
+    //         }
+    //     }
+    // }
+
+    // .content {
+    //     display: flex;
+    //     padding-top: 1rem;
+    //     align-items: center;
+    //     justify-content: center;
+
+    //     h3 {
+    //         @include tituloTexto(2rem);
+    //     }
+    // }
+}
 // FINAL DA SECTION PROJETOS
 
 // COMEÇO SECTION CONTATO
