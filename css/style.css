@@ -166,9 +166,9 @@ section {
 }
 
 .skills .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 3rem;
+  width: 30rem;
+  height: 15rem;
+  margin: auto;
 }
 .skills .box-container .box {
   padding: 1rem;
@@ -208,12 +208,12 @@ section {
   text-transform: uppercase;
   text-align: center;
 }
-.projetos .container-modal .modal-principal-slider {
+.projetos .container-modal .modal-principal {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 2rem;
 }
-.projetos .container-modal .modal-principal-slider .image-modal {
+.projetos .container-modal .modal-principal .image-modal {
   text-align: center;
   padding: 3rem 2rem;
   background: #fff;
@@ -222,16 +222,16 @@ section {
   outline-offset: -1.5rem;
   cursor: pointer;
 }
-.projetos .container-modal .modal-principal-slider .image-modal:hover {
+.projetos .container-modal .modal-principal .image-modal:hover {
   outline: 0.1rem solid #222;
   outline-offset: 0;
   transform: scale(0.9);
 }
-.projetos .container-modal .modal-principal-slider .image-modal img {
+.projetos .container-modal .modal-principal .image-modal img {
   height: 25rem;
   cursor: pointer;
 }
-.projetos .container-modal .modal-principal-slider .image-modal h3 {
+.projetos .container-modal .modal-principal .image-modal h3 {
   font-size: 2rem;
   padding-top: 1.5rem;
 }
@@ -377,6 +377,14 @@ section {
     font-size: 3rem;
     transition: 0.6s;
   }
+  .skills .titulo {
+    font-size: 3rem;
+  }
+  .skills .box-container {
+    width: 34rem;
+    height: 25rem;
+    padding: 2rem;
+  }
 }
 @media (max-width: 768px) {
   .header #menu-btn {
@@ -407,21 +415,44 @@ section {
     text-align: center;
     font-size: 2.5rem;
   }
-  .inicio .content h1 {
-    font-size: 4rem;
+  .inicio {
+    min-height: 95vh;
+    width: 100vw;
+    background: linear-gradient(115deg, #fff 42%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: background 10s alternate infinite;
+    padding-top: 15rem;
   }
-  .inicio .content h2 {
+  .inicio .content h1 {
     font-size: 3.2rem;
   }
+  .inicio .content h2 {
+    font-size: 2.6rem;
+  }
   .inicio .content h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+  .inicio .content .redes {
+    position: absolute;
+    bottom: -15%;
+    width: 100%;
   }
   .inicio .content .redes a {
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    font-size: 2.8rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.3rem;
+    margin-right: 0.9rem;
+    font-size: 2rem;
     transition: 0.6s;
+  }
+  .skills .titulo {
+    font-size: 3rem;
+  }
+  .skills .box-container {
+    width: 26rem;
+    height: 22rem;
   }
   .contato .titulo {
     font-size: 3rem;
@@ -452,9 +483,9 @@ section {
     font-size: 45%;
   }
   .inicio {
-    min-height: 100vh;
+    min-height: 55vh;
     width: 100vw;
-    background: linear-gradient(125deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+    background: linear-gradient(115deg, #fff 38%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -487,9 +518,9 @@ section {
     font-size: 2.8rem;
   }
   .skills .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 3rem;
+    width: 22.5rem;
+    height: 12rem;
+    padding: 2.4rem;
   }
   .skills .box-container .box img {
     height: 6rem;
