@@ -64,35 +64,76 @@ window.onclick = function(e){
 
 
 
+  
+
+
+
+
+
+var swiper = new Swiper(".modal-principal-slider", {
+
+    loop:true,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },   
+      breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          991: {
+            slidesPerView: 3,
+          },
+          1440: {
+              slidesPerView: 4,
+            },
+        },
 
 
 
 
 
 
-// var swiper = new Swiper(".projetos-slider", {
-//     loop:true,
-//     spaceBetween: 20,
-//     autoplay: {
-//       delay: 6500,
-//       disableOnInteraction: false,
-//   },
-// //   
-//     breakpoints: {
-//         0: {
-//           slidesPerView: 1,
-//         },
-//         768: {
-//           slidesPerView: 2,
-//         },
-//         991: {
-//           slidesPerView: 3,
-//         },
-//         1440: {
-//             slidesPerView: 4,
-//           },
-//       },
-//   });
+
+
+
+
+
+//    
+  });
+
+//   loop:true,
+  //     spaceBetween: 20,
+  //     autoplay: {
+  //       delay: 6500,
+  //       disableOnInteraction: false,
+  //   },
+  //   navigation: {
+  //     nextEl: ".swiper-button-next",
+  //     prevEl: ".swiper-button-prev",
+  // },   
+  //     breakpoints: {
+  //         0: {
+  //           slidesPerView: 1,
+  //         },
+  //         768: {
+  //           slidesPerView: 2,
+  //         },
+  //         991: {
+  //           slidesPerView: 3,
+  //         },
+  //         1440: {
+  //             slidesPerView: 4,
+  //           },
+  //       },
 
 
 

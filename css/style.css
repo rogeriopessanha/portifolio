@@ -208,12 +208,12 @@ section {
   text-transform: uppercase;
   text-align: center;
 }
-.projetos .container-modal .modal-principal {
+.projetos .container-modal .modal-principal-slider {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 2rem;
 }
-.projetos .container-modal .modal-principal .image-modal {
+.projetos .container-modal .modal-principal-slider .image-modal {
   text-align: center;
   padding: 3rem 2rem;
   background: #fff;
@@ -222,18 +222,36 @@ section {
   outline-offset: -1.5rem;
   cursor: pointer;
 }
-.projetos .container-modal .modal-principal .image-modal:hover {
+.projetos .container-modal .modal-principal-slider .image-modal:hover {
   outline: 0.1rem solid #222;
   outline-offset: 0;
   transform: scale(0.9);
 }
-.projetos .container-modal .modal-principal .image-modal img {
+.projetos .container-modal .modal-principal-slider .image-modal img {
   height: 25rem;
   cursor: pointer;
 }
-.projetos .container-modal .modal-principal .image-modal h3 {
+.projetos .container-modal .modal-principal-slider .image-modal h3 {
   font-size: 2rem;
   padding-top: 1.5rem;
+}
+.projetos .container-modal .modal-principal-slider .swiper-button-next,
+.projetos .container-modal .modal-principal-slider .swiper-button-prev {
+  border: 0.5 solid blue;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  color: green;
+  background: rgba(255, 255, 255, 0.203);
+}
+.projetos .container-modal .modal-principal-slider .swiper-button-next::after,
+.projetos .container-modal .modal-principal-slider .swiper-button-prev::after {
+  font-size: 3.5rem;
+}
+.projetos .container-modal .modal-principal-slider .swiper-button-next:hover,
+.projetos .container-modal .modal-principal-slider .swiper-button-prev:hover {
+  background: red;
+  color: #fff;
 }
 .projetos .modal {
   position: fixed;
