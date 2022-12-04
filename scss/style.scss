@@ -285,9 +285,10 @@ section {
 // COMEÇO DA SECTION PROJETOS
 .projetos {
     .container-modal {
-        max-width: 1200px;
-        margin: 0 auto;
+        // max-width: 1200px;
+        // margin: 0 auto;
         padding: 3rem 2rem;
+        @include grid(20rem);
 
         .titulo {
             font-size: 3rem;
@@ -342,6 +343,7 @@ section {
         justify-content: center;
 
         .modal-conteudo {
+
             padding: 3rem;
             text-align: center;
             background: #fff;
@@ -362,7 +364,6 @@ section {
             }
 
             .modal-header {
-                
                 img {
                     height: 25rem;
                 }
@@ -384,7 +385,7 @@ section {
                 color: #777;
             }
 
-            i{
+            i {
                 font-size: 6rem;
             }
         }
@@ -404,7 +405,7 @@ section {
 
                 a {
                     width: 5rem;
-                    padding: .6rem;
+                    padding: 0.6rem;
                     font-size: 3rem;
                     color: rgb(68, 68, 68);
                     border: 0.2rem solid #444;
@@ -420,7 +421,7 @@ section {
                     &:hover {
                         // background: #111;
                         background: #444;
-                    color: #fff;
+                        color: #fff;
                     }
                 }
 
@@ -494,6 +495,12 @@ section {
 }
 
 @media (max-width: 991px) {
+
+
+    html {
+        font-size: 65%;
+    }
+
     .inicio {
         .content {
             h1 {
@@ -616,6 +623,12 @@ section {
 }
 
 @media (max-width: 500px) {
+
+
+    html {
+        font-size: 45%;
+    }
+
     .inicio {
         min-height: 100vh;
         width: 100vw;
