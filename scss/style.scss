@@ -155,7 +155,7 @@ section {
 .inicio {
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+    background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -184,9 +184,14 @@ section {
         }
 
         .redes {
-            position: absolute;
-            bottom: -35%;
-            width: 100%;
+            // position: absolute;
+            // bottom: -35%;
+            // width: 100%;
+            display: flex;
+            flex-direction: column;
+            top: 14rem;
+
+            .nomes{}
 
             a {
                 height: 5rem;
@@ -291,6 +296,7 @@ section {
     .container-modal {
         padding: 3rem 2rem;
         @include grid(20rem);
+        background: rgb(195, 232, 255);
 
         .titulo {
             font-size: 3rem;
@@ -321,7 +327,7 @@ section {
                 }
 
                 img {
-                    height: 25rem;
+                    height: 20rem;
                     cursor: pointer;
                 }
 
@@ -600,7 +606,7 @@ section {
     .inicio {
         min-height: 95vh;
         width: 100vw;
-        background: linear-gradient(115deg, #fff 42%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+        background: linear-gradient(115deg, #fff 42%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -690,7 +696,7 @@ section {
     .inicio {
         min-height: 55vh;
         width: 100vw;
-        background: linear-gradient(115deg, #fff 38%, rgba(196, 196, 196, 0) 5%), url(../img/foto1.jpg) no-repeat;
+        background: linear-gradient(115deg, #fff 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
