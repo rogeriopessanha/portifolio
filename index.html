@@ -45,11 +45,13 @@
             <h3>Sou um desenvolvedor front-end</h3>
 
             <div class="redes">
-                <a href="https://www.linkedin.com/in/rogerio-pessanha-b05150252/" target="_blank" class="fa-brands fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/rogerio-pessanha-b05150252/" target="_blank"
+                    class="fa-brands fa-linkedin"></a>
 
                 <a href="https://github.com/rogeriopessanha" target="_blank" class="fa-brands fa-github"></a>
 
-                <a href="https://wa.me/5521964224734?text=Olá, tudo bem?" target="_blank" class="fa-brands fa-whatsapp"></a>
+                <a href="https://wa.me/5521964224734?text=Olá, tudo bem?" target="_blank"
+                    class="fa-brands fa-whatsapp"></a>
 
             </div>
 
@@ -107,6 +109,8 @@
 
 
     <!-- COMEÇO DA SECTION PROJETOS -->
+
+
     <section class="projetos" id="projetos">
 
         <h1 class="titulo">Projetos</h1>
@@ -115,119 +119,178 @@
 
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide slide">
+                <div class="modal-principal">
 
-                    <div class="image">
-                        <img src="img/f1.jpg" alt="">
+                    <div class="swiper-slide slide">
 
-                        <!-- <div class="links-projeto">
-                            <a href="https://rogeriopessanha.github.io/projeto-curso-completo/" target="_blank" class="fa-solid fa-right-to-bracket"></a>
-                            <a href="https://github.com/rogeriopessanha/projeto-curso-completo" target="_blank" class="fab fa-github"></a>
+
+                        <div class="image-modal" data-modal="p1">
+                            <img src="img/f1.jpg" alt="">
+                            <h3>Clique na imagem</h3>
+                        </div>
+
+                        <div class="content">
+                            <h3>Projeto curso online</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                        <div class="image-modal" data-modal="p2">
+                            <img src="img/f2.jpg" alt="">
+                            <h3>Clique na imagem</h3>
+                        </div>
+
+                        <div class="content">
+                            <h3>Projeto petShop</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                        <div class="image-modal" data-modal="p3">
+                            <img src="img/f3.jpg" alt="">
+                            <h3>Clique na imagem</h3>
                         </div> -->
+                        </div>
+
+                        <div class="content">
+                            <h3>Projeto farmacia</h3>
+                        </div>
                     </div>
 
-                    <div class="content">
-                        <h3>Projeto curso online</h3>
+                    <div class="swiper-slide slide">
+
+                        <div class="image-modal" data-modal="p4">
+                            <img src="img/f4.jpg" alt="">
+                            <h3>Clique na imagem</h3>
+                        </div>
+
+                        <div class="content">
+                            <h3>Projeto 4</h3>
+                        </div>
                     </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image-modal" data-modal="p1">
+                            <img src="img/under.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>Projeto em desenvolvimento</h3>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="swiper-slide slide">
-
-                    <div class="image">
-                        <img src="img/f2.jpg" alt="">
-
-                        <!-- <div class="links-projeto">
-                            <a href="https://rogeriopessanha.github.io/projeto-petshop/" target="_blank" class="fa-solid fa-right-to-bracket"></a>
-                            <a href="https://github.com/rogeriopessanha/projeto-petshop" target="_blank" class="fab fa-github"></a>
-                        </div> -->
-                    </div>
-
-                    <div class="content">
-                        <h3>Projeto petShop</h3>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-
-                    <div class="image">
-                        <img src="img/f3.jpg" alt="">
-
-                        <!-- <div class="links-projeto">
-                            <a href="https://rogeriopessanha.github.io/projeto-farmacia/" target="_blank" class="fa-solid fa-right-to-bracket"></a>
-                            <a href="https://github.com/rogeriopessanha/projeto-farmacia" target="_blank" class="fab fa-github"></a>
-                        </div> -->
-                    </div>
-
-                    <div class="content">
-                        <h3>Projeto farmacia</h3>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-
-                    <div class="image">
-                        <img src="img/f4.jpg" alt="">
-
-                        <!-- <div class="links-projeto">
-                            <a href="#" target="_blank" class="fa-solid fa-right-to-bracket"></a>
-                            <a href="#" target="_blank" class="fab fa-github"></a>
-                        </div> -->
-                    </div>
-
-                    <div class="content">
-                        <h3>Projeto 4</h3>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="img/under.png" alt="">
-                    </div>
-
-                    <div class="content">
-                        <h3>Projeto em desenvolvimento</h3>
-                    </div>
-                </div>
-
-               
             </div>
+        </div>
 
+
+        <div class="modal" id="p1">
+            <div class="modal-conteudo">
+
+                <i class="fa-regular fa-circle-xmark modal-fechar"></i>
+    
+                <div class="modal-header">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+    
+                <div class="modal-body">
+                    <h3>Nome do projeto</h3>
+                    
+                    <p>Destrição do projeto</p>
+                </div>
+    
+                <div class="modal-footer">
+                    <h3>Links para o site e o github</h3>
+                    <div class="botao">
+                        <a href="#" class="link-site">Site</a>
+                        <a href="#" class="link-github">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="p2">
+            <div class="modal-conteudo">
+
+                <i class="fa-regular fa-circle-xmark modal-fechar"></i>
+    
+                <div class="modal-header">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+    
+                <div class="modal-body">
+                    <h3>Nome do projeto</h3>
+                    
+                    <p>Destrição do projeto</p>
+                </div>
+    
+                <div class="modal-footer">
+                    <h3>Links para o site e o github</h3>
+                    <div class="botao">
+                        <a href="#" class="link-site">Site</a>
+                        <a href="#" class="link-github">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="p3">
+            <div class="modal-conteudo">
+
+                <i class="fa-regular fa-circle-xmark modal-fechar"></i>
+    
+                <div class="modal-header">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+    
+                <div class="modal-body">
+                    <h3>Nome do projeto</h3>
+                    
+                    <p>Destrição do projeto</p>
+                </div>
+    
+                <div class="modal-footer">
+                    <h3>Links para o site e o github</h3>
+                    <div class="botao">
+                        <a href="#" class="link-site">Site</a>
+                        <a href="#" class="link-github">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="p4">
+            <div class="modal-conteudo">
+
+                <i class="fa-regular fa-circle-xmark modal-fechar"></i>
+    
+                <div class="modal-header">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+    
+                <div class="modal-body">
+                    <h3>Nome do projeto</h3>
+                    
+                    <p>Destrição do projeto</p>
+                </div>
+    
+                <div class="modal-footer">
+                    <h3>Links para o site e o github</h3>
+                    <div class="botao">
+                        <a href="#" class="link-site">Site</a>
+                        <a href="#" class="link-github">Github</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
     <!-- FINAL SECTION PROJETOS -->
 
 
-    <!-- <div class="hide" id="fade"></div>
-
-
-    <div class="hide" id="modal">
-
-        <div class="modal-box">
-
-            <div class="modal-header">
-                <h1>Olá mundo</h1>
-            </div>
-    
-            <div class="modal-body">
-
-                <i class="fa-regular fa-circle-xmark"></i>
-                <img src="" alt="">
-                <h1>Nome do projeto</h1>
-                <p>Descrição do projeto aqui</p>
-                <h3>Links para o projeto</h3>
-                <div class="botao">
-                    <a href="#" class="link-site">Visistar</a>
-                    <a href="#" class="link-github">Visistar</a>
-                    <a href="#" id="close-modal">Fechar</a>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-
-
-   
 
 
 
@@ -256,11 +319,9 @@
 
 
 
+    <!-- COMEÇO SECTION CONTATO -->
 
-
-       <!-- COMEÇO SECTION CONTATO -->
-
-       <section class="contato" id="contato">
+    <section class="contato" id="contato">
 
         <h1 class="titulo">Entre em contato</h1>
 
