@@ -196,9 +196,23 @@ section {
 }
 
 .projetos {
-  background-color: #baddf5;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
 }
-.projetos .image {
+.projetos .titulo {
+  font-size: 3rem;
+  color: #444;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.projetos .modal-principal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+}
+.projetos .image-modal {
   text-align: center;
   padding: 3rem 2rem;
   background: #fff;
@@ -207,15 +221,19 @@ section {
   outline-offset: -1.5rem;
   cursor: pointer;
 }
-.projetos .image:hover {
+.projetos .image-modal:hover {
   outline: 0.1rem solid #222;
   outline-offset: 0;
   transform: scale(0.9);
 }
-.projetos .image img {
-  height: 30rem;
+.projetos .image-modal img {
+  height: 10rem;
+  cursor: pointer;
 }
-.projetos .image .links-projeto {
+.projetos .image-modal h3 {
+  font-size: 2rem;
+}
+.projetos .image-modal .links-projeto {
   position: absolute;
   bottom: -10;
   left: 0;
@@ -224,17 +242,17 @@ section {
   padding: 2rem;
   cursor: pointer;
 }
-.projetos .image .links-projeto h1 {
+.projetos .image-modal .links-projeto h1 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem;
 }
-.projetos .image .links-projeto a {
+.projetos .image-modal .links-projeto a {
   font-size: 3rem;
   margin: 0 1rem;
   color: #fff;
 }
-.projetos .image .links-projeto a:hover {
+.projetos .image-modal .links-projeto a:hover {
   color: #2929e1;
 }
 .projetos .content {

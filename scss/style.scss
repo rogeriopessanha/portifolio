@@ -40,7 +40,6 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
 
-
     &::-webkit-scrollbar {
         width: 1rem;
     }
@@ -65,7 +64,7 @@ section {
 }
 
 // BOTÃO
-.btn{
+.btn {
     display: inline-block;
     margin-top: 1rem;
     padding: 1rem 3rem;
@@ -75,11 +74,10 @@ section {
     color: $branco;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
         background: $cor-secundaria;
         color: $branco;
     }
-
 }
 
 .header {
@@ -247,7 +245,6 @@ section {
     // }
 }
 
-
 // COMEÇO DA SECTION HABILIDADES
 .skills {
     .box-container {
@@ -287,125 +284,123 @@ section {
 
 // COMEÇO DA SECTION PROJETOS
 .projetos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
 
-    background-color: #baddf5;
+    .titulo {
+        font-size: 3rem;
+        color: #444;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
 
-    
-        // text-align: center;
+    .modal-principal{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        gap: 2rem;
+    }
 
-        // &:hover {
-        //     .image {
-        //         img {
-        //             // background: rgba(0, 0, 0, 0.8);
-        //         }
+    .image-modal {
+        text-align: center;
+        padding: 3rem 2rem;
+        background: #fff;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        outline: 0.1rem solid #ccc;
+        outline-offset: -1.5rem;
+        cursor: pointer;
 
-        //         .links-projeto {
-        //             bottom: 0;
-        //         }
-        //     }
-        // }
+        &:hover {
+            outline: 0.1rem solid #222;
+            outline-offset: 0;
+            transform: scale(0.9);
+        }
 
-        .image {
-            text-align: center;
-            padding: 3rem 2rem;
-            background: #fff;
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-            outline: 0.1rem solid #ccc;
-            outline-offset: -1.5rem;
+        img {
+            height: 10rem;
+            cursor: pointer;
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+
+        .links-projeto {
+            position: absolute;
+            bottom: -10;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.932);
+            padding: 2rem;
             cursor: pointer;
 
-            &:hover {
-                outline: 0.1rem solid #222;
-                outline-offset: 0;
-                transform: scale(0.9);
+            h1 {
+                color: $branco;
+                font-size: 2rem;
+                padding: 1rem;
             }
 
-            img {
-                height: 30rem;
-            }
+            a {
+                font-size: 3rem;
+                margin: 0 1rem;
+                color: $branco;
 
-            .links-projeto {
-                position: absolute;
-                bottom: -10;
-                left: 0;
-                right: 0;
-                background: rgba(0, 0, 0, 0.932);
-                padding: 2rem;
-                cursor: pointer;
-
-                h1{
-                    color: $branco;
-                    font-size: 2rem;
-                    padding: 1rem;
-                }
-
-                a {
-                    font-size: 3rem;
-                    margin: 0 1rem;
-                    color: $branco;
-
-                    &:hover {
-                        color: $cor-principal;
-                    }
+                &:hover {
+                    color: $cor-principal;
                 }
             }
         }
+    }
 
-        .content {
-            display: flex;
-            padding-top: 1rem;
-            align-items: center;
-            justify-content: center;
+    .content {
+        display: flex;
+        padding-top: 1rem;
+        align-items: center;
+        justify-content: center;
 
-            h3 {
-                @include tituloTexto(2rem);
-            }
+        h3 {
+            @include tituloTexto(2rem);
         }
-    
+    }
 }
 // FINAL DA SECTION PROJETOS
 
-
-
 // COMEÇO SECTION CONTATO
-.contato{
-
-    .mensagem{
+.contato {
+    .mensagem {
         display: flex;
         align-items: center;
         justify-content: center;
 
-        form{
+        form {
             width: 30%;
             border: $borda;
             padding: 1rem;
 
-
-            h3{
+            h3 {
                 @include tituloTexto(2.5rem);
                 padding-bottom: 1rem;
             }
 
-            .box{
+            .box {
                 width: 100%;
                 padding: 1.2rem 1.4rem;
                 border: $borda;
                 font-size: 1.6rem;
-                margin: .7rem 0;
+                margin: 0.7rem 0;
 
-
-
-                &:focus{
+                &:focus {
                     background: $cor-principal;
                     color: $branco;
 
-                    &::placeholder{
+                    &::placeholder {
                         color: $cor-secundaria;
                     }
                 }
             }
 
-            textarea{
+            textarea {
                 height: 10rem;
                 resize: none;
             }
@@ -414,59 +409,19 @@ section {
 }
 // FINAL SECTION CONTATO
 
-
-
-
-.footer{
+.footer {
     background: #c5bcdd;
     padding: 2rem;
 
-    .credito{
-
+    .credito {
         text-align: center;
         @include tituloTexto(2rem);
 
-        span{
+        span {
             color: $cor-principal;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 991px) {
     .inicio {
@@ -558,34 +513,31 @@ section {
         }
     }
 
-
-    .contato{
-
-        .titulo{
+    .contato {
+        .titulo {
             font-size: 3rem;
         }
 
-        .mensagem{
-    
-            form{
+        .mensagem {
+            form {
                 width: 80%;
                 border: $borda;
                 padding: 1rem;
-    
-                h3{
+
+                h3 {
                     @include tituloTexto(2.2rem);
                     padding-bottom: 1rem;
                 }
-    
-                .box{
+
+                .box {
                     width: 100%;
                     padding: 1.2rem 1.4rem;
                     border: $borda;
                     font-size: 1.8rem;
-                    margin: .7rem 0;
+                    margin: 0.7rem 0;
                 }
 
-                .btn{
+                .btn {
                     font-size: 1.6rem;
                 }
             }
@@ -635,8 +587,7 @@ section {
     }
 
     .skills {
-
-        .titulo{
+        .titulo {
             font-size: 2.8rem;
         }
 
@@ -662,8 +613,7 @@ section {
     }
 
     .projetos {
-
-        .titulo{
+        .titulo {
             font-size: 2.8rem;
         }
 
@@ -717,55 +667,47 @@ section {
         }
     }
 
-
-    .contato{
-
-        .titulo{
+    .contato {
+        .titulo {
             font-size: 2.8rem;
         }
 
-        .mensagem{
-    
-            form{
+        .mensagem {
+            form {
                 width: 100%;
                 border: $borda;
                 padding: 1rem;
-    
-    
-                h3{
+
+                h3 {
                     @include tituloTexto(2rem);
                     padding-bottom: 1rem;
                 }
-    
-                .box{
+
+                .box {
                     width: 100%;
                     padding: 1.2rem 1.4rem;
                     border: $borda;
                     font-size: 1.3rem;
-                    margin: .7rem 0;
+                    margin: 0.7rem 0;
                 }
 
-                .btn{
+                .btn {
                     font-size: 1.2rem;
                 }
             }
         }
     }
 
-
-    .footer{
+    .footer {
         padding: 2rem;
-    
-        .credito{
+
+        .credito {
             text-align: center;
             @include tituloTexto(1.4rem);
-    
-            span{
+
+            span {
                 color: $cor-principal;
             }
         }
     }
-
-
-
 }
