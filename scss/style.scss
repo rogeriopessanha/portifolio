@@ -329,26 +329,26 @@ section {
                 }
             }
 
-            .swiper-button-next,
-            .swiper-button-prev {
-                border: .5 solid blue;
-                border-radius: 50%;
-                height: 5rem;
-                width: 5rem;
-                color: green;
-                background: rgba(255, 255, 255, 0.203);
-            }
+            // .swiper-button-next,
+            // .swiper-button-prev {
+            //     border: .5 solid blue;
+            //     border-radius: 50%;
+            //     height: 5rem;
+            //     width: 5rem;
+            //     color: green;
+            //     background: rgba(255, 255, 255, 0.203);
+            // }
 
-            .swiper-button-next::after,
-            .swiper-button-prev::after {
-                font-size: 3.5rem;
-            }
+            // .swiper-button-next::after,
+            // .swiper-button-prev::after {
+            //     font-size: 3.5rem;
+            // }
 
-            .swiper-button-next:hover,
-            .swiper-button-prev:hover {
-                background: red;
-                color: #fff;
-            }
+            // .swiper-button-next:hover,
+            // .swiper-button-prev:hover {
+            //     background: red;
+            //     color: #fff;
+            // }
 
            
         }

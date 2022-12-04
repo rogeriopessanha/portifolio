@@ -235,24 +235,6 @@ section {
   font-size: 2rem;
   padding-top: 1.5rem;
 }
-.projetos .container-modal .modal-principal-slider .swiper-button-next,
-.projetos .container-modal .modal-principal-slider .swiper-button-prev {
-  border: 0.5 solid blue;
-  border-radius: 50%;
-  height: 5rem;
-  width: 5rem;
-  color: green;
-  background: rgba(255, 255, 255, 0.203);
-}
-.projetos .container-modal .modal-principal-slider .swiper-button-next::after,
-.projetos .container-modal .modal-principal-slider .swiper-button-prev::after {
-  font-size: 3.5rem;
-}
-.projetos .container-modal .modal-principal-slider .swiper-button-next:hover,
-.projetos .container-modal .modal-principal-slider .swiper-button-prev:hover {
-  background: red;
-  color: #fff;
-}
 .projetos .modal {
   position: fixed;
   top: 0;
