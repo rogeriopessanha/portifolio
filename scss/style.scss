@@ -151,6 +151,7 @@ section {
     }
 }
 
+
 /* COMEÇO SECTION INICIO  */
 .inicio {
     min-height: 100vh;
@@ -196,34 +197,36 @@ section {
 
             
 
+            
+
             .icon{
                 margin: 0 1rem;
                 cursor: pointer;
                 display: flex;
                 align-items: flex-end;
+                // background: red;
 
                
                 
 
-                span{
-                    position: relative;
+                // span{
 
-                    height: 50px;
-                    width: 50px;
-                    display: block;
-                    border-radius: 50%;
-                    text-align: center;
-                    background: rgb(236, 230, 253);
-                    font-size: 12px;
-                    line-height: 50px;
-                    box-shadow: $box-shadow;
+                //     height: 50px;
+                //     width: 50px;
+                //     display: block;
+                //     border-radius: 50%;
+                //     text-align: center;
+                //     background: rgb(209, 238, 247);
+                //     font-size: 12px;
+                //     line-height: 50px;
+                //     // box-shadow: $box-shadow;
 
-                    a{
-                        font-size: 25px;
-                        line-height: 60px;
+                //     a{
+                //         font-size: 25px;
+                //         line-height: 60px;
                         
-                    }
-                }
+                //     }
+                // }
 
                 .social{
                     background: rgb(231, 90, 184);
@@ -231,8 +234,8 @@ section {
                     padding: 5px 10px;
                     border-radius: 25px;
                     box-shadow: $box-shadow;
-                    opacity: 0;
-                    pointer-events: none;
+                    // opacity: 0;
+                    // pointer-events: none;
 
                     
 
@@ -241,22 +244,23 @@ section {
             }
 
             a {
-                // height: 5rem;
-                // width: 5rem;
-                // line-height: 5rem;
-                // text-align: center;
-                // margin-right: 1.5rem;
-                // background: #280483;
-                // color: #fff;
-                // border-radius: 5rem;
-                // font-size: 3rem;
-                // transition: 0.6s;
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                text-align: center;
+                margin-right: 1.5rem;
+                background: #280483;
+                color: #fff;
+                border-radius: 5rem;
+                font-size: 3rem;
+                transition: 0.6s;
+                
 
-                // &:hover {
-                //     text-decoration: none;
-                //     background: #eee;
-                //     color: #4800ff;
-                // }
+                &:hover {
+                    text-decoration: none;
+                    background: #eee;
+                    color: #4800ff;
+                }
             }
         }
     }
