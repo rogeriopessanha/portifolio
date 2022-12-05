@@ -142,41 +142,27 @@ section {
   color: #333;
   padding-bottom: 3rem;
 }
-.inicio .content .redes {
-  display: flex;
-  flex-direction: column;
-  top: 14rem;
-  place-items: start;
+.inicio .content .social-botao {
+  position: relative;
+  top: 1rem;
 }
-.inicio .content .redes .icon {
-  margin: 0 1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: flex-end;
+.inicio .content .social-botao ul {
+  list-style: none;
 }
-.inicio .content .redes .icon .social {
-  background: rgb(231, 90, 184);
-  font-size: 20px;
-  padding: 5px 10px;
-  border-radius: 25px;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+.inicio .content .social-botao ul li {
+  background: rgba(0, 0, 0, 0.36);
 }
-.inicio .content .redes a {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
+.inicio .content .social-botao .icon {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   text-align: center;
   margin-right: 1.5rem;
   background: #280483;
   color: #fff;
   border-radius: 5rem;
-  font-size: 3rem;
+  font-size: 2rem;
   transition: 0.6s;
-}
-.inicio .content .redes a:hover {
-  text-decoration: none;
-  background: #eee;
-  color: #4800ff;
 }
 
 .skills .box-container {
