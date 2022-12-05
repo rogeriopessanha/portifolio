@@ -187,6 +187,9 @@ section {
         .social-botao{
             position: relative;
             top: 1rem;
+            right: 2rem;
+            display: flex;
+            justify-content: start;
 
             ul{
                 // padding: 1rem;
@@ -194,7 +197,17 @@ section {
 
                 li{
                     background: rgba(0, 0, 0, 0.36);
+                    display: block;
+                    margin: 1rem;
+                    width: 20rem;
+                    font-size: 2rem;
+                    padding: 1rem;
+                    border-radius: 2.2rem;
+                    transition: all 1s;
+                    
                 }
+
+                
             }
 
             .icon{
@@ -208,77 +221,10 @@ section {
                 border-radius: 5rem;
                 font-size: 2rem;
                 transition: 0.6s;
+                
             }
         } 
             
-            // display: flex;
-            // flex-direction: column;
-            // top: 14rem;
-            // place-items: start;
-
-            
-
-            
-
-            // .icon{
-            //     margin: 0 1rem;
-            //     cursor: pointer;
-            //     display: flex;
-            //     align-items: flex-end;
-                
-
-               
-                
-
-                // span{
-
-                //     height: 50px;
-                //     width: 50px;
-                //     display: block;
-                //     border-radius: 50%;
-                //     text-align: center;
-                //     background: rgb(209, 238, 247);
-                //     font-size: 12px;
-                //     line-height: 50px;
-                //     // box-shadow: $box-shadow;
-
-                //     a{
-                //         font-size: 25px;
-                //         line-height: 60px;
-                        
-                //     }
-                // }
-
-                // .social{
-                //     background: rgb(231, 90, 184);
-                //     font-size: 20px;
-                //     padding: 5px 10px;
-                //     border-radius: 25px;
-                //     box-shadow: $box-shadow;
-                //     opacity: 0;
-                //     pointer-events: none;
-                // }
-            
-
-            // a {
-            //     height: 5rem;
-            //     width: 5rem;
-            //     line-height: 5rem;
-            //     text-align: center;
-            //     margin-right: 1.5rem;
-            //     background: #280483;
-            //     color: #fff;
-            //     border-radius: 5rem;
-            //     font-size: 3rem;
-            //     transition: 0.6s;
-                
-
-            //     &:hover {
-            //         text-decoration: none;
-            //         background: #eee;
-            //         color: #4800ff;
-            //     }
-            // }
         
     }
 

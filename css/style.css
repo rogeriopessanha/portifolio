@@ -145,12 +145,22 @@ section {
 .inicio .content .social-botao {
   position: relative;
   top: 1rem;
+  right: 2rem;
+  display: flex;
+  justify-content: start;
 }
 .inicio .content .social-botao ul {
   list-style: none;
 }
 .inicio .content .social-botao ul li {
   background: rgba(0, 0, 0, 0.36);
+  display: block;
+  margin: 1rem;
+  width: 20rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 2.2rem;
+  transition: all 1s;
 }
 .inicio .content .social-botao .icon {
   height: 4rem;
