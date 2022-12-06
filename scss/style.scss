@@ -396,48 +396,50 @@ section {
 }
 
 // COMEÇO DA SECTION HABILIDADES
-.skills {
-    background: #222;
+// .skills {
+//     background: #222;
 
-    .titulo {
-        color: #fff;
-    }
-    .box-container {
-        // @include grid(20rem);
-        width: 30rem;
-        height: 15rem;
-        margin: auto;
+//     .titulo {
+//         color: #fff;
+//     }
+//     .box-container {
+//         @include grid(20rem);
+//         // width: 10rem;
+//         // height: 15rem;
+//         // margin: auto;
 
-        .box {
-            padding: 1rem;
-            text-align: center;
-            border: $borda;
-            background: #eee;
+//         .box {
+//             padding: 3rem 2rem;
+//             text-align: center;
+//             border: $borda;
+//             background: rgb(237, 6, 6);
 
-            &:hover {
-                background: $preto;
+//             &:hover {
+//                 background: $preto;
 
-                h3 {
-                    color: $branco;
-                }
+//                 h3 {
+//                     color: $branco;
+//                 }
 
-                p {
-                    color: $branco;
-                }
-            }
+//                 p {
+//                     color: $branco;
+//                 }
+//             }
 
-            img {
-                height: 10rem;
-                margin-bottom: 0.5rem;
-            }
+//             img {
+//                 height: 3rem;
+//                 margin-bottom: 0.5rem;
+//             }
 
-            h3 {
-                @include tituloTexto(2rem);
-                padding: 0.5rem 0;
-            }
-        }
-    }
-}
+//             h3 {
+//                 @include tituloTexto(2rem);
+//                 padding: 0.5rem 0;
+//             }
+//         }
+//     }
+
+    
+// }
 // FINAL DA SECTION HABILIDADES
 
 // COMEÇO DA SECTION PROJETOS
@@ -495,7 +497,7 @@ section {
         left: 0;
         min-height: 100vh;
         width: 100%;
-        background: rgba(42, 6, 249, 0.171);
+        background: rgba(0, 0, 0, 0.723);
         display: none;
         align-items: center;
         justify-content: center;

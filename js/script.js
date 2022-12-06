@@ -63,26 +63,26 @@ window.onclick = function(e){
 
 
 
-var swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    autoplay: {
-        delay: 4500,
-        disableOnInteraction: false,
-      },
-    coverflowEffect: {
-      rotate: 55,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
+// var swiper = new Swiper(".mySwiper", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     autoplay: {
+//         delay: 4500,
+//         disableOnInteraction: false,
+//       },
+//     coverflowEffect: {
+//       rotate: 55,
+//       stretch: 0,
+//       depth: 100,
+//       modifier: 1,
+//       slideShadows: true,
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//     },
+//   });
 
 
 
@@ -93,33 +93,33 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-// var swiper = new Swiper(".modal-principal-slider", {
+var swiper = new Swiper(".mySwiper", {
 
-//     loop:true,
-//       spaceBetween: 20,
-//       autoplay: {
-//         delay: 6500,
-//         disableOnInteraction: false,
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//   },   
-//       breakpoints: {
-//           0: {
-//             slidesPerView: 1,
-//           },
-//           768: {
-//             slidesPerView: 2,
-//           },
-//           991: {
-//             slidesPerView: 3,
-//           },
-//           1440: {
-//               slidesPerView: 4,
-//             },
-//         },
-//   });
+    loop:true,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },   
+      breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          991: {
+            slidesPerView: 3,
+          },
+          1440: {
+              slidesPerView: 4,
+            },
+        },
+  });
 
 //   loop:true,
   //     spaceBetween: 20,
