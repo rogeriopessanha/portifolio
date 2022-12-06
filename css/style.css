@@ -181,9 +181,10 @@ section {
   left: 30%;
   top: -5%;
   opacity: 0;
-  transform: translateX(-30%);
+  transform: translateX(-15%);
   transition: left 0.3s ease;
   color: #fff;
+  font-size: 2rem;
 }
 .inicio .content .redes-s a:hover .texto {
   left: 180%;
@@ -253,6 +254,12 @@ section {
   box-shadow: -1px 1px 3px #fe3e30;
 }
 
+.skills {
+  background: #222;
+}
+.skills .titulo {
+  color: #fff;
+}
 .skills .box-container {
   width: 30rem;
   height: 15rem;
@@ -265,7 +272,7 @@ section {
   background: #eee;
 }
 .skills .box-container .box:hover {
-  background: #2929e1;
+  background: #444;
 }
 .skills .box-container .box:hover h3 {
   color: #fff;
