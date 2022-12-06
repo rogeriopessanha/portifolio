@@ -574,7 +574,7 @@ section {
   .inicio {
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(120deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
+    background: linear-gradient(90deg, #000 50%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -588,7 +588,7 @@ section {
     font-size: 1.8rem;
   }
   .inicio .content h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .inicio .content .redes-s a {
     margin: 0 25px;
@@ -596,11 +596,11 @@ section {
     color: #fff;
     display: block;
     position: relative;
-    margin: 24px;
+    margin: 28px;
   }
   .inicio .content .redes-s a .efeito {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     transition: transform 0.4s;
   }
   .inicio .content .redes-s a .efeito span {
@@ -614,8 +614,8 @@ section {
     transition: all 0.3s;
   }
   .inicio .content .redes-s a .efeito span.fab {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 30px;
     text-align: center;
   }
   .inicio .content .redes-s a .texto {
