@@ -844,13 +844,12 @@ section {
 
     html {
         font-size: 50%;
-        background: rgb(104, 78, 247);
     }
 
     .inicio {
         min-height: 100vh;
         width: 100vw;
-        background: linear-gradient(105deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
+        background: linear-gradient(120deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -1016,26 +1015,6 @@ section {
                 }
             }
 
-            // .swiper-button-next,
-            // .swiper-button-prev {
-            //     border: .5 solid blue;
-            //     border-radius: 50%;
-            //     height: 5rem;
-            //     width: 5rem;
-            //     color: green;
-            //     background: rgba(255, 255, 255, 0.203);
-            // }
-
-            // .swiper-button-next::after,
-            // .swiper-button-prev::after {
-            //     font-size: 3.5rem;
-            // }
-
-            // .swiper-button-next:hover,
-            // .swiper-button-prev:hover {
-            //     background: red;
-            //     color: #fff;
-            // }
         }
     }
 
@@ -1045,17 +1024,17 @@ section {
         left: 0;
         min-height: 100vh;
         width: 100%;
-        background: rgba(42, 6, 249, 0.171);
+        background: rgba(0, 0, 0, 0.723);
         display: none;
         align-items: center;
         justify-content: center;
 
         .modal-conteudo {
-            padding: 3rem;
+            padding: 4rem;
             text-align: center;
             background: #fff;
             position: relative;
-            width: 20rem;
+            width: 30rem;
 
             .modal-fechar {
                 position: absolute;
@@ -1072,23 +1051,23 @@ section {
 
             .modal-header {
                 img {
-                    height: 10rem;
+                    height: 12rem;
                 }
             }
         }
 
         .modal-body {
             h3 {
-                font-weight: 500;
+                font-weight: 600;
                 padding: 10px 0;
-                font-size: 2.2rem;
-                color: red;
+                font-size: 2rem;
+                color: rgb(0, 0, 0);
             }
 
             p {
                 line-height: 1.2rem;
                 padding: 1rem 0;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 color: #777;
             }
 

@@ -570,12 +570,11 @@ section {
 @media (max-width: 550px) {
   html {
     font-size: 50%;
-    background: rgb(104, 78, 247);
   }
   .inicio {
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(105deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
+    background: linear-gradient(120deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -714,17 +713,17 @@ section {
     left: 0;
     min-height: 100vh;
     width: 100%;
-    background: rgba(42, 6, 249, 0.171);
+    background: rgba(0, 0, 0, 0.723);
     display: none;
     align-items: center;
     justify-content: center;
   }
   .projetos .modal .modal-conteudo {
-    padding: 3rem;
+    padding: 4rem;
     text-align: center;
     background: #fff;
     position: relative;
-    width: 20rem;
+    width: 30rem;
   }
   .projetos .modal .modal-conteudo .modal-fechar {
     position: absolute;
@@ -738,18 +737,18 @@ section {
     transform: rotate(90deg);
   }
   .projetos .modal .modal-conteudo .modal-header img {
-    height: 10rem;
+    height: 12rem;
   }
   .projetos .modal .modal-body h3 {
-    font-weight: 500;
+    font-weight: 600;
     padding: 10px 0;
-    font-size: 2.2rem;
-    color: red;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
   }
   .projetos .modal .modal-body p {
     line-height: 1.2rem;
     padding: 1rem 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #777;
   }
   .projetos .modal .modal-body i {
