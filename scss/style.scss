@@ -1074,11 +1074,22 @@ section {
             i {
                 font-size: 6rem;
             }
+
+           
+
+            #secret1{
+                font-size: 5rem;
+            }
+            #secret2{
+                width: 5rem;
+            }
+            
         }
 
         .modal-footer {
             h3 {
-                font-size: 1.8rem;
+                font-size: 1.4rem;
+                font-weight: 600;
                 padding: 2rem;
             }
 
@@ -1090,9 +1101,9 @@ section {
                 justify-content: center;
 
                 a {
-                    width: 2rem;
+                    width: 4rem;
                     padding: 0.6rem;
-                    font-size: 1.2rem;
+                    font-size: 2rem;
                     color: rgb(68, 68, 68);
                     border: 0.2rem solid #444;
                     border-radius: 50%;
