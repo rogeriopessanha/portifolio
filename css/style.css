@@ -142,37 +142,115 @@ section {
   color: #333;
   padding-bottom: 3rem;
 }
-.inicio .content .social-botao {
-  position: relative;
-  top: 1rem;
-  right: 2rem;
-  display: flex;
-  justify-content: start;
+.inicio .content .icons {
+  display: inline-block;
 }
-.inicio .content .social-botao ul {
-  list-style: none;
-}
-.inicio .content .social-botao ul li {
-  background: rgba(0, 0, 0, 0.36);
-  display: block;
-  margin: 1rem;
-  width: 20rem;
-  font-size: 2rem;
-  padding: 1rem;
-  border-radius: 2.2rem;
-  transition: all 1s;
-}
-.inicio .content .social-botao .icon {
-  height: 4rem;
-  width: 4rem;
-  line-height: 4rem;
-  text-align: center;
-  margin-right: 1.5rem;
-  background: #280483;
+.inicio .content .icons a {
+  margin: 0 25px;
+  text-decoration: none;
   color: #fff;
-  border-radius: 5rem;
-  font-size: 2rem;
-  transition: 0.6s;
+  display: block;
+  position: relative;
+  margin: 40px;
+}
+.inicio .content .icons a .efeito {
+  width: 55px;
+  height: 55px;
+  transition: transform 0.4s;
+}
+.inicio .content .icons a .efeito span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.inicio .content .icons a .efeito span.fab {
+  font-size: 30px;
+  line-height: 55px;
+  text-align: center;
+}
+.inicio .content .icons a .efeito span:nth-child(1) {
+  opacity: 0.2;
+}
+.inicio .content .icons a .texto {
+  position: absolute;
+  left: 30%;
+  top: -5%;
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: left 0.3s ease;
+  color: #fff;
+}
+.inicio .content .icons a:hover .texto {
+  left: 180%;
+  opacity: 1;
+}
+.inicio .content .icons a:hover .efeito span:nth-child(2) {
+  opacity: 0.4;
+  transform: translate(5px, -5px);
+}
+.inicio .content .icons a:hover .efeito span:nth-child(3) {
+  opacity: 0.6;
+  transform: translate(10px, -10px);
+}
+.inicio .content .icons a:hover .efeito span:nth-child(4) {
+  opacity: 0.8;
+  transform: translate(15px, -15px);
+}
+.inicio .content .icons a:hover .efeito span:nth-child(5) {
+  opacity: 1;
+  transform: translate(20px, -20px);
+}
+.inicio .content .icons a:nth-child(1) .efeito span,
+.inicio .content .icons a:nth-child(1) .efeito .texto {
+  color: #0e76a8;
+  border-color: #0e76a8;
+}
+.inicio .content .icons a:nth-child(1) .texto {
+  color: #0e76a8;
+  border-color: #0e76a8;
+}
+.inicio .content .icons a:nth-child(2) .efeito span {
+  color: #fff;
+  border-color: #171515;
+}
+.inicio .content .icons a:nth-child(2) .texto {
+  color: #fff;
+  border-color: #171515;
+}
+.inicio .content .icons a:nth-child(3) .efeito span {
+  color: #25d366;
+  border-color: #075e54;
+}
+.inicio .content .icons a:nth-child(3) .texto {
+  color: #25d366;
+  border-color: #075e54;
+}
+.inicio .content .icons a:nth-child(4) .efeito span {
+  color: #fe3e30;
+  border-color: #fff;
+}
+.inicio .content .icons a:nth-child(4) .texto {
+  color: #fe3e30;
+  border-color: #fff;
+}
+.inicio .content .icons a:hover:nth-child(1) .efeito span {
+  box-shadow: -1px 1px 3px #0e76a8;
+}
+.inicio .content .icons a:hover:nth-child(2) .efeito span {
+  box-shadow: -1px 1px 3px #171515;
+  box-shadow: -1px 1px 3px #fff;
+}
+.inicio .content .icons a:hover:nth-child(3) .efeito span {
+  box-shadow: -1px 1px 3px #075e54;
+  box-shadow: -1px 1px 3px #25d366;
+}
+.inicio .content .icons a:hover:nth-child(4) .efeito span {
+  box-shadow: -1px 1px 3px #fe3e30;
 }
 
 .skills .box-container {
@@ -381,13 +459,6 @@ section {
   .inicio .content h3 {
     font-size: 2.8rem;
   }
-  .inicio .content .redes a {
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 3rem;
-    transition: 0.6s;
-  }
   .skills .titulo {
     font-size: 3rem;
   }
@@ -445,19 +516,6 @@ section {
   .inicio .content h3 {
     font-size: 2rem;
   }
-  .inicio .content .redes {
-    position: absolute;
-    bottom: -15%;
-    width: 100%;
-  }
-  .inicio .content .redes a {
-    height: 3.5rem;
-    width: 3.5rem;
-    line-height: 3.3rem;
-    margin-right: 0.9rem;
-    font-size: 2rem;
-    transition: 0.6s;
-  }
   .skills .titulo {
     font-size: 3rem;
   }
@@ -511,19 +569,6 @@ section {
   }
   .inicio .content h3 {
     font-size: 1.6rem;
-  }
-  .inicio .content .redes {
-    position: absolute;
-    bottom: -15%;
-    width: 100%;
-  }
-  .inicio .content .redes a {
-    height: 2.8rem;
-    width: 2.8rem;
-    line-height: 2.8rem;
-    margin-right: 0.8rem;
-    font-size: 1.6rem;
-    transition: 0.6s;
   }
   .skills .titulo {
     font-size: 2.8rem;

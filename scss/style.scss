@@ -184,48 +184,190 @@ section {
             padding-bottom: 3rem;
         }
 
-        .social-botao{
-            position: relative;
-            top: 1rem;
-            right: 2rem;
-            display: flex;
-            justify-content: start;
 
-            ul{
-                // padding: 1rem;
-                list-style: none;
+        // COMEÇO REDE SOCIAL
 
-                li{
-                    background: rgba(0, 0, 0, 0.36);
-                    display: block;
-                    margin: 1rem;
-                    width: 20rem;
-                    font-size: 2rem;
-                    padding: 1rem;
-                    border-radius: 2.2rem;
-                    transition: all 1s;
-                    
-                }
-
-                
-            }
-
-            .icon{
-                height: 4rem;
-                width: 4rem;
-                line-height: 4rem;
-                text-align: center;
-                margin-right: 1.5rem;
-                background: #280483;
-                color: #fff;
-                border-radius: 5rem;
-                font-size: 2rem;
-                transition: 0.6s;
-                
-            }
-        } 
-            
+        .icons {
+            display: inline-block;
         
+            a {
+                margin: 0 25px;
+                text-decoration: none;
+                color: #fff;
+                display: block;
+                position: relative;
+                margin: 40px;
+        
+                .efeito {
+                    width: 55px;
+                    height: 55px;
+                    transition: transform 0.4s;
+        
+                    span {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        border: 1px solid #fff;
+                        border-radius: 5px;
+                        transition: all 0.3s;
+        
+                        &.fab {
+                            font-size: 30px;
+                            line-height: 55px;
+                            text-align: center;
+                        }
+        
+                        &:nth-child(1) {
+                            opacity: 0.2;
+                        }
+        
+                    }
+                }
+        
+                .texto {
+                    position: absolute;
+                    left: 30%;
+                    top: -5%;
+                    opacity: 0;
+                    transform: translateX(-30%);
+                    transition: left 0.3s ease;
+                    color: #fff;
+                }
+        
+                &:hover {
+                    .texto {
+                        left: 180%;
+                        opacity: 1;
+                    }
+                }
+        
+                &:hover {
+                    .efeito {
+                        span {
+                            &:nth-child(2) {
+                                opacity: 0.4;
+                                transform: translate(5px, -5px);
+                            }
+        
+                            &:nth-child(3) {
+                                opacity: 0.6;
+                                transform: translate(10px, -10px);
+                            }
+        
+                            &:nth-child(4) {
+                                opacity: 0.8;
+                                transform: translate(15px, -15px);
+                            }
+        
+                            &:nth-child(5) {
+                                opacity: 1;
+                                transform: translate(20px, -20px);
+                            }
+                        }
+                    }
+                }
+        
+                &:nth-child(1) {
+                    .efeito {
+                        span,
+                        .texto {
+                            color: #0e76a8;
+                            border-color: #0e76a8;
+                        }
+                    }
+                    .texto {
+                        color: #0e76a8;
+                        border-color: #0e76a8;
+                    }
+                }
+        
+                &:nth-child(2) {
+                    .efeito {
+                        span {
+                            color: #fff;
+                            border-color: #171515;
+                        }
+                    }
+                    .texto {
+                        color: #fff;
+                        border-color: #171515;
+                    }
+                }
+        
+                &:nth-child(3) {
+                    .efeito {
+                        span {
+                            color: #25d366;
+                            border-color: #075e54;
+                        }
+                    }
+                    .texto {
+                        color: #25d366;
+                        border-color: #075e54;
+                    }
+                }
+        
+                &:nth-child(4) {
+                    .efeito {
+                        span {
+                            color: #fe3e30;
+                            border-color: #fff;
+                        }
+                    }
+                    .texto {
+                        color: #fe3e30;
+                        border-color: #fff;
+                    }
+                }
+        
+                &:hover:nth-child(1) {
+                    .efeito {
+                        span {
+                            box-shadow: -1px 1px 3px #0e76a8;
+                        }
+                    }
+                }
+        
+                &:hover:nth-child(2) {
+                    .efeito {
+                        span {
+                            box-shadow: -1px 1px 3px #171515;
+                            box-shadow: -1px 1px 3px #fff;
+                        }
+                    }
+                }
+        
+                &:hover:nth-child(3) {
+                    .efeito {
+                        span {
+                            box-shadow: -1px 1px 3px #075e54;
+                            box-shadow: -1px 1px 3px #25d366;
+                        }
+                    }
+                }
+        
+                &:hover:nth-child(4) {
+                    .efeito {
+                        span {
+                            box-shadow: -1px 1px 3px #fe3e30;
+                        }
+                    }
+                }
+            }
+        }
+
+        // FINAL REDE SOCIAL
+
+        
+
+
+
+        
+
+
+
     }
 
     // @keyframes background {
@@ -555,15 +697,15 @@ section {
                 font-size: 2.8rem;
             }
 
-            .redes {
-                a {
-                    height: 5rem;
-                    width: 5rem;
-                    line-height: 5rem;
-                    font-size: 3rem;
-                    transition: 0.6s;
-                }
-            }
+            // .redes {
+            //     a {
+            //         height: 5rem;
+            //         width: 5rem;
+            //         line-height: 5rem;
+            //         font-size: 3rem;
+            //         transition: 0.6s;
+            //     }
+            // }
         }
     }
 
@@ -640,20 +782,20 @@ section {
                 font-size: 2rem;
             }
 
-            .redes {
-                position: absolute;
-                bottom: -15%;
-                width: 100%;
+            // .redes {
+            //     position: absolute;
+            //     bottom: -15%;
+            //     width: 100%;
 
-                a {
-                    height: 3.5rem;
-                    width: 3.5rem;
-                    line-height: 3.3rem;
-                    margin-right: 0.9rem;
-                    font-size: 2rem;
-                    transition: 0.6s;
-                }
-            }
+            //     a {
+            //         height: 3.5rem;
+            //         width: 3.5rem;
+            //         line-height: 3.3rem;
+            //         margin-right: 0.9rem;
+            //         font-size: 2rem;
+            //         transition: 0.6s;
+            //     }
+            // }
         }
     }
 
@@ -730,20 +872,20 @@ section {
                 font-size: 1.6rem;
             }
 
-            .redes {
-                position: absolute;
-                bottom: -15%;
-                width: 100%;
+            // .redes {
+            //     position: absolute;
+            //     bottom: -15%;
+            //     width: 100%;
 
-                a {
-                    height: 2.8rem;
-                    width: 2.8rem;
-                    line-height: 2.8rem;
-                    margin-right: 0.8rem;
-                    font-size: 1.6rem;
-                    transition: 0.6s;
-                }
-            }
+            //     a {
+            //         height: 2.8rem;
+            //         width: 2.8rem;
+            //         line-height: 2.8rem;
+            //         margin-right: 0.8rem;
+            //         font-size: 1.6rem;
+            //         transition: 0.6s;
+            //     }
+            // }
         }
     }
 
