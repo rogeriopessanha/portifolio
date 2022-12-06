@@ -569,7 +569,7 @@ section {
 }
 @media (max-width: 550px) {
   html {
-    font-size: 50%;
+    font-size: 35%;
   }
   .inicio {
     min-height: 100vh;
@@ -682,7 +682,7 @@ section {
   }
   .projetos .container-modal .modal-principal {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
   }
   .projetos .container-modal .modal-principal .image-modal {
@@ -700,7 +700,7 @@ section {
     transform: scale(0.9);
   }
   .projetos .container-modal .modal-principal .image-modal img {
-    height: 20rem;
+    height: 14rem;
     cursor: pointer;
   }
   .projetos .container-modal .modal-principal .image-modal h3 {
@@ -723,7 +723,7 @@ section {
     text-align: center;
     background: #fff;
     position: relative;
-    width: 40rem;
+    width: 20rem;
   }
   .projetos .modal .modal-conteudo .modal-fechar {
     position: absolute;
@@ -737,7 +737,7 @@ section {
     transform: rotate(90deg);
   }
   .projetos .modal .modal-conteudo .modal-header img {
-    height: 25rem;
+    height: 10rem;
   }
   .projetos .modal .modal-body h3 {
     font-weight: 500;
@@ -748,7 +748,7 @@ section {
   .projetos .modal .modal-body p {
     line-height: 1.2rem;
     padding: 1rem 0;
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: #777;
   }
   .projetos .modal .modal-body i {
@@ -766,9 +766,9 @@ section {
     justify-content: center;
   }
   .projetos .modal .modal-footer .botao a {
-    width: 5rem;
+    width: 2rem;
     padding: 0.6rem;
-    font-size: 3rem;
+    font-size: 1.2rem;
     color: rgb(68, 68, 68);
     border: 0.2rem solid #444;
     border-radius: 50%;
