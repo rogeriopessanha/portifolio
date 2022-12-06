@@ -117,35 +117,35 @@ section {
 .inicio {
   min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+  background: linear-gradient(110deg, #000 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   animation: background 20s alternate infinite;
-  padding-top: 10rem;
+  padding-top: 1rem;
 }
 .inicio .content {
   position: relative;
 }
 .inicio .content h1 {
   font-size: 5rem;
-  color: #4800ff;
+  color: #9270e8;
   padding-bottom: 1rem;
 }
 .inicio .content h2 {
   font-size: 4.2rem;
-  color: #333;
+  color: rgb(240, 229, 229);
   padding-bottom: 1rem;
 }
 .inicio .content h3 {
   font-size: 3.8rem;
-  color: #333;
+  color: rgb(253, 244, 244);
   padding-bottom: 3rem;
 }
-.inicio .content .icons {
+.inicio .content .redes-s {
   display: inline-block;
 }
-.inicio .content .icons a {
+.inicio .content .redes-s a {
   margin: 0 25px;
   text-decoration: none;
   color: #fff;
@@ -153,12 +153,12 @@ section {
   position: relative;
   margin: 40px;
 }
-.inicio .content .icons a .efeito {
+.inicio .content .redes-s a .efeito {
   width: 55px;
   height: 55px;
   transition: transform 0.4s;
 }
-.inicio .content .icons a .efeito span {
+.inicio .content .redes-s a .efeito span {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,15 +168,15 @@ section {
   border-radius: 5px;
   transition: all 0.3s;
 }
-.inicio .content .icons a .efeito span.fab {
+.inicio .content .redes-s a .efeito span.fab {
   font-size: 30px;
   line-height: 55px;
   text-align: center;
 }
-.inicio .content .icons a .efeito span:nth-child(1) {
+.inicio .content .redes-s a .efeito span:nth-child(1) {
   opacity: 0.2;
 }
-.inicio .content .icons a .texto {
+.inicio .content .redes-s a .texto {
   position: absolute;
   left: 30%;
   top: -5%;
@@ -185,71 +185,71 @@ section {
   transition: left 0.3s ease;
   color: #fff;
 }
-.inicio .content .icons a:hover .texto {
+.inicio .content .redes-s a:hover .texto {
   left: 180%;
   opacity: 1;
 }
-.inicio .content .icons a:hover .efeito span:nth-child(2) {
+.inicio .content .redes-s a:hover .efeito span:nth-child(2) {
   opacity: 0.4;
   transform: translate(5px, -5px);
 }
-.inicio .content .icons a:hover .efeito span:nth-child(3) {
+.inicio .content .redes-s a:hover .efeito span:nth-child(3) {
   opacity: 0.6;
   transform: translate(10px, -10px);
 }
-.inicio .content .icons a:hover .efeito span:nth-child(4) {
+.inicio .content .redes-s a:hover .efeito span:nth-child(4) {
   opacity: 0.8;
   transform: translate(15px, -15px);
 }
-.inicio .content .icons a:hover .efeito span:nth-child(5) {
+.inicio .content .redes-s a:hover .efeito span:nth-child(5) {
   opacity: 1;
   transform: translate(20px, -20px);
 }
-.inicio .content .icons a:nth-child(1) .efeito span,
-.inicio .content .icons a:nth-child(1) .efeito .texto {
+.inicio .content .redes-s a:nth-child(1) .efeito span,
+.inicio .content .redes-s a:nth-child(1) .efeito .texto {
   color: #0e76a8;
   border-color: #0e76a8;
 }
-.inicio .content .icons a:nth-child(1) .texto {
+.inicio .content .redes-s a:nth-child(1) .texto {
   color: #0e76a8;
   border-color: #0e76a8;
 }
-.inicio .content .icons a:nth-child(2) .efeito span {
+.inicio .content .redes-s a:nth-child(2) .efeito span {
   color: #fff;
   border-color: #171515;
 }
-.inicio .content .icons a:nth-child(2) .texto {
+.inicio .content .redes-s a:nth-child(2) .texto {
   color: #fff;
   border-color: #171515;
 }
-.inicio .content .icons a:nth-child(3) .efeito span {
+.inicio .content .redes-s a:nth-child(3) .efeito span {
   color: #25d366;
   border-color: #075e54;
 }
-.inicio .content .icons a:nth-child(3) .texto {
+.inicio .content .redes-s a:nth-child(3) .texto {
   color: #25d366;
   border-color: #075e54;
 }
-.inicio .content .icons a:nth-child(4) .efeito span {
+.inicio .content .redes-s a:nth-child(4) .efeito span {
   color: #fe3e30;
   border-color: #fff;
 }
-.inicio .content .icons a:nth-child(4) .texto {
+.inicio .content .redes-s a:nth-child(4) .texto {
   color: #fe3e30;
   border-color: #fff;
 }
-.inicio .content .icons a:hover:nth-child(1) .efeito span {
+.inicio .content .redes-s a:hover:nth-child(1) .efeito span {
   box-shadow: -1px 1px 3px #0e76a8;
 }
-.inicio .content .icons a:hover:nth-child(2) .efeito span {
+.inicio .content .redes-s a:hover:nth-child(2) .efeito span {
   box-shadow: -1px 1px 3px #171515;
   box-shadow: -1px 1px 3px #fff;
 }
-.inicio .content .icons a:hover:nth-child(3) .efeito span {
+.inicio .content .redes-s a:hover:nth-child(3) .efeito span {
   box-shadow: -1px 1px 3px #075e54;
   box-shadow: -1px 1px 3px #25d366;
 }
-.inicio .content .icons a:hover:nth-child(4) .efeito span {
+.inicio .content .redes-s a:hover:nth-child(4) .efeito span {
   box-shadow: -1px 1px 3px #fe3e30;
 }
 
@@ -500,7 +500,7 @@ section {
   .inicio {
     min-height: 95vh;
     width: 100vw;
-    background: linear-gradient(115deg, #fff 42%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+    background: linear-gradient(115deg, #000 42%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -554,7 +554,7 @@ section {
   .inicio {
     min-height: 55vh;
     width: 100vw;
-    background: linear-gradient(115deg, #fff 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+    background: linear-gradient(115deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

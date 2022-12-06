@@ -156,38 +156,38 @@ section {
 .inicio {
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+    background: linear-gradient(110deg, #000 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     animation: background 20s alternate infinite;
-    padding-top: 10rem;
+    padding-top: 1rem;
 
     .content {
         position: relative;
 
         h1 {
             font-size: 5rem;
-            color: #4800ff;
+            color: #9270e8;
             padding-bottom: 1rem;
         }
 
         h2 {
             font-size: 4.2rem;
-            color: #333;
+            color: rgb(240, 229, 229);
             padding-bottom: 1rem;
         }
 
         h3 {
             font-size: 3.8rem;
-            color: #333;
+            color: rgb(253, 244, 244);
             padding-bottom: 3rem;
         }
 
 
         // COMEÇO REDE SOCIAL
 
-        .icons {
+        .redes-s {
             display: inline-block;
         
             a {
@@ -762,7 +762,7 @@ section {
     .inicio {
         min-height: 95vh;
         width: 100vw;
-        background: linear-gradient(115deg, #fff 42%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+        background: linear-gradient(115deg, #000 42%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -852,7 +852,7 @@ section {
     .inicio {
         min-height: 55vh;
         width: 100vw;
-        background: linear-gradient(115deg, #fff 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+        background: linear-gradient(115deg, #000 38%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
