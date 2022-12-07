@@ -622,11 +622,12 @@ section {
     color: #fff;
     display: block;
     position: relative;
-    margin: 28px;
+    margin: 40px;
+    right: 4rem;
   }
   .inicio .content .redes-s a .efeito {
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
     transition: transform 0.4s;
   }
   .inicio .content .redes-s a .efeito span {
@@ -640,24 +641,86 @@ section {
     transition: all 0.3s;
   }
   .inicio .content .redes-s a .efeito span.fab {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 33px;
     text-align: center;
   }
   .inicio .content .redes-s a .texto {
     position: absolute;
-    left: 30%;
-    top: -55%;
-    opacity: 0;
+    left: 150%;
+    top: 20%;
+    opacity: 1;
     transform: translateX(-15%);
     transition: left 0.3s ease;
     color: #fff;
-    font-size: 1.4rem;
-    display: none;
+    font-size: 2.4rem;
   }
   .inicio .content .redes-s a:hover .texto {
-    left: 220%;
+    left: 20%;
+    opacity: 0;
+  }
+  .inicio .content .redes-s a:hover .efeito span:nth-child(2) {
+    opacity: 0.4;
+    transform: translate(5px, -5px);
+  }
+  .inicio .content .redes-s a:hover .efeito span:nth-child(3) {
+    opacity: 0.6;
+    transform: translate(10px, -10px);
+  }
+  .inicio .content .redes-s a:hover .efeito span:nth-child(4) {
+    opacity: 0.8;
+    transform: translate(15px, -15px);
+  }
+  .inicio .content .redes-s a:hover .efeito span:nth-child(5) {
     opacity: 1;
+    transform: translate(20px, -20px);
+  }
+  .inicio .content .redes-s a:nth-child(1) .efeito span,
+  .inicio .content .redes-s a:nth-child(1) .efeito .texto {
+    color: #0e76a8;
+    border-color: #0e76a8;
+  }
+  .inicio .content .redes-s a:nth-child(1) .texto {
+    color: #0e76a8;
+    border-color: #0e76a8;
+  }
+  .inicio .content .redes-s a:nth-child(2) .efeito span {
+    color: #fff;
+    border-color: #171515;
+  }
+  .inicio .content .redes-s a:nth-child(2) .texto {
+    color: #fff;
+    border-color: #171515;
+  }
+  .inicio .content .redes-s a:nth-child(3) .efeito span {
+    color: #25d366;
+    border-color: #075e54;
+  }
+  .inicio .content .redes-s a:nth-child(3) .texto {
+    color: #25d366;
+    border-color: #075e54;
+  }
+  .inicio .content .redes-s a:nth-child(4) .efeito span {
+    color: #fe3e30;
+    border-color: #fff;
+  }
+  .inicio .content .redes-s a:nth-child(4) .texto {
+    color: #fe3e30;
+    border-color: #fff;
+  }
+  .inicio .content .redes-s a:hover:nth-child(1) .efeito span {
+    box-shadow: -1px 1px 3px #0e76a8;
+  }
+  .inicio .content .redes-s a:hover:nth-child(2) .efeito span {
+    box-shadow: -1px 1px 3px #171515;
+    box-shadow: -1px 1px 3px #fff;
+  }
+  .inicio .content .redes-s a:hover:nth-child(3) .efeito span {
+    box-shadow: -1px 1px 3px #075e54;
+    box-shadow: -1px 1px 3px #25d366;
+  }
+  .inicio .content .redes-s a:hover:nth-child(4) .efeito span {
+    box-shadow: -1px 1px 3px #fe3e30;
   }
   .habilidades {
     background: rgb(55, 55, 55);

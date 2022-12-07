@@ -360,40 +360,7 @@ section {
         // FINAL REDE SOCIAL
     }
 
-    // @keyframes background {
-    //     0%,
-    //     100% {
-    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto3.jpg) no-repeat;
-    //         background-size: cover;
-    //         background-position: center;
-    //         background-attachment: fixed;
-    //         padding-top: 10rem;
-    //     }
-
-    //     25% {
-    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto4.webp) no-repeat;
-    //         background-size: cover;
-    //         background-position: center;
-    //         background-attachment: fixed;
-    //         padding-top: 10rem;
-    //     }
-
-    //     50% {
-    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto5.jpg) no-repeat;
-    //         background-size: cover;
-    //         background-position: center;
-    //         background-attachment: fixed;
-    //         padding-top: 10rem;
-    //     }
-
-    //     75% {
-    //         background: linear-gradient(110deg, #fff 48%, rgba(196, 196, 196, 0) 5%), url(../img/foto5.jpg) no-repeat;
-    //         background-size: cover;
-    //         background-position: center;
-    //         background-attachment: fixed;
-    //         padding-top: 10rem;
-    //     }
-    // }
+   
 }
 
 // COMEÇO DA SECTION HABILIDADES
@@ -906,11 +873,12 @@ section {
                     color: #fff;
                     display: block;
                     position: relative;
-                    margin: 28px;
+                    margin: 40px;
+                    right: 4rem;
 
                     .efeito {
-                        width: 45px;
-                        height: 45px;
+                        width: 32px;
+                        height: 32px;
                         transition: transform 0.4s;
 
                         span {
@@ -924,8 +892,8 @@ section {
                             transition: all 0.3s;
 
                             &.fab {
-                                font-size: 35px;
-                                line-height: 40px;
+                                font-size: 30px;
+                                line-height: 33px;
                                 text-align: center;
                             }
                         }
@@ -933,20 +901,133 @@ section {
 
                     .texto {
                         position: absolute;
-                        left: 30%;
-                        top: -55%;
-                        opacity: 0;
+                        left: 150%;
+                        top: 20%;
+                        opacity: 1;
                         transform: translateX(-15%);
                         transition: left 0.3s ease;
                         color: #fff;
-                        font-size: 1.4rem;
-                        display: none;
+                        font-size: 2.4rem;
+                        // display: none;
                     }
 
                     &:hover {
                         .texto {
-                            left: 220%;
-                            opacity: 1;
+                            left: 20%;
+                            opacity: 0;
+                        }
+                    }
+
+                    &:hover {
+                        .efeito {
+                            span {
+                                &:nth-child(2) {
+                                    opacity: 0.4;
+                                    transform: translate(5px, -5px);
+                                }
+    
+                                &:nth-child(3) {
+                                    opacity: 0.6;
+                                    transform: translate(10px, -10px);
+                                }
+    
+                                &:nth-child(4) {
+                                    opacity: 0.8;
+                                    transform: translate(15px, -15px);
+                                }
+    
+                                &:nth-child(5) {
+                                    opacity: 1;
+                                    transform: translate(20px, -20px);
+                                }
+                            }
+                        }
+                    }
+    
+                    &:nth-child(1) {
+                        .efeito {
+                            span,
+                            .texto {
+                                color: #0e76a8;
+                                border-color: #0e76a8;
+                            }
+                        }
+                        .texto {
+                            color: #0e76a8;
+                            border-color: #0e76a8;
+                        }
+                    }
+    
+                    &:nth-child(2) {
+                        .efeito {
+                            span {
+                                color: #fff;
+                                border-color: #171515;
+                            }
+                        }
+                        .texto {
+                            color: #fff;
+                            border-color: #171515;
+                        }
+                    }
+    
+                    &:nth-child(3) {
+                        .efeito {
+                            span {
+                                color: #25d366;
+                                border-color: #075e54;
+                            }
+                        }
+                        .texto {
+                            color: #25d366;
+                            border-color: #075e54;
+                        }
+                    }
+    
+                    &:nth-child(4) {
+                        .efeito {
+                            span {
+                                color: #fe3e30;
+                                border-color: #fff;
+                            }
+                        }
+                        .texto {
+                            color: #fe3e30;
+                            border-color: #fff;
+                        }
+                    }
+    
+                    &:hover:nth-child(1) {
+                        .efeito {
+                            span {
+                                box-shadow: -1px 1px 3px #0e76a8;
+                            }
+                        }
+                    }
+    
+                    &:hover:nth-child(2) {
+                        .efeito {
+                            span {
+                                box-shadow: -1px 1px 3px #171515;
+                                box-shadow: -1px 1px 3px #fff;
+                            }
+                        }
+                    }
+    
+                    &:hover:nth-child(3) {
+                        .efeito {
+                            span {
+                                box-shadow: -1px 1px 3px #075e54;
+                                box-shadow: -1px 1px 3px #25d366;
+                            }
+                        }
+                    }
+    
+                    &:hover:nth-child(4) {
+                        .efeito {
+                            span {
+                                box-shadow: -1px 1px 3px #fe3e30;
+                            }
                         }
                     }
                 }
