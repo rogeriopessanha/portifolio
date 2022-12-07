@@ -396,50 +396,37 @@ section {
 }
 
 // COMEÇO DA SECTION HABILIDADES
-// .skills {
-//     background: #222;
+.habilidades {
+    .habilidades-slider {
+        .box-hab {
+            margin: 5rem 0;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
 
-//     .titulo {
-//         color: #fff;
-//     }
-//     .box-container {
-//         @include grid(20rem);
-//         // width: 10rem;
-//         // height: 15rem;
-//         // margin: auto;
+            .image-hab {
+                padding: 1rem;
+                background: linear-gradient(35deg, rgb(59, 81, 56) 30%, rgb(40, 62, 161) 60.1%);
+                
+                img {
+                    height: 12rem;
+                    width: 10rem;
+                }
+            }
 
-//         .box {
-//             padding: 3rem 2rem;
-//             text-align: center;
-//             border: $borda;
-//             background: rgb(237, 6, 6);
+            .texto-hab {
+                background: #eee;
+                padding: .5rem;
 
-//             &:hover {
-//                 background: $preto;
-
-//                 h3 {
-//                     color: $branco;
-//                 }
-
-//                 p {
-//                     color: $branco;
-//                 }
-//             }
-
-//             img {
-//                 height: 3rem;
-//                 margin-bottom: 0.5rem;
-//             }
-
-//             h3 {
-//                 @include tituloTexto(2rem);
-//                 padding: 0.5rem 0;
-//             }
-//         }
-//     }
-
-    
-// }
+                h3 {
+                    font-size: 2rem;
+                    padding: 0.5rem;
+                }
+            }
+        }
+        
+    }
+}
 // FINAL DA SECTION HABILIDADES
 
 // COMEÇO DA SECTION PROJETOS
