@@ -888,15 +888,15 @@ section {
 
         .content {
             h1 {
-                font-size: 2.4rem;
+                font-size: 2.7rem;
             }
 
             h2 {
-                font-size: 1.8rem;
+                font-size: 2rem;
             }
 
             h3 {
-                font-size: 2rem;
+                font-size: 2.3rem;
             }
 
             .redes-s {
@@ -909,8 +909,8 @@ section {
                     margin: 28px;
 
                     .efeito {
-                        width: 35px;
-                        height: 35px;
+                        width: 45px;
+                        height: 45px;
                         transition: transform 0.4s;
 
                         span {
@@ -924,8 +924,8 @@ section {
                             transition: all 0.3s;
 
                             &.fab {
-                                font-size: 25px;
-                                line-height: 34px;
+                                font-size: 35px;
+                                line-height: 40px;
                                 text-align: center;
                             }
                         }
@@ -940,6 +940,7 @@ section {
                         transition: left 0.3s ease;
                         color: #fff;
                         font-size: 1.4rem;
+                        display: none;
                     }
 
                     &:hover {

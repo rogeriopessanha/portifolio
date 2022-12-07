@@ -608,13 +608,13 @@ section {
     padding-top: 4rem;
   }
   .inicio .content h1 {
-    font-size: 2.4rem;
+    font-size: 2.7rem;
   }
   .inicio .content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .inicio .content h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .inicio .content .redes-s a {
     margin: 0 25px;
@@ -625,8 +625,8 @@ section {
     margin: 28px;
   }
   .inicio .content .redes-s a .efeito {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     transition: transform 0.4s;
   }
   .inicio .content .redes-s a .efeito span {
@@ -640,8 +640,8 @@ section {
     transition: all 0.3s;
   }
   .inicio .content .redes-s a .efeito span.fab {
-    font-size: 25px;
-    line-height: 34px;
+    font-size: 35px;
+    line-height: 40px;
     text-align: center;
   }
   .inicio .content .redes-s a .texto {
@@ -653,6 +653,7 @@ section {
     transition: left 0.3s ease;
     color: #fff;
     font-size: 1.4rem;
+    display: none;
   }
   .inicio .content .redes-s a:hover .texto {
     left: 220%;
