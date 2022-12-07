@@ -254,6 +254,29 @@ section {
   box-shadow: -1px 1px 3px #fe3e30;
 }
 
+.habilidades .habilidades-slider .box-hab {
+  margin: 5rem 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.habilidades .habilidades-slider .box-hab .image-hab {
+  padding: 1rem;
+  background: linear-gradient(35deg, rgb(59, 81, 56) 30%, rgb(40, 62, 161) 60.1%);
+}
+.habilidades .habilidades-slider .box-hab .image-hab img {
+  height: 12rem;
+  width: 10rem;
+}
+.habilidades .habilidades-slider .box-hab .texto-hab {
+  background: #eee;
+  padding: 0.5rem;
+}
+.habilidades .habilidades-slider .box-hab .texto-hab h3 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
 .projetos .container-modal {
   padding: 3rem 2rem;
   display: grid;
