@@ -8,7 +8,7 @@
     transition: all 0.2s linear;
 }
 
-$cor-principal: #2929e1;
+$cor-principal: #48c8ff;
 $cor-secundaria: #2da4f3;
 $trasparente: #2525ff46;
 $cor-clara: rgb(179, 217, 255);
@@ -70,7 +70,7 @@ section {
     padding: 1rem 3rem;
     font-size: 1.8rem;
     border: $borda;
-    background: $cor-principal;
+    background: $preto;
     color: $branco;
     cursor: pointer;
 
@@ -410,6 +410,8 @@ section {
             position: relative;
             overflow: hidden;
             text-align: center;
+            border-radius: 5%;
+            box-shadow: 0 0.5rem 1rem rgba(202, 202, 202, 0.552);
 
             .image-hab {
                 padding: 1rem;
@@ -423,8 +425,9 @@ section {
             }
 
             .texto-hab {
-                background: #eee;
+                background: rgba(0, 0, 0, 0.7);
                 padding: 0.5rem;
+                color: #fff;
 
                 h3 {
                     font-size: 2rem;
@@ -595,36 +598,55 @@ section {
 
 // COMEÇO SECTION CONTATO
 .contato {
+
+    .titulo{
+        color: #fff;
+    }
+    background: #222;
     .mensagem {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: space-around;
+
+
+        .image{
+            width: 35%;
+            transform: rotateY(180deg);
+
+            img{
+                width: 100%;
+            }
+        }
 
         form {
-            width: 30%;
+            // flex: 1 1 40rem;
             border: $borda;
-            padding: 1rem;
+            padding: 2rem;
+            width: 40%;
 
-            h3 {
+            h3{
                 @include tituloTexto(2.5rem);
                 padding-bottom: 1rem;
+                color: #fff;
             }
 
-            .box {
+            .box{
                 width: 100%;
                 padding: 1.2rem 1.4rem;
                 border: $borda;
                 font-size: 1.6rem;
-                margin: 0.7rem 0;
+                margin: .7rem 0;
 
-                &:focus {
-                    background: $cor-principal;
+                &:focus{
+                    background: $preto;
                     color: $branco;
 
-                    &::placeholder {
-                        color: $cor-secundaria;
+                    &::placeholder{
+                        color: $branco;
                     }
                 }
+
+                
             }
 
             textarea {
@@ -632,17 +654,19 @@ section {
                 resize: none;
             }
         }
+        
     }
 }
 // FINAL SECTION CONTATO
 
 .footer {
-    background: #c5bcdd;
+    background: #222;
     padding: 2rem;
 
     .credito {
         text-align: center;
         @include tituloTexto(2rem);
+        color: #fff;
 
         span {
             color: $cor-principal;
@@ -791,6 +815,10 @@ section {
         }
 
         .mensagem {
+
+
+
+
             form {
                 width: 80%;
                 border: $borda;
@@ -915,12 +943,14 @@ section {
                 position: relative;
                 overflow: hidden;
                 text-align: center;
-
+                border-radius: 5%;
+                box-shadow: 0 0.5rem 1rem rgba(202, 202, 202, 0.552);
+    
                 .image-hab {
                     padding: 1rem;
                     background: rgb(232, 237, 225);
-                    background: radial-gradient(circle, rgba(232, 237, 225, 1) 0%, rgba(51, 0, 240, 1) 100%);
-
+                    background: radial-gradient(circle, rgba(232, 237, 225, 1) 0%, rgba(0, 0, 0, 1) 60%);
+    
                     img {
                         height: 12rem;
                         width: 10rem;
@@ -928,9 +958,10 @@ section {
                 }
 
                 .texto-hab {
-                    background: #eee;
+                    background: rgba(0, 0, 0, 0.7);
                     padding: 0.5rem;
-
+                    color: #fff;
+    
                     h3 {
                         font-size: 2rem;
                         padding: 0.5rem;
@@ -1100,47 +1131,17 @@ section {
         }
     }
 
-    .contato {
-        .titulo {
-            font-size: 2.8rem;
-        }
+   
+    // .footer {
+    //     padding: 2rem;
 
-        .mensagem {
-            form {
-                width: 100%;
-                border: $borda;
-                padding: 1rem;
+    //     .credito {
+    //         text-align: center;
+    //         @include tituloTexto(1.4rem);
 
-                h3 {
-                    @include tituloTexto(2rem);
-                    padding-bottom: 1rem;
-                }
-
-                .box {
-                    width: 100%;
-                    padding: 1.2rem 1.4rem;
-                    border: $borda;
-                    font-size: 1.3rem;
-                    margin: 0.7rem 0;
-                }
-
-                .btn {
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    }
-
-    .footer {
-        padding: 2rem;
-
-        .credito {
-            text-align: center;
-            @include tituloTexto(1.4rem);
-
-            span {
-                color: $cor-principal;
-            }
-        }
-    }
+    //         span {
+    //             color: $cor-principal;
+    //         }
+    //     }
+    // }
 }

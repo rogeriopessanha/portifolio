@@ -41,8 +41,8 @@ section {
   margin-top: 1rem;
   padding: 1rem 3rem;
   font-size: 1.8rem;
-  border: 0.1rem solid #2929e1;
-  background: #2929e1;
+  border: 0.1rem solid #48c8ff;
+  background: #444;
   color: #fff;
   cursor: pointer;
 }
@@ -75,7 +75,7 @@ section {
   font-weight: bolder;
 }
 .header .logo i {
-  color: #2929e1;
+  color: #48c8ff;
 }
 .header .navbar {
   position: relative;
@@ -98,7 +98,7 @@ section {
   color: #444;
 }
 .header .navbar a:hover {
-  color: #2929e1;
+  color: #48c8ff;
 }
 .header .icons div {
   cursor: pointer;
@@ -107,7 +107,7 @@ section {
   margin-left: 2rem;
 }
 .header .icons div:hover {
-  color: #2929e1;
+  color: #48c8ff;
 }
 .header #menu-btn {
   display: none;
@@ -265,6 +265,8 @@ section {
   position: relative;
   overflow: hidden;
   text-align: center;
+  border-radius: 5%;
+  box-shadow: 0 0.5rem 1rem rgba(202, 202, 202, 0.552);
 }
 .habilidades .habilidades-slider .box-hab .image-hab {
   padding: 1rem;
@@ -276,8 +278,9 @@ section {
   width: 10rem;
 }
 .habilidades .habilidades-slider .box-hab .texto-hab {
-  background: #eee;
+  background: rgba(0, 0, 0, 0.7);
   padding: 0.5rem;
+  color: #fff;
 }
 .habilidades .habilidades-slider .box-hab .texto-hab h3 {
   font-size: 2rem;
@@ -403,34 +406,48 @@ section {
   color: #fff;
 }
 
+.contato {
+  background: #222;
+}
+.contato .titulo {
+  color: #fff;
+}
 .contato .mensagem {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.contato .mensagem .image {
+  width: 35%;
+  transform: rotateY(180deg);
+}
+.contato .mensagem .image img {
+  width: 100%;
 }
 .contato .mensagem form {
-  width: 30%;
-  border: 0.1rem solid #2929e1;
-  padding: 1rem;
+  border: 0.1rem solid #48c8ff;
+  padding: 2rem;
+  width: 40%;
 }
 .contato .mensagem form h3 {
   font-size: 2.5rem;
   color: #444;
   padding-bottom: 1rem;
+  color: #fff;
 }
 .contato .mensagem form .box {
   width: 100%;
   padding: 1.2rem 1.4rem;
-  border: 0.1rem solid #2929e1;
+  border: 0.1rem solid #48c8ff;
   font-size: 1.6rem;
   margin: 0.7rem 0;
 }
 .contato .mensagem form .box:focus {
-  background: #2929e1;
+  background: #444;
   color: #fff;
 }
 .contato .mensagem form .box:focus::placeholder {
-  color: #2da4f3;
+  color: #fff;
 }
 .contato .mensagem form textarea {
   height: 10rem;
@@ -438,16 +455,17 @@ section {
 }
 
 .footer {
-  background: #c5bcdd;
+  background: #222;
   padding: 2rem;
 }
 .footer .credito {
   text-align: center;
   font-size: 2rem;
   color: #444;
+  color: #fff;
 }
 .footer .credito span {
-  color: #2929e1;
+  color: #48c8ff;
 }
 
 @media (max-width: 991px) {
@@ -545,7 +563,7 @@ section {
   }
   .contato .mensagem form {
     width: 80%;
-    border: 0.1rem solid #2929e1;
+    border: 0.1rem solid #48c8ff;
     padding: 1rem;
   }
   .contato .mensagem form h3 {
@@ -556,7 +574,7 @@ section {
   .contato .mensagem form .box {
     width: 100%;
     padding: 1.2rem 1.4rem;
-    border: 0.1rem solid #2929e1;
+    border: 0.1rem solid #48c8ff;
     font-size: 1.8rem;
     margin: 0.7rem 0;
   }
@@ -643,19 +661,22 @@ section {
     position: relative;
     overflow: hidden;
     text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 0.5rem 1rem rgba(202, 202, 202, 0.552);
   }
   .habilidades .habilidades-slider .box-hab .image-hab {
     padding: 1rem;
     background: rgb(232, 237, 225);
-    background: radial-gradient(circle, rgb(232, 237, 225) 0%, rgb(51, 0, 240) 100%);
+    background: radial-gradient(circle, rgb(232, 237, 225) 0%, rgb(0, 0, 0) 60%);
   }
   .habilidades .habilidades-slider .box-hab .image-hab img {
     height: 12rem;
     width: 10rem;
   }
   .habilidades .habilidades-slider .box-hab .texto-hab {
-    background: #eee;
+    background: rgba(0, 0, 0, 0.7);
     padding: 0.5rem;
+    color: #fff;
   }
   .habilidades .habilidades-slider .box-hab .texto-hab h3 {
     font-size: 2rem;
@@ -782,40 +803,6 @@ section {
   .projetos .modal .modal-footer .botao .link-github:hover {
     background: #444;
     color: #fff;
-  }
-  .contato .titulo {
-    font-size: 2.8rem;
-  }
-  .contato .mensagem form {
-    width: 100%;
-    border: 0.1rem solid #2929e1;
-    padding: 1rem;
-  }
-  .contato .mensagem form h3 {
-    font-size: 2rem;
-    color: #444;
-    padding-bottom: 1rem;
-  }
-  .contato .mensagem form .box {
-    width: 100%;
-    padding: 1.2rem 1.4rem;
-    border: 0.1rem solid #2929e1;
-    font-size: 1.3rem;
-    margin: 0.7rem 0;
-  }
-  .contato .mensagem form .btn {
-    font-size: 1.2rem;
-  }
-  .footer {
-    padding: 2rem;
-  }
-  .footer .credito {
-    text-align: center;
-    font-size: 1.4rem;
-    color: #444;
-  }
-  .footer .credito span {
-    color: #2929e1;
   }
 }
 
