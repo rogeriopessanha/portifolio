@@ -117,7 +117,7 @@ section {
 .inicio {
   min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(110deg, #000 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
+  background: linear-gradient(110deg, rgba(0, 0, 0, 0.881) 48%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -269,7 +269,7 @@ section {
 .habilidades .habilidades-slider .box-hab .image-hab {
   padding: 1rem;
   background: rgb(232, 237, 225);
-  background: radial-gradient(circle, rgb(232, 237, 225) 0%, rgb(51, 0, 240) 100%);
+  background: radial-gradient(circle, rgb(232, 237, 225) 0%, rgb(0, 0, 0) 100%);
 }
 .habilidades .habilidades-slider .box-hab .image-hab img {
   height: 12rem;
@@ -335,6 +335,7 @@ section {
   display: none;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
 }
 .projetos .modal .modal-conteudo {
   padding: 3rem;
@@ -342,6 +343,7 @@ section {
   background: #fff;
   position: relative;
   width: 40rem;
+  z-index: 1;
 }
 .projetos .modal .modal-conteudo .modal-fechar {
   position: absolute;
@@ -568,7 +570,7 @@ section {
   .inicio {
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(90deg, rgb(29, 29, 29) 50%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgba(196, 196, 196, 0) 5%), url(../img/inicio/foto1-p.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -609,7 +611,7 @@ section {
   }
   .inicio .content .redes-s a .efeito span.fab {
     font-size: 25px;
-    line-height: 30px;
+    line-height: 34px;
     text-align: center;
   }
   .inicio .content .redes-s a .texto {
