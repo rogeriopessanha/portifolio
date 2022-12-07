@@ -843,6 +843,30 @@ section {
             }
         }
     }
+
+    .contato {
+
+        .mensagem {
+        
+            .image{
+                width: 70%;
+                transform: rotateY(180deg);
+                // display: none;
+    
+                img{
+                    width: 100%;
+                }
+            }
+    
+            form {
+                width: 100%;
+    
+                
+            }
+            
+        }
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -1128,6 +1152,34 @@ section {
                     }
                 }
             }
+        }
+    }
+
+
+
+
+
+
+    .contato {
+
+        .mensagem {
+        
+            .image{
+                width: 35%;
+                transform: rotateY(180deg);
+                display: none;
+    
+                img{
+                    width: 100%;
+                }
+            }
+    
+            form {
+                width: 100%;
+    
+                
+            }
+            
         }
     }
 

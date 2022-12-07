@@ -581,6 +581,16 @@ section {
   .contato .mensagem form .btn {
     font-size: 1.6rem;
   }
+  .contato .mensagem .image {
+    width: 70%;
+    transform: rotateY(180deg);
+  }
+  .contato .mensagem .image img {
+    width: 100%;
+  }
+  .contato .mensagem form {
+    width: 100%;
+  }
 }
 @media (max-width: 550px) {
   html {
@@ -803,6 +813,17 @@ section {
   .projetos .modal .modal-footer .botao .link-github:hover {
     background: #444;
     color: #fff;
+  }
+  .contato .mensagem .image {
+    width: 35%;
+    transform: rotateY(180deg);
+    display: none;
+  }
+  .contato .mensagem .image img {
+    width: 100%;
+  }
+  .contato .mensagem form {
+    width: 100%;
   }
 }
 
