@@ -632,6 +632,9 @@ section {
   .habilidades .titulo {
     color: #fff;
   }
+  .habilidades .habilidades-slider {
+    width: 25rem;
+  }
   .habilidades .habilidades-slider .box-hab {
     margin: 5rem 0;
     position: relative;
