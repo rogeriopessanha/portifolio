@@ -34,9 +34,9 @@ window.onload = () => {
 
 const modalFoto = document.querySelectorAll('.image-modal')
 
-modalFoto.forEach(function(foto){
+modalFoto.forEach(function (foto) {
 
-    foto.onclick = function(){
+    foto.onclick = function () {
 
         const modal = foto.getAttribute('data-modal')
 
@@ -46,14 +46,14 @@ modalFoto.forEach(function(foto){
 
 const fotoFechar = document.querySelectorAll('.modal-fechar')
 
-fotoFechar.forEach(function(foto){
-    foto.onclick = function(){
+fotoFechar.forEach(function (foto) {
+    foto.onclick = function () {
         const modal = (foto.closest('.modal').style.display = 'none')
     }
 })
 
 
-window.onclick = function(e){
+window.onclick = function (e) {
     if (e.target.className === 'modal') {
         e.target.style.display = 'none'
     }
@@ -80,8 +80,8 @@ var swiper = new Swiper(".habilidades-slider", {
         0: {
             slidesPerView: 1,
         },
-        
-        450: {
+
+        521: {
             slidesPerView: 3,
         },
         768: {
@@ -105,7 +105,16 @@ var swiper = new Swiper(".habilidades-slider", {
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -254,6 +254,12 @@ section {
   box-shadow: -1px 1px 3px #fe3e30;
 }
 
+.habilidades {
+  background: rgb(55, 55, 55);
+}
+.habilidades .titulo {
+  color: #fff;
+}
 .habilidades .habilidades-slider .box-hab {
   margin: 5rem 0;
   position: relative;
@@ -262,7 +268,8 @@ section {
 }
 .habilidades .habilidades-slider .box-hab .image-hab {
   padding: 1rem;
-  background: linear-gradient(35deg, rgb(59, 81, 56) 30%, rgb(40, 62, 161) 60.1%);
+  background: rgb(232, 237, 225);
+  background: radial-gradient(circle, rgb(232, 237, 225) 0%, rgb(51, 0, 240) 100%);
 }
 .habilidades .habilidades-slider .box-hab .image-hab img {
   height: 12rem;
@@ -619,39 +626,34 @@ section {
     left: 220%;
     opacity: 1;
   }
-  .skills {
-    background: #222;
+  .habilidades {
+    background: rgb(55, 55, 55);
   }
-  .skills .titulo {
+  .habilidades .titulo {
     color: #fff;
   }
-  .skills .box-container {
-    width: 30rem;
-    height: 15rem;
-  }
-  .skills .box-container .box {
-    padding: 1rem;
+  .habilidades .habilidades-slider .box-hab {
+    margin: 5rem 0;
+    position: relative;
+    overflow: hidden;
     text-align: center;
-    border: 0.1rem solid #2929e1;
+  }
+  .habilidades .habilidades-slider .box-hab .image-hab {
+    padding: 1rem;
+    background: rgb(232, 237, 225);
+    background: radial-gradient(circle, rgb(232, 237, 225) 0%, rgb(51, 0, 240) 100%);
+  }
+  .habilidades .habilidades-slider .box-hab .image-hab img {
+    height: 12rem;
+    width: 10rem;
+  }
+  .habilidades .habilidades-slider .box-hab .texto-hab {
     background: #eee;
+    padding: 0.5rem;
   }
-  .skills .box-container .box:hover {
-    background: #444;
-  }
-  .skills .box-container .box:hover h3 {
-    color: #fff;
-  }
-  .skills .box-container .box:hover p {
-    color: #fff;
-  }
-  .skills .box-container .box img {
-    height: 10rem;
-    margin-bottom: 0.5rem;
-  }
-  .skills .box-container .box h3 {
+  .habilidades .habilidades-slider .box-hab .texto-hab h3 {
     font-size: 2rem;
-    color: #444;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
   }
   .projetos .container-modal {
     padding: 3rem 2rem;
