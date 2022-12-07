@@ -827,6 +827,7 @@ section {
                 h3 {
                     @include tituloTexto(2.2rem);
                     padding-bottom: 1rem;
+                    color: #fff;
                 }
 
                 .box {
@@ -1176,6 +1177,10 @@ section {
     
             form {
                 width: 100%;
+
+                h3 {
+                    color: #fff;
+                }
     
                 
             }
