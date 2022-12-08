@@ -583,7 +583,6 @@ section {
   }
   .contato .mensagem .image {
     width: 70%;
-    transform: rotateY(180deg);
   }
   .contato .mensagem .image img {
     width: 100%;
@@ -880,7 +879,6 @@ section {
   }
   .contato .mensagem .image {
     width: 35%;
-    transform: rotateY(180deg);
     display: none;
   }
   .contato .mensagem .image img {
