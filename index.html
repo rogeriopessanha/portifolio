@@ -347,12 +347,24 @@
 
         <div class="mensagem">
 
-            <form action="">
+            <form action="https://formsubmit.co/rogerio.pessanha.dev@gmail.com" target="_blank" method="POST" data-aos="zoom-in">
+
+                <!-- <input type="hidden" name="_next" value="https://rogeriopessanha.github.io/projeto-curso/formulario.html"> -->
+
+                <input type="hidden" name="_subject" value="Novo email!">
+
+                <input type="hidden" name="_autoresponse" value="Recebemos seu email, obrigado(a) pelo contato e logo responderemos!" />
+
+
                 <h3>Entre em contato</h3>
-                <input type="text" placeholder="escreva seu nome" class="box">
-                <input type="email" name="" placeholder="email: exemplo@gmail.com" class="box">
-                <input type="number" name="" placeholder="celular: (xx)xxxxx-xxxx" class="box">
-                <textarea name="" class="box" placeholder="escreva aqui..." id="" cols="30" rows="10"></textarea>
+                <input type="text" placeholder="escreva seu nome" class="box" required>
+
+                <input type="email" name="" placeholder="email: exemplo@gmail.com" class="box" required>
+
+                <input type="number" name="" placeholder="celular: (xx)xxxxx-xxxx" class="box" required>
+
+                <textarea name="" class="box" placeholder="escreva aqui..." id="" cols="30" rows="10" required></textarea>
+
                 <input type="submit" value="Enviar" class="btn">
             </form>
 
