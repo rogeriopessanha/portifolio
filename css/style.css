@@ -257,6 +257,26 @@ section {
 }
 
 /* FINAL SECTION INICIO  */
+.sobre {
+  text-align: center;
+  background: rgb(55, 55, 55);
+}
+.sobre .titulo {
+  color: #fff;
+}
+.sobre .sobre-conteudo {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.sobre .sobre-conteudo p {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4rem;
+  text-indent: 1rem;
+}
+
 .habilidades {
   background: rgb(55, 55, 55);
 }

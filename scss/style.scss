@@ -364,6 +364,37 @@ section {
 }
 /* FINAL SECTION INICIO  */
 
+
+// COMEÇO DA SECTION SOBRE
+.sobre{
+    // height: 100vh;
+    // width: 100%;
+    text-align: center;
+    background: rgb(55, 55, 55);
+    
+
+    .titulo{
+        color: $branco;
+    }
+
+    .sobre-conteudo{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+
+        p{
+            color: $branco;
+            font-size: 2rem;
+            text-align: center;
+            line-height: 4rem;
+            text-indent: 1rem;
+        }
+    }
+}
+// FINAL DA SECTION SOBRE
+
+
+
 // COMEÇO DA SECTION HABILIDADES
 .habilidades {
     background: rgb(55, 55, 55);
