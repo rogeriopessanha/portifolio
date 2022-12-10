@@ -9,8 +9,6 @@
 }
 
 $cor-principal: #48c8ff;
-$cor-secundaria: #2da4f3;
-$trasparente: #2525ff46;
 $preto: #444;
 $branco: #fff;
 $borda: 0.1rem solid $cor-principal;
@@ -74,7 +72,7 @@ section {
     cursor: pointer;
 
     &:hover {
-        background: $cor-secundaria;
+        background: #2da4f3;
         color: $branco;
     }
 }
@@ -626,7 +624,6 @@ section {
 // FINAL SECTION FOOTER
 
 // COMEÇO DAS MEDIA QUERIES
-
 @media (max-width: 991px) {
     html {
         font-size: 55%;
