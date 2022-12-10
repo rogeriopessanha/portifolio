@@ -168,7 +168,7 @@ section {
 
         h1 {
             font-size: 5rem;
-            color: #9270e8;
+            color: $cor-principal;
             padding-bottom: 1rem;
         }
 
@@ -192,7 +192,7 @@ section {
             a {
                 margin: 0 25px;
                 text-decoration: none;
-                color: #fff;
+                color: $branco;
                 display: block;
                 position: relative;
                 margin: 40px;
@@ -208,7 +208,7 @@ section {
                         left: 0;
                         height: 100%;
                         width: 100%;
-                        border: 1px solid #fff;
+                        border: 1px solid $branco;
                         border-radius: 5px;
                         transition: all 0.3s;
 
@@ -231,7 +231,7 @@ section {
                     opacity: 0;
                     transform: translateX(-15%);
                     transition: left 0.3s ease;
-                    color: #fff;
+                    color: $branco;
                     font-size: 2rem;
                 }
 
@@ -285,7 +285,7 @@ section {
                 &:nth-child(2) {
                     .efeito {
                         span {
-                            color: #fff;
+                            color: $branco;
                             border-color: #171515;
                         }
                     }
@@ -312,12 +312,12 @@ section {
                     .efeito {
                         span {
                             color: #fe3e30;
-                            border-color: #fff;
+                            border-color: $branco;
                         }
                     }
                     .texto {
                         color: #fe3e30;
-                        border-color: #fff;
+                        border-color: $branco;
                     }
                 }
 
@@ -333,7 +333,7 @@ section {
                     .efeito {
                         span {
                             box-shadow: -1px 1px 3px #171515;
-                            box-shadow: -1px 1px 3px #fff;
+                            box-shadow: -1px 1px 3px $branco;
                         }
                     }
                 }
@@ -362,13 +362,12 @@ section {
 }
 /* FINAL SECTION INICIO  */
 
-
 // COMEÇO DA SECTION HABILIDADES
 .habilidades {
     background: rgb(55, 55, 55);
 
     .titulo {
-        color: #fff;
+        color: $branco;
     }
 
     .habilidades-slider {
@@ -394,7 +393,7 @@ section {
             .texto-hab {
                 background: rgba(0, 0, 0, 0.7);
                 padding: 0.5rem;
-                color: #fff;
+                color: $branco;
 
                 h3 {
                     font-size: 2rem;
@@ -406,13 +405,11 @@ section {
 }
 // FINAL DA SECTION HABILIDADES
 
-
 // COMEÇO DA SECTION PROJETOS
 .projetos {
-
     .titulo {
         font-size: 4rem;
-        color: #fff;
+        color: $branco;
         margin-bottom: 3rem;
         // text-transform: uppercase;
         text-align: center;
@@ -432,7 +429,7 @@ section {
             .image-modal {
                 text-align: center;
                 padding: 3rem 2rem;
-                background: #fff;
+                background: $branco;
                 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
                 outline: 0.1rem solid #ccc;
                 outline-offset: -1.5rem;
@@ -472,7 +469,7 @@ section {
         .modal-conteudo {
             padding: 3rem;
             text-align: center;
-            background: #fff;
+            background: $branco;
             position: relative;
             width: 40rem;
             z-index: 1;
@@ -537,20 +534,18 @@ section {
                     color: rgb(68, 68, 68);
                     border: 0.2rem solid #444;
                     border-radius: 50%;
-
                 }
                 .link-site {
-
                     &:hover {
                         background: #444;
-                        color: #fff;
+                        color: $branco;
                     }
                 }
 
                 .link-github {
                     &:hover {
                         background: #444;
-                        color: #fff;
+                        color: $branco;
                     }
                 }
             }
@@ -559,12 +554,10 @@ section {
 }
 // FINAL DA SECTION PROJETOS
 
-
 // COMEÇO SECTION CONTATO
 .contato {
-
-    .titulo{
-        color: #fff;
+    .titulo {
+        color: $branco;
     }
     background: #222;
     .mensagem {
@@ -572,45 +565,40 @@ section {
         align-items: flex-start;
         justify-content: space-around;
 
-
-        .image{
+        .image {
             width: 35%;
-            // transform: rotateY(180deg);
 
-            img{
+            img {
                 width: 100%;
             }
         }
 
         form {
-            // flex: 1 1 40rem;
             border: $borda;
             padding: 2rem;
             width: 40%;
 
-            h3{
+            h3 {
                 @include tituloTexto(2.5rem);
                 padding-bottom: 1rem;
-                color: #fff;
+                color: $branco;
             }
 
-            .box{
+            .box {
                 width: 100%;
                 padding: 1.2rem 1.4rem;
                 border: $borda;
                 font-size: 1.6rem;
-                margin: .7rem 0;
+                margin: 0.7rem 0;
 
-                &:focus{
+                &:focus {
                     background: $preto;
                     color: $branco;
 
-                    &::placeholder{
+                    &::placeholder {
                         color: $branco;
                     }
                 }
-
-                
             }
 
             textarea {
@@ -618,11 +606,11 @@ section {
                 resize: none;
             }
         }
-        
     }
 }
 // FINAL SECTION CONTATO
 
+// COMEÇO SECTION FOOTER
 .footer {
     background: #222;
     padding: 2rem;
@@ -630,13 +618,16 @@ section {
     .credito {
         text-align: center;
         @include tituloTexto(2rem);
-        color: #fff;
+        color: $branco;
 
         span {
             color: $cor-principal;
         }
     }
 }
+// FINAL SECTION FOOTER
+
+// COMEÇO DAS MEDIA QUERIES
 
 @media (max-width: 991px) {
     html {
@@ -656,16 +647,6 @@ section {
             h3 {
                 font-size: 2.8rem;
             }
-
-            // .redes {
-            //     a {
-            //         height: 5rem;
-            //         width: 5rem;
-            //         line-height: 5rem;
-            //         font-size: 3rem;
-            //         transition: 0.6s;
-            //     }
-            // }
         }
     }
 
@@ -675,7 +656,7 @@ section {
         }
 
         .box-container {
-            // @include grid(15rem);
+
             width: 34rem;
             height: 25rem;
             padding: 2rem;
@@ -746,7 +727,7 @@ section {
                 a {
                     margin: 0 25px;
                     text-decoration: none;
-                    color: #fff;
+                    color: $branco;
                     display: block;
                     position: relative;
                     margin: 30px;
@@ -767,7 +748,7 @@ section {
         }
 
         .box-container {
-            // @include grid(15rem);
+
             width: 26rem;
             height: 22rem;
         }
@@ -779,10 +760,6 @@ section {
         }
 
         .mensagem {
-
-
-
-
             form {
                 width: 80%;
                 border: $borda;
@@ -791,7 +768,7 @@ section {
                 h3 {
                     @include tituloTexto(2.2rem);
                     padding-bottom: 1rem;
-                    color: #fff;
+                    color: $branco;
                 }
 
                 .box {
@@ -810,28 +787,20 @@ section {
     }
 
     .contato {
-
         .mensagem {
-        
-            .image{
+            .image {
                 width: 70%;
-                // transform: rotateY(180deg);
-                // display: none;
-    
-                img{
+
+                img {
                     width: 100%;
                 }
             }
-    
+
             form {
                 width: 100%;
-    
-                
             }
-            
         }
     }
-
 }
 
 @media (max-width: 550px) {
@@ -867,7 +836,7 @@ section {
                 a {
                     margin: 0 25px;
                     text-decoration: none;
-                    color: #fff;
+                    color: $branco;
                     display: block;
                     position: relative;
                     margin: 40px;
@@ -884,7 +853,7 @@ section {
                             left: 0;
                             height: 100%;
                             width: 100%;
-                            border: 1px solid #fff;
+                            border: 1px solid $branco;
                             border-radius: 5px;
                             transition: all 0.3s;
 
@@ -903,9 +872,8 @@ section {
                         opacity: 1;
                         transform: translateX(-15%);
                         transition: left 0.3s ease;
-                        color: #fff;
+                        color: $branco;
                         font-size: 2.4rem;
-                        // display: none;
                     }
 
                     &:hover {
@@ -922,17 +890,17 @@ section {
                                     opacity: 0.4;
                                     transform: translate(5px, -5px);
                                 }
-    
+
                                 &:nth-child(3) {
                                     opacity: 0.6;
                                     transform: translate(10px, -10px);
                                 }
-    
+
                                 &:nth-child(4) {
                                     opacity: 0.8;
                                     transform: translate(15px, -15px);
                                 }
-    
+
                                 &:nth-child(5) {
                                     opacity: 1;
                                     transform: translate(20px, -20px);
@@ -940,7 +908,7 @@ section {
                             }
                         }
                     }
-    
+
                     &:nth-child(1) {
                         .efeito {
                             span,
@@ -954,20 +922,20 @@ section {
                             border-color: #0e76a8;
                         }
                     }
-    
+
                     &:nth-child(2) {
                         .efeito {
                             span {
-                                color: #fff;
+                                color: $branco;
                                 border-color: #171515;
                             }
                         }
                         .texto {
-                            color: #fff;
+                            color: $branco;
                             border-color: #171515;
                         }
                     }
-    
+
                     &:nth-child(3) {
                         .efeito {
                             span {
@@ -980,7 +948,7 @@ section {
                             border-color: #075e54;
                         }
                     }
-    
+
                     &:nth-child(4) {
                         .efeito {
                             span {
@@ -993,7 +961,7 @@ section {
                             border-color: #fff;
                         }
                     }
-    
+
                     &:hover:nth-child(1) {
                         .efeito {
                             span {
@@ -1001,16 +969,16 @@ section {
                             }
                         }
                     }
-    
+
                     &:hover:nth-child(2) {
                         .efeito {
                             span {
                                 box-shadow: -1px 1px 3px #171515;
-                                box-shadow: -1px 1px 3px #fff;
+                                box-shadow: -1px 1px 3px $branco;
                             }
                         }
                     }
-    
+
                     &:hover:nth-child(3) {
                         .efeito {
                             span {
@@ -1019,7 +987,7 @@ section {
                             }
                         }
                     }
-    
+
                     &:hover:nth-child(4) {
                         .efeito {
                             span {
@@ -1036,7 +1004,7 @@ section {
         background: rgb(55, 55, 55);
 
         .titulo {
-            color: #fff;
+            color: $branco;
         }
 
         .habilidades-slider {
@@ -1049,12 +1017,12 @@ section {
                 text-align: center;
                 border-radius: 5%;
                 box-shadow: 0 0.5rem 1rem rgba(202, 202, 202, 0.552);
-    
+
                 .image-hab {
                     padding: 1rem;
                     background: rgb(232, 237, 225);
                     background: radial-gradient(circle, rgba(232, 237, 225, 1) 0%, rgba(0, 0, 0, 1) 60%);
-    
+
                     img {
                         height: 12rem;
                         width: 10rem;
@@ -1064,8 +1032,8 @@ section {
                 .texto-hab {
                     background: rgba(0, 0, 0, 0.7);
                     padding: 0.5rem;
-                    color: #fff;
-    
+                    color: $branco;
+
                     h3 {
                         font-size: 2rem;
                         padding: 0.5rem;
@@ -1098,7 +1066,7 @@ section {
                 .image-modal {
                     text-align: center;
                     padding: 3rem 2rem;
-                    background: #fff;
+                    background: $branco;
                     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
                     outline: 0.1rem solid #ccc;
                     outline-offset: -1.5rem;
@@ -1137,7 +1105,7 @@ section {
             .modal-conteudo {
                 padding: 4rem;
                 text-align: center;
-                background: #fff;
+                background: $branco;
                 position: relative;
                 width: 30rem;
 
@@ -1210,24 +1178,19 @@ section {
                         border: 0.2rem solid #444;
                         border-radius: 50%;
 
-                        &:hover {
-                            // background: #111;
-                        }
                     }
                     .link-site {
-                        // background: #444;
-                        // color: #fff;
+
                         &:hover {
-                            // background: #111;
                             background: #444;
-                            color: #fff;
+                            color: $branco;
                         }
                     }
 
                     .link-github {
                         &:hover {
                             background: #444;
-                            color: #fff;
+                            color: $branco;
                         }
                     }
                 }
@@ -1235,49 +1198,35 @@ section {
         }
     }
 
-
-
-
-
-
     .contato {
-
         .mensagem {
-        
-            .image{
+            .image {
                 width: 35%;
-                // transform: rotateY(180deg);
                 display: none;
-    
-                img{
+
+                img {
                     width: 100%;
                 }
             }
-    
+
             form {
                 width: 100%;
 
                 h3 {
-                    color: #fff;
+                    color: $branco;
                 }
-    
-                
             }
-            
         }
     }
 
-   
-    // .footer {
-    //     padding: 2rem;
+    .footer {
+        padding: 2rem;
 
-    //     .credito {
-    //         text-align: center;
-    //         @include tituloTexto(1.4rem);
-
-    //         span {
-    //             color: $cor-principal;
-    //         }
-    //     }
-    // }
+        .credito {
+            text-align: center;
+            @include tituloTexto(1.4rem);
+        }
+    }
 }
+
+// FINAL DAS MEDIA QUERIES

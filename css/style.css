@@ -129,7 +129,7 @@ section {
 }
 .inicio .content h1 {
   font-size: 5rem;
-  color: #9270e8;
+  color: #48c8ff;
   padding-bottom: 1rem;
 }
 .inicio .content h2 {
@@ -890,6 +890,14 @@ section {
   }
   .contato .mensagem form h3 {
     color: #fff;
+  }
+  .footer {
+    padding: 2rem;
+  }
+  .footer .credito {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #444;
   }
 }
 
