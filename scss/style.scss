@@ -359,9 +359,9 @@ section {
 
         // FINAL REDE SOCIAL
     }
-
-   
 }
+/* FINAL SECTION INICIO  */
+
 
 // COMEÇO DA SECTION HABILIDADES
 .habilidades {
@@ -405,6 +405,7 @@ section {
     }
 }
 // FINAL DA SECTION HABILIDADES
+
 
 // COMEÇO DA SECTION PROJETOS
 .projetos {
@@ -537,15 +538,10 @@ section {
                     border: 0.2rem solid #444;
                     border-radius: 50%;
 
-                    &:hover {
-                        // background: #111;
-                    }
                 }
                 .link-site {
-                    // background: #444;
-                    // color: #fff;
+
                     &:hover {
-                        // background: #111;
                         background: #444;
                         color: #fff;
                     }
@@ -562,6 +558,7 @@ section {
     }
 }
 // FINAL DA SECTION PROJETOS
+
 
 // COMEÇO SECTION CONTATO
 .contato {
