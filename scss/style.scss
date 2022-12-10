@@ -367,9 +367,7 @@ section {
 
 // COMEÇO DA SECTION SOBRE
 .sobre{
-    // height: 100vh;
-    // width: 100%;
-    text-align: center;
+
     background: rgb(55, 55, 55);
     
 
@@ -388,6 +386,10 @@ section {
             text-align: center;
             line-height: 4rem;
             text-indent: 1rem;
+
+            span{
+                color: $cor-principal;
+            }
         }
     }
 }
@@ -462,13 +464,13 @@ section {
                 text-align: center;
                 padding: 3rem 2rem;
                 background: $branco;
-                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-                outline: 0.1rem solid #ccc;
+                box-shadow: 0 0.5rem 1rem $preto;
+                outline: 0.4rem solid #ccc;
                 outline-offset: -1.5rem;
                 cursor: pointer;
 
                 &:hover {
-                    outline: 0.1rem solid #222;
+                    outline: 0.4rem solid $cor-principal;
                     outline-offset: 0;
                     transform: scale(0.9);
                 }

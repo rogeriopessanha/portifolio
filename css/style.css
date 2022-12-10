@@ -258,7 +258,6 @@ section {
 
 /* FINAL SECTION INICIO  */
 .sobre {
-  text-align: center;
   background: rgb(55, 55, 55);
 }
 .sobre .titulo {
@@ -275,6 +274,9 @@ section {
   text-align: center;
   line-height: 4rem;
   text-indent: 1rem;
+}
+.sobre .sobre-conteudo p span {
+  color: #48c8ff;
 }
 
 .habilidades {
@@ -334,13 +336,13 @@ section {
   text-align: center;
   padding: 3rem 2rem;
   background: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  outline: 0.1rem solid #ccc;
+  box-shadow: 0 0.5rem 1rem #444;
+  outline: 0.4rem solid #ccc;
   outline-offset: -1.5rem;
   cursor: pointer;
 }
 .projetos .container-modal .modal-principal .image-modal:hover {
-  outline: 0.1rem solid #222;
+  outline: 0.4rem solid #48c8ff;
   outline-offset: 0;
   transform: scale(0.9);
 }
