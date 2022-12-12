@@ -265,7 +265,7 @@ section {
 }
 .sobre .sobre-conteudo {
   text-align: center;
-  width: 80%;
+  max-width: 65%;
   margin: auto;
 }
 .sobre .sobre-conteudo p {
@@ -273,7 +273,6 @@ section {
   font-size: 2rem;
   text-align: center;
   line-height: 4rem;
-  text-indent: 1rem;
 }
 .sobre .sobre-conteudo p span {
   color: #48c8ff;

@@ -258,6 +258,7 @@ section {
 
 /* FINAL SECTION INICIO  */
 .sobre {
+  width: 50%;
   background: rgb(55, 55, 55);
 }
 .sobre .titulo {
