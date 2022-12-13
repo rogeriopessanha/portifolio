@@ -576,36 +576,14 @@ section {
     height: 55px;
     transition: transform 0.4s;
   }
-  .skills .titulo {
-    font-size: 3rem;
+  .sobre .sobre-conteudo {
+    width: 70%;
   }
-  .skills .box-container {
-    width: 26rem;
-    height: 22rem;
-  }
-  .contato .titulo {
-    font-size: 3rem;
-  }
-  .contato .mensagem form {
-    width: 80%;
-    border: 0.1rem solid #48c8ff;
-    padding: 1rem;
-  }
-  .contato .mensagem form h3 {
-    font-size: 2.2rem;
-    color: #444;
-    padding-bottom: 1rem;
+  .sobre .sobre-conteudo p {
     color: #fff;
-  }
-  .contato .mensagem form .box {
-    width: 100%;
-    padding: 1.2rem 1.4rem;
-    border: 0.1rem solid #48c8ff;
-    font-size: 1.8rem;
-    margin: 0.7rem 0;
-  }
-  .contato .mensagem form .btn {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-indent: 1.5rem;
+    margin: 1rem 0;
   }
   .contato .mensagem .image {
     width: 70%;
@@ -745,6 +723,15 @@ section {
   }
   .inicio .content .redes-s a:hover:nth-child(4) .efeito span {
     box-shadow: -1px 1px 3px #fe3e30;
+  }
+  .sobre .sobre-conteudo {
+    width: 100%;
+  }
+  .sobre .sobre-conteudo p {
+    color: #fff;
+    font-size: 2rem;
+    text-indent: 1.5rem;
+    margin: 1rem 0;
   }
   .habilidades {
     background: rgb(55, 55, 55);

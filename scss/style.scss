@@ -777,49 +777,63 @@ section {
         }
     }
 
-    .skills {
-        .titulo {
-            font-size: 3rem;
-        }
-
-        .box-container {
-
-            width: 26rem;
-            height: 22rem;
-        }
-    }
-
-    .contato {
-        .titulo {
-            font-size: 3rem;
-        }
-
-        .mensagem {
-            form {
-                width: 80%;
-                border: $borda;
-                padding: 1rem;
-
-                h3 {
-                    @include tituloTexto(2.2rem);
-                    padding-bottom: 1rem;
-                    color: $branco;
-                }
-
-                .box {
-                    width: 100%;
-                    padding: 1.2rem 1.4rem;
-                    border: $borda;
-                    font-size: 1.8rem;
-                    margin: 0.7rem 0;
-                }
-
-                .btn {
-                    font-size: 1.6rem;
-                }
+    .sobre{
+        
+        .sobre-conteudo{
+            width: 70%;
+    
+            p{
+                color: $branco;
+                font-size: 2rem;
+                text-indent: 1.5rem;
+                margin: 1rem 0;
             }
         }
     }
+
+    // .habilidades {
+    //     .titulo {
+    //         font-size: 3rem;
+    //     }
+
+    //     .box-container {
+
+    //         width: 26rem;
+    //         height: 22rem;
+    //     }
+    // }
+
+    // .contato {
+    //     .titulo {
+    //         font-size: 3rem;
+    //     }
+
+    //     .mensagem {
+    //         form {
+    //             width: 80%;
+    //             border: $borda;
+    //             padding: 1rem;
+
+    //             h3 {
+    //                 @include tituloTexto(2.2rem);
+    //                 padding-bottom: 1rem;
+    //                 color: $branco;
+    //             }
+
+    //             .box {
+    //                 width: 100%;
+    //                 padding: 1.2rem 1.4rem;
+    //                 border: $borda;
+    //                 font-size: 1.8rem;
+    //                 margin: 0.7rem 0;
+    //             }
+
+    //             .btn {
+    //                 font-size: 1.6rem;
+    //             }
+    //         }
+    //     }
+    // }
 
     .contato {
         .mensagem {
@@ -1031,6 +1045,20 @@ section {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .sobre{
+        
+        .sobre-conteudo{
+            width: 100%;
+    
+            p{
+                color: $branco;
+                font-size: 2rem;
+                text-indent: 1.5rem;
+                margin: 1rem 0;
             }
         }
     }
