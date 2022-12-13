@@ -264,15 +264,16 @@ section {
   color: #fff;
 }
 .sobre .sobre-conteudo {
-  text-align: center;
-  max-width: 70%;
+  width: 35%;
   margin: auto;
 }
 .sobre .sobre-conteudo p {
   color: #fff;
   font-size: 2rem;
-  text-align: center;
+  text-align: justify;
   line-height: 4rem;
+  text-indent: 2rem;
+  margin: 3rem 0;
 }
 .sobre .sobre-conteudo p span {
   color: #48c8ff;
