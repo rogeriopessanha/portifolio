@@ -1288,6 +1288,7 @@ section {
         .credito {
             text-align: center;
             @include tituloTexto(1.4rem);
+            color: $branco;
         }
     }
 }
