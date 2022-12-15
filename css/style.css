@@ -494,10 +494,14 @@ section {
 }
 
 .obrigadoo {
-  background: rgb(88, 142, 51);
-  background: linear-gradient(90deg, rgb(88, 142, 51) 0%, rgb(26, 26, 128) 100%);
   height: 100vh;
   width: 100vw;
+}
+.obrigadoo .box-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
 }
 .obrigadoo .box-container1 .box2 {
   background: rgb(47, 80, 246);

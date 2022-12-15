@@ -662,8 +662,7 @@ section {
 
 // COMEÇO SECTION AGRADECIMENTO
 .obrigadoo {
-    background: rgb(88, 142, 51);
-    background: linear-gradient(90deg, rgba(88, 142, 51, 1) 0%, rgba(26, 26, 128, 1) 100%);
+
     height: 100vh;
     width: 100vw;
 
@@ -672,7 +671,10 @@ section {
     // background-size: cover;
 
     .box-container1 {
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15rem;
 
         .box2 {
             background: rgb(47, 80, 246);
