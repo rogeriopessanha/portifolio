@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap");
 
 * {
     padding: 0;
@@ -10,7 +8,7 @@
     border: none;
     text-decoration: none;
     transition: all 0.2s linear;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 $cor-principal: #48c8ff;
@@ -364,39 +362,33 @@ section {
 }
 /* FINAL SECTION INICIO  */
 
-
 // COMEÇO DA SECTION SOBRE
-.sobre{
+.sobre {
     background: rgb(55, 55, 55);
-    
-    
-    .titulo{
+
+    .titulo {
         color: $branco;
     }
-    
-    .sobre-conteudo{
+
+    .sobre-conteudo {
         width: 35%;
         margin: auto;
 
-        p{
+        p {
             color: $branco;
             font-size: 2rem;
             text-align: justify;
             line-height: 4rem;
             text-indent: 2rem;
             margin: 3rem 0;
-            
 
-
-            span{
+            span {
                 color: $cor-principal;
             }
         }
     }
 }
 // FINAL DA SECTION SOBRE
-
-
 
 // COMEÇO DA SECTION HABILIDADES
 .habilidades {
@@ -663,17 +655,16 @@ section {
 }
 // FINAL SECTION FOOTER
 
-
 // COMEÇO SECTION OBRIGADO
 .obrigado {
-    //     background: rgb(88,142,51);
-    // background: linear-gradient(90deg, rgba(88,142,51,1) 0%, rgba(26,26,128,1) 100%);
-        height: 100vh;
-        width: 100vw;
+    background: rgb(88, 142, 51);
+    background: linear-gradient(90deg, rgba(88, 142, 51, 1) 0%, rgba(26, 26, 128, 1) 100%);
+    height: 100vh;
+    width: 100vw;
 
-    background-image: url(../img/6166980_17545.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image: url(../img/6166980_17545.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
 
     .box-container {
         display: flex;
@@ -777,7 +768,6 @@ section {
         }
 
         .box-container {
-
             width: 34rem;
             height: 25rem;
             padding: 2rem;
@@ -863,12 +853,11 @@ section {
         }
     }
 
-    .sobre{
-        
-        .sobre-conteudo{
+    .sobre {
+        .sobre-conteudo {
             width: 70%;
-    
-            p{
+
+            p {
                 color: $branco;
                 font-size: 2rem;
                 text-indent: 1.5rem;
@@ -1135,12 +1124,11 @@ section {
         }
     }
 
-    .sobre{
-        
-        .sobre-conteudo{
+    .sobre {
+        .sobre-conteudo {
             width: 100%;
-    
-            p{
+
+            p {
                 color: $branco;
                 font-size: 2rem;
                 text-indent: 1.5rem;
@@ -1326,10 +1314,8 @@ section {
                         color: rgb(68, 68, 68);
                         border: 0.2rem solid #444;
                         border-radius: 50%;
-
                     }
                     .link-site {
-
                         &:hover {
                             background: #444;
                             color: $branco;
