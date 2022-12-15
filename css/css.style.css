@@ -258,23 +258,22 @@ section {
 
 /* FINAL SECTION INICIO  */
 .sobre {
-  width: 50%;
   background: rgb(55, 55, 55);
 }
 .sobre .titulo {
   color: #fff;
 }
 .sobre .sobre-conteudo {
-  text-align: center;
-  width: 80%;
+  width: 35%;
   margin: auto;
 }
 .sobre .sobre-conteudo p {
   color: #fff;
   font-size: 2rem;
-  text-align: center;
+  text-align: justify;
   line-height: 4rem;
-  text-indent: 1rem;
+  text-indent: 2rem;
+  margin: 3rem 0;
 }
 .sobre .sobre-conteudo p span {
   color: #48c8ff;
@@ -494,6 +493,36 @@ section {
   color: #48c8ff;
 }
 
+.obrigadoo {
+  background: rgb(88, 142, 51);
+  background: linear-gradient(90deg, rgb(88, 142, 51) 0%, rgb(26, 26, 128) 100%);
+  height: 100vh;
+  width: 100vw;
+}
+.obrigadoo .box-container1 .box2 {
+  background: rgb(47, 80, 246);
+  padding: 4rem;
+  text-align: center;
+  width: 36rem;
+  height: 25rem;
+  border-radius: 5%;
+}
+.obrigadoo .box-container1 .box2 h3 {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+.obrigadoo .box-container1 .box2 i {
+  height: 5.5rem;
+  width: 5.5rem;
+  line-height: 5.5rem;
+  font-size: 3rem;
+  color: #fff;
+  background: #1bad4b;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -577,36 +606,14 @@ section {
     height: 55px;
     transition: transform 0.4s;
   }
-  .skills .titulo {
-    font-size: 3rem;
+  .sobre .sobre-conteudo {
+    width: 70%;
   }
-  .skills .box-container {
-    width: 26rem;
-    height: 22rem;
-  }
-  .contato .titulo {
-    font-size: 3rem;
-  }
-  .contato .mensagem form {
-    width: 80%;
-    border: 0.1rem solid #48c8ff;
-    padding: 1rem;
-  }
-  .contato .mensagem form h3 {
-    font-size: 2.2rem;
-    color: #444;
-    padding-bottom: 1rem;
+  .sobre .sobre-conteudo p {
     color: #fff;
-  }
-  .contato .mensagem form .box {
-    width: 100%;
-    padding: 1.2rem 1.4rem;
-    border: 0.1rem solid #48c8ff;
-    font-size: 1.8rem;
-    margin: 0.7rem 0;
-  }
-  .contato .mensagem form .btn {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-indent: 1.5rem;
+    margin: 1rem 0;
   }
   .contato .mensagem .image {
     width: 70%;
@@ -746,6 +753,15 @@ section {
   }
   .inicio .content .redes-s a:hover:nth-child(4) .efeito span {
     box-shadow: -1px 1px 3px #fe3e30;
+  }
+  .sobre .sobre-conteudo {
+    width: 100%;
+  }
+  .sobre .sobre-conteudo p {
+    color: #fff;
+    font-size: 2rem;
+    text-indent: 1.5rem;
+    margin: 1rem 0;
   }
   .habilidades {
     background: rgb(55, 55, 55);
@@ -924,7 +940,8 @@ section {
     text-align: center;
     font-size: 1.4rem;
     color: #444;
+    color: #fff;
   }
 }
 
-/*# sourceMappingURL=sytle.css.map */
+/*# sourceMappingURL=css.style.css.map */
