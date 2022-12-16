@@ -690,6 +690,7 @@ section {
     position: relative;
     margin: 40px;
     right: 4rem;
+    display: none;
   }
   .inicio .content .redes-s a .efeito {
     width: 32px;
