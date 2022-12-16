@@ -180,12 +180,6 @@ section {
             padding-bottom: 1rem;
         }
 
-        h3 {
-            font-size: 3.8rem;
-            color: rgb(253, 244, 244);
-            padding-bottom: 3rem;
-        }
-
         // COMEÇO REDE SOCIAL
 
         .redes-s {
@@ -208,15 +202,15 @@ section {
                         position: absolute;
                         top: 0;
                         left: 0;
-                        height: 100%;
-                        width: 100%;
+                        height: 70%;
+                        width: 70%;
                         border: 1px solid $branco;
                         border-radius: 5px;
                         transition: all 0.3s;
 
                         &.fab {
-                            font-size: 30px;
-                            line-height: 55px;
+                            font-size: 35px;
+                            line-height: 36px;
                             text-align: center;
                         }
 
@@ -229,7 +223,7 @@ section {
                 .texto {
                     position: absolute;
                     left: 30%;
-                    top: -5%;
+                    top: -25%;
                     opacity: 0;
                     transform: translateX(-15%);
                     transition: left 0.3s ease;
@@ -239,7 +233,7 @@ section {
 
                 &:hover {
                     .texto {
-                        left: 180%;
+                        left: 150%;
                         opacity: 1;
                     }
                 }
@@ -944,15 +938,11 @@ section {
 
         .content {
             h1 {
-                font-size: 2.7rem;
-            }
-
-            h2 {
                 font-size: 2rem;
             }
 
-            h3 {
-                font-size: 2.3rem;
+            h2 {
+                font-size: 1.8rem;
             }
 
             .redes-s {
@@ -964,11 +954,11 @@ section {
                     position: relative;
                     margin: 40px;
                     right: 4rem;
-                    display: none;
+                    // display: none;
 
                     .efeito {
-                        width: 32px;
-                        height: 32px;
+                        width: 30px;
+                        height: 30px;
                         transition: transform 0.4s;
 
                         span {
@@ -982,8 +972,8 @@ section {
                             transition: all 0.3s;
 
                             &.fab {
-                                font-size: 30px;
-                                line-height: 33px;
+                                font-size: 24px;
+                                line-height: 30px;
                                 text-align: center;
                             }
                         }
@@ -997,7 +987,7 @@ section {
                         transform: translateX(-15%);
                         transition: left 0.3s ease;
                         color: $branco;
-                        font-size: 2.4rem;
+                        font-size: 1.8rem;
                     }
 
                     &:hover {
