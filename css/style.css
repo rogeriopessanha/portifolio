@@ -272,7 +272,6 @@ section {
   font-size: 2rem;
   text-align: justify;
   line-height: 4rem;
-  text-indent: 2rem;
   margin: 3rem 0;
 }
 .sobre .sobre-conteudo p span {
@@ -648,7 +647,6 @@ section {
   .sobre .sobre-conteudo p {
     color: #fff;
     font-size: 2rem;
-    text-indent: 1.5rem;
     margin: 1rem 0;
   }
   .contato .mensagem .image {
@@ -796,7 +794,6 @@ section {
   .sobre .sobre-conteudo p {
     color: #fff;
     font-size: 2rem;
-    text-indent: 1.5rem;
     margin: 1rem 0;
   }
   .habilidades {
