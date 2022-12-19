@@ -1,5 +1,3 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap");
 
 * {
@@ -535,7 +533,7 @@ section {
                 font-size: 5rem;
             }
 
-            img{
+            img {
                 height: 5rem;
             }
         }
@@ -654,12 +652,8 @@ section {
 }
 // FINAL SECTION FOOTER
 
-
-
-
 // COMEÇO SECTION AGRADECIMENTO
 .obrigadoo {
-
     height: 100vh;
     width: 100vw;
 
@@ -735,8 +729,6 @@ section {
     }
 }
 // FINAL SECTION AGRADECIMENTO
-
-
 
 // COMEÇO DAS MEDIA QUERIES
 @media (max-width: 991px) {
@@ -1198,12 +1190,12 @@ section {
                     padding: 3rem 2rem;
                     background: $branco;
                     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-                    outline: 0.1rem solid #ccc;
+                    outline: 0.4rem solid #ccc;
                     outline-offset: -1.5rem;
                     cursor: pointer;
 
                     &:hover {
-                        outline: 0.1rem solid #222;
+                        outline: 0.4rem solid $cor-principal;
                         outline-offset: 0;
                         transform: scale(0.9);
                     }
