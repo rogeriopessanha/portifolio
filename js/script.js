@@ -31,7 +31,6 @@ window.onload = () => {
 
 
 
-
 const modalFoto = document.querySelectorAll('.image-modal')
 
 modalFoto.forEach(function (foto) {
@@ -52,7 +51,6 @@ fotoFechar.forEach(function (foto) {
     }
 })
 
-
 window.onclick = function (e) {
     if (e.target.className === 'modal') {
         e.target.style.display = 'none'
@@ -60,7 +58,13 @@ window.onclick = function (e) {
 }
 
 
-
+fadeOut();
+function loader(){
+    document.querySelector('.loader-container').classList.add('active');
+}
+function fadeOut(){
+    setTimeout(loader, 4500);
+}
 
 
 
