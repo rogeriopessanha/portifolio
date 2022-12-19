@@ -491,15 +491,14 @@ section {
             text-align: center;
             background: $branco;
             position: relative;
-            width: 40rem;
-            z-index: 1;
+            width: 42rem;
 
             .modal-fechar {
                 position: absolute;
                 top: 0.8rem;
                 right: 0.8rem;
                 font-size: 3rem;
-                color: #444;
+                color: $preto;
                 cursor: pointer;
 
                 &:hover {

@@ -365,8 +365,7 @@ section {
   text-align: center;
   background: #fff;
   position: relative;
-  width: 40rem;
-  z-index: 1;
+  width: 42rem;
 }
 .projetos .modal .modal-conteudo .modal-fechar {
   position: absolute;
