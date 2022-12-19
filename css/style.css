@@ -395,7 +395,10 @@ section {
   color: #777;
 }
 .projetos .modal .modal-body i {
-  font-size: 6rem;
+  font-size: 5rem;
+}
+.projetos .modal .modal-body img {
+  height: 5rem;
 }
 .projetos .modal .modal-footer h3 {
   font-size: 1.8rem;
