@@ -307,7 +307,7 @@ section {
 }
 
 .projetos {
-  background: rgb(23, 24, 24);
+  background: rgb(55, 55, 55);
 }
 .projetos .titulo {
   font-size: 4rem;
@@ -429,7 +429,7 @@ section {
 }
 
 .contato {
-  background: #222;
+  background: rgb(55, 55, 55);
 }
 .contato .titulo {
   color: #fff;
@@ -810,9 +810,6 @@ section {
     color: #fff;
     font-size: 2rem;
     margin: 1rem 0;
-  }
-  .habilidades {
-    background: rgb(55, 55, 55);
   }
   .habilidades .titulo {
     color: #fff;

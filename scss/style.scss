@@ -437,7 +437,8 @@ section {
         text-align: center;
     }
 
-    background: rgb(23, 24, 24);
+    // background: rgb(23, 24, 24);
+    background: rgb(55, 55, 55);
 
     .container-modal {
         padding: 3rem 2rem;
@@ -585,7 +586,8 @@ section {
     .titulo {
         color: $branco;
     }
-    background: #222;
+    // background: #222;
+    background: rgb(55, 55, 55);
     .mensagem {
         display: flex;
         align-items: flex-start;
@@ -879,50 +881,6 @@ section {
         }
     }
 
-    // .habilidades {
-    //     .titulo {
-    //         font-size: 3rem;
-    //     }
-
-    //     .box-container {
-
-    //         width: 26rem;
-    //         height: 22rem;
-    //     }
-    // }
-
-    // .contato {
-    //     .titulo {
-    //         font-size: 3rem;
-    //     }
-
-    //     .mensagem {
-    //         form {
-    //             width: 80%;
-    //             border: $borda;
-    //             padding: 1rem;
-
-    //             h3 {
-    //                 @include tituloTexto(2.2rem);
-    //                 padding-bottom: 1rem;
-    //                 color: $branco;
-    //             }
-
-    //             .box {
-    //                 width: 100%;
-    //                 padding: 1.2rem 1.4rem;
-    //                 border: $borda;
-    //                 font-size: 1.8rem;
-    //                 margin: 0.7rem 0;
-    //             }
-
-    //             .btn {
-    //                 font-size: 1.6rem;
-    //             }
-    //         }
-    //     }
-    // }
-
     .contato {
         .mensagem {
             .image {
@@ -1147,7 +1105,6 @@ section {
     }
 
     .habilidades {
-        background: rgb(55, 55, 55);
 
         .titulo {
             color: $branco;
@@ -1191,6 +1148,7 @@ section {
 
     // COMEÇO DA SECTION PROJETOS
     .projetos {
+
         .container-modal {
             padding: 3rem 2rem;
             @include grid(20rem);
@@ -1343,7 +1301,9 @@ section {
     }
 
     .contato {
+
         .mensagem {
+
             .image {
                 width: 35%;
                 display: none;
@@ -1364,6 +1324,7 @@ section {
     }
 
     .footer {
+        
         padding: 2rem;
 
         .credito {
