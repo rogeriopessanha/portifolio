@@ -880,7 +880,7 @@ section {
     transform: scale(0.9);
   }
   .projetos .container-modal .modal-principal .image-modal img {
-    height: 14rem;
+    height: 12rem;
     cursor: pointer;
   }
   .projetos .container-modal .modal-principal .image-modal h3 {
