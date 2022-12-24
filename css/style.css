@@ -848,7 +848,6 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 3rem;
-    background: rgb(195, 232, 255);
   }
   .projetos .container-modal .titulo {
     font-size: 3rem;
