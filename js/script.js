@@ -29,8 +29,6 @@ window.onload = () => {
     }
 }
 
-
-
 const modalFoto = document.querySelectorAll('.image-modal')
 
 modalFoto.forEach(function (foto) {
@@ -57,7 +55,6 @@ window.onclick = function (e) {
     }
 }
 
-
 fadeOut();
 function loader(){
     document.querySelector('.loader-container').classList.add('active');
@@ -65,8 +62,6 @@ function loader(){
 function fadeOut(){
     setTimeout(loader, 3000);
 }
-
-
 
 var swiper = new Swiper(".habilidades-slider", {
     spaceBetween: 15,
