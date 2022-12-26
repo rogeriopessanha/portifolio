@@ -1,5 +1,4 @@
 
-
 let navBar = document.querySelector('.header .navbar')
 
 document.querySelector('#menu-btn').onclick = () => {
