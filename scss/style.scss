@@ -16,6 +16,7 @@
 $cor-principal: #48c8ff;
 $preto: #444;
 $branco: #fff;
+$cor-span: #017aae;
 $borda: 0.1rem solid $cor-principal;
 $box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 
@@ -525,22 +526,28 @@ section {
 
             h2{
                 font-weight: 800;
-                font-size: 2.2rem;
+                font-size: 2rem;
                 color: $preto;
             }
 
             h3 {
-                font-weight: 600;
-                padding: 10px 0;
-                font-size: 2rem;
-                color: $preto;
+                font-weight: 700;
+                // padding: 10px 0;
+                font-size: 1.6rem;
+                color: #d42525;
             }
 
             p {
                 line-height: 2rem;
                 padding: 1rem 0;
-                font-size: 1.8rem;
+                font-size: 1.5rem;
+                font-weight: 800;
                 color: #000;
+
+                span {
+                    color: $cor-span;
+                    font-weight: 900;
+                }
             }
 
             i {
@@ -554,8 +561,9 @@ section {
 
         .modal-footer {
             h3 {
-                font-size: 1.8rem;
-                padding: 2rem;
+                font-weight: 700;
+                // padding: 10px 0;
+                font-size: 1.6rem;
                 color: #d42525;
             }
 
@@ -1163,18 +1171,32 @@ section {
             }
 
             .modal-body {
-                h3 {
-                    font-weight: 600;
-                    padding: 10px 0;
+
+                h2{
+                    font-weight: 800;
+                    // padding: 10px 0;
                     font-size: 2rem;
                     color: $preto;
                 }
 
+                h3 {
+                    font-weight: 700;
+                    padding: 10px 0;
+                    font-size: 1.6rem;
+                    color: #d42525;
+                }
+
                 p {
-                    line-height: 1.2rem;
+                    line-height: 2rem;
                     padding: 1rem 0;
-                    font-size: 1.2rem;
-                    color: #777;
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                    color: #000;
+
+                    span {
+                        color: $cor-span;
+                        font-weight: 900;
+                    }
                 }
 
                 i {
@@ -1191,8 +1213,9 @@ section {
 
             .modal-footer {
                 h3 {
-                    font-size: 1.4rem;
-                    padding: 2rem;
+                    font-weight: 700;
+                    padding: 10px 0;
+                    font-size: 1.6rem;
                     color: #d42525;
                 }
 

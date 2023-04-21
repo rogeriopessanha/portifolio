@@ -388,20 +388,24 @@ section {
 }
 .projetos .modal .modal-body h2 {
   font-weight: 800;
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #444;
 }
 .projetos .modal .modal-body h3 {
-  font-weight: 600;
-  padding: 10px 0;
-  font-size: 2rem;
-  color: #444;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #d42525;
 }
 .projetos .modal .modal-body p {
   line-height: 2rem;
   padding: 1rem 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 800;
   color: #000;
+}
+.projetos .modal .modal-body p span {
+  color: #017aae;
+  font-weight: 900;
 }
 .projetos .modal .modal-body i {
   font-size: 5rem;
@@ -410,8 +414,8 @@ section {
   height: 5rem;
 }
 .projetos .modal .modal-footer h3 {
-  font-size: 1.8rem;
-  padding: 2rem;
+  font-weight: 700;
+  font-size: 1.6rem;
   color: #d42525;
 }
 .projetos .modal .modal-footer .botao {
@@ -879,17 +883,27 @@ section {
   .projetos .modal .modal-conteudo .modal-header img {
     height: 12rem;
   }
-  .projetos .modal .modal-body h3 {
-    font-weight: 600;
-    padding: 10px 0;
+  .projetos .modal .modal-body h2 {
+    font-weight: 800;
     font-size: 2rem;
     color: #444;
   }
+  .projetos .modal .modal-body h3 {
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 1.6rem;
+    color: #d42525;
+  }
   .projetos .modal .modal-body p {
-    line-height: 1.2rem;
+    line-height: 2rem;
     padding: 1rem 0;
-    font-size: 1.2rem;
-    color: #777;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000;
+  }
+  .projetos .modal .modal-body p span {
+    color: #017aae;
+    font-weight: 900;
   }
   .projetos .modal .modal-body i {
     font-size: 6rem;
@@ -901,8 +915,9 @@ section {
     width: 5rem;
   }
   .projetos .modal .modal-footer h3 {
-    font-size: 1.4rem;
-    padding: 2rem;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 1.6rem;
     color: #d42525;
   }
   .projetos .modal .modal-footer .botao {
