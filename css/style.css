@@ -386,17 +386,22 @@ section {
 .projetos .modal .modal-conteudo .modal-header img {
   height: 25rem;
 }
-.projetos .modal .modal-body h3 {
-  font-weight: 500;
-  padding: 10px 0;
+.projetos .modal .modal-body h2 {
+  font-weight: 800;
   font-size: 2.2rem;
   color: #444;
 }
+.projetos .modal .modal-body h3 {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 2rem;
+  color: #444;
+}
 .projetos .modal .modal-body p {
-  line-height: 1.2rem;
+  line-height: 2rem;
   padding: 1rem 0;
   font-size: 1.8rem;
-  color: #777;
+  color: #000;
 }
 .projetos .modal .modal-body i {
   font-size: 5rem;
